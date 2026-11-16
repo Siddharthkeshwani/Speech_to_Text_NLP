@@ -1,0 +1,13 @@
+pandas
+numpy
+nltk
+scikit-learn
+matplotlib
+wordcloud
+joblib
+streamlit
+soundfile
+openai-whisper
+deep-translator
+pytest
+ipykernel
