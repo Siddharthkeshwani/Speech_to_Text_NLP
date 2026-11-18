@@ -1,0 +1,17 @@
+clip_name,language,expected_native_text,expected_english_text,expected_class
+en_lost_card_01.wav,English,I cannot find my ATM card anywhere,I cannot find my ATM card anywhere,13
+en_block_upi_01.wav,English,Please block my UPI ID,Please block my UPI ID,12
+en_balance_01.wav,English,How much money do I have in my savings account,How much money do I have in my savings account,10
+en_ifsc_01.wav,English,Tell me the IFSC code of my branch,Tell me the IFSC code of my branch,6
+en_branch_01.wav,English,Where is the nearest branch,Where is the nearest branch,0
+en_pin_01.wav,English,I want to change my card PIN,I want to change my card PIN,7
+en_fraud_01.wav,English,Money was taken from my account and I did not make this payment,Money was taken from my account and I did not make this payment,8
+en_loan_01.wav,English,I am interested in a home loan,I am interested in a home loan,9
+en_notworking_01.wav,English,My card is not working at the shop,My card is not working at the shop,5
+en_activate_01.wav,English,I want to activate my new card,I want to activate my new card,1
+hi_lost_card_01.wav,Hindi,मेरा कार्ड खो गया है,My card is lost,13
+hi_block_card_01.wav,Hindi,मुझे अपना कार्ड ब्लॉक करना है,I want to block my card,12
+hi_balance_01.wav,Hindi,मेरे खाते में कितना बैलेंस है,How much balance is in my account,10
+mr_lost_card_01.wav,Marathi,माझे कार्ड हरवले आहे,My card is lost,13
+mr_block_card_01.wav,Marathi,मला माझे कार्ड ब्लॉक करायचे आहे,I want to block my card,12
+mr_balance_01.wav,Marathi,माझ्या खात्यात किती शिल्लक आहे,How much balance is in my account,10

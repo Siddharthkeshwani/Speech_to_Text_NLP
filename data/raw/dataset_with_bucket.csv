@@ -1,0 +1,2251 @@
+row_id,template_id,text,intent_class,intent_name,bucket,keyword_ok
+0,0,Please tell me the IFSC Code,6,ifsc_code,1,True
+1,0,Please tell me the IFSC Code for my savings account,6,ifsc_code,1,True
+2,0,Please tell me the IFSC Code of my branch,6,ifsc_code,1,True
+3,0,Please tell me the IFSC Code of my home branch,6,ifsc_code,1,True
+4,0,Please tell me the IFSC Code for neft transfer,6,ifsc_code,1,True
+5,0,what is the ifsc code of my branch,6,ifsc_code,2,True
+6,0,"I need help, please tell me the IFSC Code sir",6,ifsc_code,2,True
+7,0,Please tell me the IFSC Code sir,6,ifsc_code,2,True
+8,0,"Hello, please tell me the IFSC Code madam",6,ifsc_code,2,True
+9,0,"Excuse me, please tell me the IFSC Code thank you",6,ifsc_code,2,True
+10,0,tell me ifsc code of my home branch,6,ifsc_code,3,True
+11,0,tell me i f s c code of my home branch,6,ifsc_code,3,True
+12,0,please tell me the i f s c code,6,ifsc_code,3,True
+13,0,tell me i f s c code sir,6,ifsc_code,3,True
+14,0,please tell me the i f s c code of my home branch,6,ifsc_code,3,True
+15,1,Credit card pin generation,7,generate_pin,1,True
+16,1,Credit card pin generation ending with 4821,7,generate_pin,1,True
+17,1,Mastercard pin generation,7,generate_pin,1,True
+18,1,Visa card pin generation,7,generate_pin,1,True
+19,1,Credit card pin generation issued by Axis Bank,7,generate_pin,1,True
+20,1,i forgot my card pin and i want a new one,7,generate_pin,2,True
+21,1,Credit card pin generation kindly,7,generate_pin,2,True
+22,1,"Hello, credit card pin generation kindly",7,generate_pin,2,True
+23,1,"Hello sir, credit card pin generation please",7,generate_pin,2,True
+24,1,"Hi, credit card pin generation madam",7,generate_pin,2,True
+25,1,credit card p i n generation,7,generate_pin,3,True
+26,1,hello credit card p i n generation,7,generate_pin,3,True
+27,1,credit card pin generation,7,generate_pin,3,True
+28,1,hello credit card p i n generation kindly,7,generate_pin,3,True
+29,1,i forgot my card p i n and i want new one,7,generate_pin,3,True
+30,2,Is my card dispatched?,3,dispatch_status,1,True
+31,2,Is my card dispatched that i requested on monday,3,dispatch_status,1,True
+32,2,Is my card dispatched from SBI,3,dispatch_status,1,True
+33,2,Is my card dispatched that i ordered recently,3,dispatch_status,1,True
+34,2,Is my card dispatched from HDFC Bank,3,dispatch_status,1,True
+35,2,my card has not reached me yet so where is it,3,dispatch_status,2,True
+36,2,"Hello sir, is my card dispatched kindly",3,dispatch_status,2,True
+37,2,"Hi, is my card dispatched thank you",3,dispatch_status,2,True
+38,2,"Kindly help me, is my card dispatched madam",3,dispatch_status,2,True
+39,2,Is my card dispatched thank you,3,dispatch_status,2,True
+40,2,hello sir is my card dispatched,3,dispatch_status,3,True
+41,2,help me is my card dispatched madam,3,dispatch_status,3,True
+42,2,is my card dispatched thank you,3,dispatch_status,3,True
+43,2,is my card dispatched from hdfc bank,3,dispatch_status,3,True
+44,2,hello sir is my card dispatched kindly,3,dispatch_status,3,True
+45,3,I want to change the limit of my online transactions on my credit card,11,change_limit,1,True
+46,3,I want to change the limit of my online transactions on my Mastercard,11,change_limit,1,True
+47,3,I want to change the limit of my online transactions on my debit card,11,change_limit,1,True
+48,3,I want to change the limit of my online transactions on my debit card ending 7305,11,change_limit,1,True
+49,3,I want to change the limit of my online transactions on my Visa debit card,11,change_limit,1,True
+50,3,i want to raise my card limit,11,change_limit,2,True
+51,3,"Kindly help me, I want to change the limit of my online transactions on my credit card madam",11,change_limit,2,True
+52,3,"I need help, I want to change the limit of my online transactions on my credit card madam",11,change_limit,2,True
+53,3,"Excuse me, I want to change the limit of my online transactions on my credit card sir",11,change_limit,2,True
+54,3,"Hello madam, I want to change the limit of my online transactions on my credit card as soon as possible",11,change_limit,2,True
+55,3,excuse me i want to change limit of my online transactions on my credit card sir,11,change_limit,3,True
+56,3,i need help i am wanting to change limit of my online transactions on my credit card madam,11,change_limit,3,True
+57,3,help me i want to change limit of my online transactions on my credit card madam,11,change_limit,3,True
+58,3,hello madam i want to change limit of my online transactions on my credit card as soon as possible,11,change_limit,3,True
+59,3,i am wanting to change the limit of my online transactions on my credit card,11,change_limit,3,True
+60,4,Amount deducted from account without my knowledge,8,unauthorised_transaction,1,True
+61,4,Amount deducted from account without my knowledge today,8,unauthorised_transaction,1,True
+62,4,Amount deducted from account without my knowledge last night,8,unauthorised_transaction,1,True
+63,4,Amount deducted from account without my knowledge yesterday,8,unauthorised_transaction,1,True
+64,4,Amount deducted from account without my knowledge for 5000 rupees,8,unauthorised_transaction,1,True
+65,4,money was debited from my account and i did not do it,8,unauthorised_transaction,2,True
+66,4,"Excuse me, amount deducted from account without my knowledge urgently",8,unauthorised_transaction,2,True
+67,4,"Please help me, amount deducted from account without my knowledge urgently",8,unauthorised_transaction,2,True
+68,4,"I need help, amount deducted from account without my knowledge kindly",8,unauthorised_transaction,2,True
+69,4,"Madam, amount deducted from account without my knowledge right now",8,unauthorised_transaction,2,True
+70,4,help me amount deducted from account without my knowledge urgently,8,unauthorised_transaction,3,True
+71,4,i need help amount deducted from account without my knowledge,8,unauthorised_transaction,3,True
+72,4,please help me amount deducted from account without my knowledge urgently,8,unauthorised_transaction,3,True
+73,4,amount deducted from account without my knowledge,8,unauthorised_transaction,3,True
+74,4,amount deducted from account without my knowledge yesterday,8,unauthorised_transaction,3,True
+75,5,Where is the bank branch ?,0,branch_address,1,True
+76,5,Where is the bank branch in Mumbai,0,branch_address,1,True
+77,5,Where is the Kotak Bank branch ?,0,branch_address,1,True
+78,5,Where is the Axis Bank branch ?,0,branch_address,1,True
+79,5,Where is the bank branch in my area,0,branch_address,1,True
+80,5,which branch is closest to my house,0,branch_address,2,True
+81,5,"Madam, where is the bank branch as soon as possible",0,branch_address,2,True
+82,5,Where is the bank branch thank you,0,branch_address,2,True
+83,5,Where is the bank branch as soon as possible,0,branch_address,2,True
+84,5,"Hello sir, where is the bank branch as soon as possible",0,branch_address,2,True
+85,5,where is bank branch,0,branch_address,3,True
+86,5,where is bank branch thank you,0,branch_address,3,True
+87,5,where is axis bank branch,0,branch_address,3,True
+88,5,where is bank branch in mumbai,0,branch_address,3,True
+89,5,where is kotak bank branch,0,branch_address,3,True
+90,6,I want to report my lost debit card,13,lost,1,True
+91,6,I want to report my lost debit card ending with 4821,13,lost,1,True
+92,6,I want to report my lost ATM card,13,lost,1,True
+93,6,I want to report my lost debit card issued by SBI,13,lost,1,True
+94,6,I want to report my lost Mastercard,13,lost,1,True
+95,6,i have lost my debit card,13,lost,2,True
+96,6,"This is an emergency, I want to report my lost debit card as soon as possible",13,lost,2,True
+97,6,"Hello madam, I want to report my lost debit card as soon as possible",13,lost,2,True
+98,6,"Please help me, I want to report my lost debit card right now",13,lost,2,True
+99,6,"Excuse me, I want to report my lost debit card sir",13,lost,2,True
+100,6,i am wanting to report my lost atm card,13,lost,3,True
+101,6,i am wanting to report my lost debit card ending with 4821,13,lost,3,True
+102,6,this is emergency i am wanting to report my lost debit card as soon as possible,13,lost,3,True
+103,6,i am wanting to report my lost mastercard,13,lost,3,True
+104,6,help me i want to report my lost debit card right now,13,lost,3,True
+105,7,Give me the outstanding balance on my credit card,4,outstanding_balance,1,True
+106,7,Give me the outstanding balance on my credit card for last month,4,outstanding_balance,1,True
+107,7,Give me the outstanding balance on my SBI credit card,4,outstanding_balance,1,True
+108,7,Give me the outstanding balance on my Mastercard credit card,4,outstanding_balance,1,True
+109,7,Give me the outstanding balance on my credit card till today,4,outstanding_balance,1,True
+110,7,how much do i need to pay on my credit card,4,outstanding_balance,2,False
+111,7,"Excuse me, give me the outstanding balance on my credit card madam",4,outstanding_balance,2,True
+112,7,"Hello sir, give me the outstanding balance on my credit card as soon as possible",4,outstanding_balance,2,True
+113,7,"Hi, give me the outstanding balance on my credit card please",4,outstanding_balance,2,True
+114,7,"Madam, give me the outstanding balance on my credit card please",4,outstanding_balance,2,True
+115,7,give me outstanding balance on my credit card till today,4,outstanding_balance,3,True
+116,7,hello sir give me outstanding balance on my credit card as soon as possible,4,outstanding_balance,3,True
+117,7,excuse me give me outstanding balance on my credit card madam,4,outstanding_balance,3,True
+118,7,give me outstanding balance on my credit card,4,outstanding_balance,3,True
+119,7,hi give me outstanding balance on my credit card,4,outstanding_balance,3,True
+120,8,Debit card pin generation,7,generate_pin,1,True
+121,8,debit card pin generation,7,generate_pin,1,True
+122,8,Debit card pin generation issued by Axis Bank,7,generate_pin,1,True
+123,8,Debit card pin generation ending with 4821,7,generate_pin,1,True
+124,8,Debit card pin generation issued by SBI,7,generate_pin,1,True
+125,8,how do i set a new pin for my debit card,7,generate_pin,2,True
+126,8,"Madam, debit card pin generation please",7,generate_pin,2,True
+127,8,"Kindly help me, debit card pin generation",7,generate_pin,2,True
+128,8,"Hi, debit card pin generation sir",7,generate_pin,2,True
+129,8,"Madam, debit card pin generation kindly",7,generate_pin,2,True
+130,8,madam debit card pin generation,7,generate_pin,3,True
+131,8,help me debit card pin generation,7,generate_pin,3,True
+132,8,madam debit card p i n generation,7,generate_pin,3,True
+133,8,debit card p i n generation issued by axis bank,7,generate_pin,3,True
+134,8,how do i set new pin for my debit card,7,generate_pin,3,True
+135,9,I want to know my balance,10,balance_enquiry,1,True
+136,9,I want to know my balance today,10,balance_enquiry,1,True
+137,9,I want to know my balance of my savings account,10,balance_enquiry,1,True
+138,9,I want to know my balance right now,10,balance_enquiry,1,True
+139,9,I want to know my balance of my salary account,10,balance_enquiry,1,True
+140,9,how much money is there in my account,10,balance_enquiry,2,False
+141,9,"Please help me, I want to know my balance madam",10,balance_enquiry,2,True
+142,9,"Excuse me, I want to know my balance as soon as possible",10,balance_enquiry,2,True
+143,9,"Hello madam, I want to know my balance",10,balance_enquiry,2,True
+144,9,"Kindly help me, I want to know my balance thank you",10,balance_enquiry,2,True
+145,9,help me i want to know my balance madam,10,balance_enquiry,3,True
+146,9,help me i want to know my balance thank you,10,balance_enquiry,3,True
+147,9,i am wanting to know my balance of my savings account,10,balance_enquiry,3,True
+148,9,hello madam i am wanting to know my balance,10,balance_enquiry,3,True
+149,9,help me i am wanting to know my balance madam,10,balance_enquiry,3,True
+150,10,I want to know my credit card dispatch status,3,dispatch_status,1,True
+151,10,I want to know my credit card dispatch status that i applied for last week,3,dispatch_status,1,True
+152,10,I want to know my credit card dispatch status that i ordered recently,3,dispatch_status,1,True
+153,10,I want to know my Visa card dispatch status,3,dispatch_status,1,True
+154,10,I want to know my credit card dispatch status from HDFC Bank,3,dispatch_status,1,True
+155,10,has my new credit card been sent,3,dispatch_status,2,True
+156,10,"Hello sir, I want to know my credit card dispatch status as soon as possible",3,dispatch_status,2,True
+157,10,"Kindly help me, I want to know my credit card dispatch status thank you",3,dispatch_status,2,True
+158,10,"Excuse me, I want to know my credit card dispatch status",3,dispatch_status,2,True
+159,10,"Hello, I want to know my credit card dispatch status sir",3,dispatch_status,2,True
+160,10,hello i am wanting to know my credit card dispatch status sir,3,dispatch_status,3,True
+161,10,kindly help me i am wanting to know my credit card dispatch status thank you,3,dispatch_status,3,True
+162,10,i am wanting to know my credit card dispatch status that i applied for last week,3,dispatch_status,3,True
+163,10,hello sir i am wanting to know my credit card dispatch status as soon as possible,3,dispatch_status,3,True
+164,10,i am wanting to know my credit card dispatch status,3,dispatch_status,3,True
+165,11,My card is lost,13,lost,1,True
+166,11,My card is lost issued by Axis Bank,13,lost,1,True
+167,11,My card is lost ending 7305,13,lost,1,True
+168,11,My card is lost issued by SBI,13,lost,1,True
+169,11,My card is lost issued by HDFC Bank,13,lost,1,True
+170,11,my credit card is gone and i cannot find it anywhere,13,lost,2,True
+171,11,"Kindly help me, my card is lost urgently",13,lost,2,True
+172,11,"I need help, my card is lost kindly",13,lost,2,True
+173,11,"Sir, my card is lost please",13,lost,2,True
+174,11,"Madam, my card is lost",13,lost,2,True
+175,11,my card has got lost issued by sbi,13,lost,3,True
+176,11,help me my card is lost urgently,13,lost,3,True
+177,11,madam my card has got lost,13,lost,3,True
+178,11,i need help my card is lost,13,lost,3,True
+179,11,kindly help me my card has got lost urgently,13,lost,3,True
+180,12,I want to block my UPI,12,block,1,True
+181,12,I want to block my UPI today,12,block,1,True
+182,12,I want to block my UPI right now,12,block,1,True
+183,12,I want to block my UPI as soon as possible,12,block,1,True
+184,12,I want to block my UPI immediately,12,block,1,True
+185,12,i want to stop my card from working,12,block,2,True
+186,12,"Sir, I want to block my UPI urgently",12,block,2,True
+187,12,I want to block my UPI sir,12,block,2,True
+188,12,"Hello madam, I want to block my UPI thank you",12,block,2,True
+189,12,"Kindly help me, I want to block my UPI",12,block,2,True
+190,12,help me i want to block my upi,12,block,3,True
+191,12,i want to block my u p i,12,block,3,True
+192,12,i am wanting to block my upi,12,block,3,True
+193,12,hello madam i am wanting to block my upi thank you,12,block,3,True
+194,12,help me i am wanting to block my upi,12,block,3,True
+195,13,I want to get loan,9,loan_query,1,True
+196,13,I want to get loan for 5 lakh rupees,9,loan_query,1,True
+197,13,I want to get loan for my family,9,loan_query,1,True
+198,13,I want to get loan for a new house,9,loan_query,1,True
+199,13,I want to get car loan,9,loan_query,1,True
+200,13,i am interested in taking a loan,9,loan_query,2,True
+201,13,"Madam, I want to get loan as soon as possible",9,loan_query,2,True
+202,13,"I need help, I want to get loan sir",9,loan_query,2,True
+203,13,"Excuse me, I want to get loan thank you",9,loan_query,2,True
+204,13,I want to get loan thank you,9,loan_query,2,True
+205,13,i am wanting to get car loan,9,loan_query,3,True
+206,13,i am wanting to get loan for 5 lakh rupees,9,loan_query,3,True
+207,13,excuse me i am wanting to get loan thank you,9,loan_query,3,True
+208,13,i am wanting to get loan for a new house,9,loan_query,3,True
+209,13,i need help i am wanting to get loan sir,9,loan_query,3,True
+210,14,Last 2 transaction details,2,past_transactions,1,True
+211,14,Last 10 transaction details,2,past_transactions,1,True
+212,14,Last 2 transaction details from my account,2,past_transactions,1,True
+213,14,Last 2 transaction details of my savings account,2,past_transactions,1,True
+214,14,Last 3 transaction details on my account,2,past_transactions,1,True
+215,14,show me my recent transactions,2,past_transactions,2,True
+216,14,"Hello, last 2 transaction details madam",2,past_transactions,2,True
+217,14,"Please help me, last 2 transaction details",2,past_transactions,2,True
+218,14,"I need help, last 2 transaction details",2,past_transactions,2,True
+219,14,"Sir, last 2 transaction details thank you",2,past_transactions,2,True
+220,14,help me last 2 transaction details,2,past_transactions,3,True
+221,14,last 2 transaction details about my savings account,2,past_transactions,3,True
+222,14,please help me last 2 transaction details,2,past_transactions,3,True
+223,14,i need help last 2 transaction details,2,past_transactions,3,True
+224,14,last 2 transaction details from my account,2,past_transactions,3,True
+225,15,Home loan,9,loan_query,1,True
+226,15,Home loan for a new house,9,loan_query,1,True
+227,15,education loan,9,loan_query,1,True
+228,15,Home loan for my business,9,loan_query,1,True
+229,15,Home loan for my family,9,loan_query,1,True
+230,15,what is the interest rate on personal loan,9,loan_query,2,True
+231,15,"Please help me, home loan sir",9,loan_query,2,True
+232,15,"Madam, home loan thank you",9,loan_query,2,True
+233,15,"Hi, home loan kindly",9,loan_query,2,True
+234,15,"Hi, home loan please",9,loan_query,2,True
+235,15,hi home loan,9,loan_query,3,True
+236,15,tell me what is the interest rate on personal loan,9,loan_query,3,True
+237,15,home loan for new house,9,loan_query,3,True
+238,15,what is interest rate on personal loan,9,loan_query,3,True
+239,15,help me home loan sir,9,loan_query,3,True
+240,16,How to generate pin for credit card,7,generate_pin,1,True
+241,16,How to generate pin for Visa card,7,generate_pin,1,True
+242,16,How to generate pin for credit card ending 7305,7,generate_pin,1,True
+243,16,How to generate pin for debit card,7,generate_pin,1,True
+244,16,How to generate pin for ATM card,7,generate_pin,1,True
+245,16,i want to change my atm pin,7,generate_pin,2,True
+246,16,"Hello madam, how to generate pin for credit card thank you",7,generate_pin,2,True
+247,16,"Sir, how to generate pin for credit card thank you",7,generate_pin,2,True
+248,16,"I need help, how to generate pin for credit card madam",7,generate_pin,2,True
+249,16,"Madam, how to generate pin for credit card as soon as possible",7,generate_pin,2,True
+250,16,i am wanting to change my atm pin,7,generate_pin,3,True
+251,16,how to generate p i n for credit card,7,generate_pin,3,True
+252,16,hello madam how can i generate pin for credit card thank you,7,generate_pin,3,True
+253,16,sir how to generate p i n for credit card thank you,7,generate_pin,3,True
+254,16,how to generate p i n for visa card,7,generate_pin,3,True
+255,17,How to know my IFSC Code,6,ifsc_code,1,True
+256,17,How to know my IFSC Code for neft transfer,6,ifsc_code,1,True
+257,17,How to know my IFSC Code for fund transfer,6,ifsc_code,1,True
+258,17,How to know my IFSC Code of my home branch,6,ifsc_code,1,True
+259,17,How to know my IFSC Code for my savings account,6,ifsc_code,1,True
+260,17,i need the ifsc to add a beneficiary,6,ifsc_code,2,True
+261,17,"Hello sir, how to know my IFSC Code",6,ifsc_code,2,True
+262,17,"Please help me, how to know my IFSC Code thank you",6,ifsc_code,2,True
+263,17,"Kindly help me, how to know my IFSC Code madam",6,ifsc_code,2,True
+264,17,"Hi, how to know my IFSC Code sir",6,ifsc_code,2,True
+265,17,how can i know my ifsc code of my home branch,6,ifsc_code,3,True
+266,17,how to know my i f s c code of my home branch,6,ifsc_code,3,True
+267,17,how to know my i f s c code for my savings account,6,ifsc_code,3,True
+268,17,hello sir how to know my i f s c code,6,ifsc_code,3,True
+269,17,how can i know my ifsc code for neft transfer,6,ifsc_code,3,True
+270,18,When will you deliver my credit card,3,dispatch_status,1,True
+271,18,When will you deliver my credit card that i requested on monday,3,dispatch_status,1,True
+272,18,When will you deliver my debit card,3,dispatch_status,1,True
+273,18,When will you deliver my Mastercard,3,dispatch_status,1,True
+274,18,When will you deliver my credit card that i ordered recently,3,dispatch_status,1,True
+275,18,i am waiting for my debit card so what is the delivery status,3,dispatch_status,2,True
+276,18,"Sir, when will you deliver my credit card as soon as possible",3,dispatch_status,2,True
+277,18,"Hi, when will you deliver my credit card please",3,dispatch_status,2,True
+278,18,"Sir, when will you deliver my credit card kindly",3,dispatch_status,2,True
+279,18,"Excuse me, when will you deliver my credit card please",3,dispatch_status,2,True
+280,18,sir when will you deliver my credit card,3,dispatch_status,3,True
+281,18,hi when will you deliver my credit card,3,dispatch_status,3,True
+282,18,excuse me when will you deliver my credit card,3,dispatch_status,3,True
+283,18,i am waiting for my debit card so what is delivery status,3,dispatch_status,3,True
+284,18,i am waiting for my debit card so tell me what is the delivery status,3,dispatch_status,3,True
+285,19,Please give me the details of my last transaction,2,past_transactions,1,True
+286,19,Please give me the details of my last transaction of my savings account,2,past_transactions,1,True
+287,19,Please give me the details of my last transaction from my account,2,past_transactions,1,True
+288,19,Please give me the details of my last transaction of my current account,2,past_transactions,1,True
+289,19,Please give me the details of my last transaction on my account,2,past_transactions,1,True
+290,19,i want the statement of my last few payments,2,past_transactions,2,True
+291,19,"Madam, please give me the details of my last transaction thank you",2,past_transactions,2,True
+292,19,"Hello sir, please give me the details of my last transaction as soon as possible",2,past_transactions,2,True
+293,19,"Madam, please give me the details of my last transaction",2,past_transactions,2,True
+294,19,"Hello, please give me the details of my last transaction as soon as possible",2,past_transactions,2,True
+295,19,madam please give me the details about my last transaction thank you,2,past_transactions,3,True
+296,19,please give me the details about my last transaction of my savings account,2,past_transactions,3,True
+297,19,hello sir give me details of my last transaction as soon as possible,2,past_transactions,3,True
+298,19,i want statement of my last few payments,2,past_transactions,3,True
+299,19,madam please give me the details about my last transaction,2,past_transactions,3,True
+300,20,I want to speak to loan department,9,loan_query,1,True
+301,20,I want to speak to personal loan department,9,loan_query,1,True
+302,20,I want to speak to car loan department,9,loan_query,1,True
+303,20,I want to speak to loan department for my business,9,loan_query,1,True
+304,20,I want to speak to loan department for my family,9,loan_query,1,True
+305,20,i need information about car loan,9,loan_query,2,True
+306,20,"Hi, I want to speak to loan department madam",9,loan_query,2,True
+307,20,"Sir, I want to speak to loan department kindly",9,loan_query,2,True
+308,20,"Hello madam, I want to speak to loan department kindly",9,loan_query,2,True
+309,20,"Hello madam, I want to speak to loan department as soon as possible",9,loan_query,2,True
+310,20,i am wanting to speak to loan department for my business,9,loan_query,3,True
+311,20,hello madam i am wanting to speak to loan department,9,loan_query,3,True
+312,20,hello madam i am wanting to speak to loan department as soon as possible,9,loan_query,3,True
+313,20,sir i am wanting to speak to loan department kindly,9,loan_query,3,True
+314,20,i am wanting to speak to loan department,9,loan_query,3,True
+315,21,What was the amount of my last transaction,2,past_transactions,1,True
+316,21,What was the amount of my last transaction of my current account,2,past_transactions,1,True
+317,21,What was the amount of my last transaction of my salary account,2,past_transactions,1,True
+318,21,What was the amount of my last transaction on my account,2,past_transactions,1,True
+319,21,What was the amount of my last transaction from my account,2,past_transactions,1,True
+320,21,what were my last five transactions,2,past_transactions,2,True
+321,21,"Madam, what was the amount of my last transaction thank you",2,past_transactions,2,True
+322,21,"Hello, what was the amount of my last transaction thank you",2,past_transactions,2,True
+323,21,"Sir, what was the amount of my last transaction",2,past_transactions,2,True
+324,21,"Sir, what was the amount of my last transaction thank you",2,past_transactions,2,True
+325,21,what was amount of my last transaction from my account,2,past_transactions,3,True
+326,21,sir what was amount of my last transaction,2,past_transactions,3,True
+327,21,what was amount of my last transaction of my current account,2,past_transactions,3,True
+328,21,hello what was amount of my last transaction thank you,2,past_transactions,3,True
+329,21,sir what was amount of my last transaction thank you,2,past_transactions,3,True
+330,22,how to generate credit card pin,7,generate_pin,1,True
+331,22,how to generate debit card pin,7,generate_pin,1,True
+332,22,how to generate credit card pin issued by Axis Bank,7,generate_pin,1,True
+333,22,how to generate ATM card pin,7,generate_pin,1,True
+334,22,how to generate credit card pin ending 7305,7,generate_pin,1,True
+335,22,help me create a pin for my card,7,generate_pin,2,True
+336,22,"I need help, how to generate credit card pin sir",7,generate_pin,2,True
+337,22,"Excuse me, how to generate credit card pin madam",7,generate_pin,2,True
+338,22,"Madam, how to generate credit card pin kindly",7,generate_pin,2,True
+339,22,"Madam, how to generate credit card pin",7,generate_pin,2,True
+340,22,how to generate debit card p i n,7,generate_pin,3,True
+341,22,help me create pin for my card,7,generate_pin,3,True
+342,22,help me create a p i n for my card,7,generate_pin,3,True
+343,22,madam how to generate credit card pin,7,generate_pin,3,True
+344,22,excuse me how can i generate credit card pin madam,7,generate_pin,3,True
+345,23,I want to report a fraud,8,unauthorised_transaction,1,True
+346,23,I want to report a fraud yesterday,8,unauthorised_transaction,1,True
+347,23,I want to report a fraud last night,8,unauthorised_transaction,1,True
+348,23,I want to report a fraud of 12000 rupees,8,unauthorised_transaction,1,True
+349,23,I want to report a fraud today,8,unauthorised_transaction,1,True
+350,23,there is a transaction on my card that is not mine,8,unauthorised_transaction,2,True
+351,23,I want to report a fraud kindly,8,unauthorised_transaction,2,True
+352,23,"Sir, I want to report a fraud urgently",8,unauthorised_transaction,2,True
+353,23,"Hi, I want to report a fraud right now",8,unauthorised_transaction,2,True
+354,23,"Please hurry, I want to report a fraud sir",8,unauthorised_transaction,2,True
+355,23,i want to report fraud,8,unauthorised_transaction,3,True
+356,23,i am wanting to report a fraud yesterday,8,unauthorised_transaction,3,True
+357,23,i am wanting to report a fraud kindly,8,unauthorised_transaction,3,True
+358,23,sir i want to report fraud urgently,8,unauthorised_transaction,3,True
+359,23,i want to report fraud yesterday,8,unauthorised_transaction,3,True
+360,24,what is the outstanding balance on my credit card?,4,outstanding_balance,1,True
+361,24,what is the outstanding balance on my SBI credit card?,4,outstanding_balance,1,True
+362,24,what is the outstanding balance on my HDFC credit card?,4,outstanding_balance,1,True
+363,24,what is the outstanding balance on my Visa credit card?,4,outstanding_balance,1,True
+364,24,what is the outstanding balance on my credit card for last month,4,outstanding_balance,1,True
+365,24,tell me my credit card dues,4,outstanding_balance,2,True
+366,24,"I need help, what is the outstanding balance on my credit card sir",4,outstanding_balance,2,True
+367,24,"Madam, what is the outstanding balance on my credit card thank you",4,outstanding_balance,2,True
+368,24,"Hello madam, what is the outstanding balance on my credit card",4,outstanding_balance,2,True
+369,24,"Hi, what is the outstanding balance on my credit card thank you",4,outstanding_balance,2,True
+370,24,hi what is outstanding balance on my credit card thank you,4,outstanding_balance,3,True
+371,24,tell me what is outstanding balance on my credit card for last month,4,outstanding_balance,3,True
+372,24,tell me what is outstanding balance on my hdfc credit card,4,outstanding_balance,3,True
+373,24,what is outstanding balance on my hdfc credit card,4,outstanding_balance,3,True
+374,24,hello madam what is outstanding balance on my credit card,4,outstanding_balance,3,True
+375,25,How to change the limit of credit card,11,change_limit,1,True
+376,25,How to change the limit of debit card,11,change_limit,1,True
+377,25,How to change the limit of credit card ending with 4821,11,change_limit,1,True
+378,25,How to change the limit of credit card issued by SBI,11,change_limit,1,True
+379,25,How to change the limit of Mastercard,11,change_limit,1,True
+380,25,please reduce the limit on my debit card,11,change_limit,2,True
+381,25,How to change the limit of credit card madam,11,change_limit,2,True
+382,25,"Hello, how to change the limit of credit card madam",11,change_limit,2,True
+383,25,"Hi, how to change the limit of credit card kindly",11,change_limit,2,True
+384,25,"Hello, how to change the limit of credit card",11,change_limit,2,True
+385,25,hi how to change limit of credit card,11,change_limit,3,True
+386,25,how can i change the limit of credit card madam,11,change_limit,3,True
+387,25,how can i change the limit of credit card,11,change_limit,3,True
+388,25,hello how can i change the limit of credit card madam,11,change_limit,3,True
+389,25,hello how to change limit of credit card madam,11,change_limit,3,True
+390,26,What is my pending amount on my credit card bill,4,outstanding_balance,1,True
+391,26,What is my pending amount on my credit card bill as of today,4,outstanding_balance,1,True
+392,26,What is my pending amount on my credit card bill till today,4,outstanding_balance,1,True
+393,26,What is my pending amount on my Visa credit card bill,4,outstanding_balance,1,True
+394,26,What is my pending amount on my credit card bill for last month,4,outstanding_balance,1,True
+395,26,what is the total amount due on my card,4,outstanding_balance,2,True
+396,26,"Hello madam, what is my pending amount on my credit card bill kindly",4,outstanding_balance,2,True
+397,26,"Kindly help me, what is my pending amount on my credit card bill",4,outstanding_balance,2,True
+398,26,"I need help, what is my pending amount on my credit card bill please",4,outstanding_balance,2,True
+399,26,"Hello, what is my pending amount on my credit card bill as soon as possible",4,outstanding_balance,2,True
+400,26,help me what is my pending amount on my credit card bill,4,outstanding_balance,3,True
+401,26,tell me what is my pending amount on my credit card bill till today,4,outstanding_balance,3,True
+402,26,hello madam tell me what is my pending amount on my credit card bill kindly,4,outstanding_balance,3,True
+403,26,hello madam what is my pending amount on my credit card bill,4,outstanding_balance,3,True
+404,26,i need help what is my pending amount on my credit card bill,4,outstanding_balance,3,True
+405,27,I want to change the limit of my e-statement on my credit card,11,change_limit,1,True
+406,27,I want to change the limit of my e-statement on my debit card ending 7305,11,change_limit,1,True
+407,27,I want to change the limit of my e-statement on my credit card issued by Axis Bank,11,change_limit,1,True
+408,27,I want to change the limit of my e-statement on my Visa card,11,change_limit,1,True
+409,27,I want to change the limit of my e-statement on my credit card issued by HDFC Bank,11,change_limit,1,True
+410,27,how do i set a daily limit on my card,11,change_limit,2,True
+411,27,"Sir, I want to change the limit of my e-statement on my credit card kindly",11,change_limit,2,True
+412,27,"Sir, I want to change the limit of my e-statement on my credit card thank you",11,change_limit,2,True
+413,27,I want to change the limit of my e-statement on my credit card please,11,change_limit,2,True
+414,27,"Sir, I want to change the limit of my e-statement on my credit card as soon as possible",11,change_limit,2,True
+415,27,i want to change limit of my e statement on my credit card,11,change_limit,3,True
+416,27,i am wanting to change limit of my e statement on my credit card,11,change_limit,3,True
+417,27,i want to change limit of my e statement on my visa card,11,change_limit,3,True
+418,27,i want to change limit of my e statement on my debit card ending 7305,11,change_limit,3,True
+419,27,i want to change limit of my e statement on my credit card issued by axis bank,11,change_limit,3,True
+420,28,Please tell me the nearest branch of the bank,0,branch_address,1,True
+421,28,Please tell me the nearest branch of the Kotak Bank,0,branch_address,1,True
+422,28,Please tell me the nearest branch of the HDFC Bank,0,branch_address,1,True
+423,28,Please tell me the nearest branch of the bank in Pune,0,branch_address,1,True
+424,28,Please tell me the nearest branch of the ICICI Bank,0,branch_address,1,True
+425,28,i am looking for a bank branch near me,0,branch_address,2,True
+426,28,"I need help, please tell me the nearest branch of the bank madam",0,branch_address,2,True
+427,28,"Madam, please tell me the nearest branch of the bank",0,branch_address,2,True
+428,28,"Hello madam, please tell me the nearest branch of the bank as soon as possible",0,branch_address,2,True
+429,28,"I need help, please tell me the nearest branch of the bank",0,branch_address,2,True
+430,28,i am looking for bank branch near me,0,branch_address,3,True
+431,28,madam tell me nearest branch of bank,0,branch_address,3,True
+432,28,tell me nearest branch of kotak bank,0,branch_address,3,True
+433,28,tell me nearest branch of hdfc bank,0,branch_address,3,True
+434,28,tell me nearest branch of bank,0,branch_address,3,True
+435,29,I want my account balance,10,balance_enquiry,1,True
+436,29,I want my account balance today,10,balance_enquiry,1,True
+437,29,I want my account balance of my salary account,10,balance_enquiry,1,True
+438,29,I want my account balance of my savings account,10,balance_enquiry,1,True
+439,29,I want my account balance right now,10,balance_enquiry,1,True
+440,29,check my savings account balance,10,balance_enquiry,2,True
+441,29,"Hello, I want my account balance please",10,balance_enquiry,2,True
+442,29,"Kindly help me, I want my account balance sir",10,balance_enquiry,2,True
+443,29,"Hi, I want my account balance kindly",10,balance_enquiry,2,True
+444,29,"I need help, I want my account balance as soon as possible",10,balance_enquiry,2,True
+445,29,hello i want my account balance,10,balance_enquiry,3,True
+446,29,help me i want my account balance sir,10,balance_enquiry,3,True
+447,29,hi i want my account balance,10,balance_enquiry,3,True
+448,29,i want my account balance right now,10,balance_enquiry,3,True
+449,29,hi i want my account balance kindly,10,balance_enquiry,3,True
+450,30,I lost my credit card,13,lost,1,True
+451,30,I lost my ATM card,13,lost,1,True
+452,30,I lost my credit card ending with 4821,13,lost,1,True
+453,30,I lost my Visa card,13,lost,1,True
+454,30,I lost my credit card issued by SBI,13,lost,1,True
+455,30,i think i left my card somewhere,13,lost,2,True
+456,30,"Sir, I lost my credit card please",13,lost,2,True
+457,30,"Hello, I lost my credit card as soon as possible",13,lost,2,True
+458,30,I lost my credit card kindly,13,lost,2,True
+459,30,"Hello madam, I lost my credit card right now",13,lost,2,True
+460,30,i have lost my credit card issued by sbi,13,lost,3,True
+461,30,i have lost my credit card ending with 4821,13,lost,3,True
+462,30,sir i lost my credit card,13,lost,3,True
+463,30,i have lost my atm card,13,lost,3,True
+464,30,i have lost my credit card,13,lost,3,True
+465,31,IFSC Code,6,ifsc_code,1,True
+466,31,IFSC Code for neft transfer,6,ifsc_code,1,True
+467,31,IFSC Code for my savings account,6,ifsc_code,1,True
+468,31,IFSC Code of my branch,6,ifsc_code,1,True
+469,31,IFSC Code for fund transfer,6,ifsc_code,1,True
+470,31,tell me the branch ifsc code for transfer,6,ifsc_code,2,True
+471,31,"Madam, IFSC Code kindly",6,ifsc_code,2,True
+472,31,"Hello, IFSC Code",6,ifsc_code,2,True
+473,31,"Hi, IFSC Code thank you",6,ifsc_code,2,True
+474,31,"Hi, IFSC Code madam",6,ifsc_code,2,True
+475,31,hello i f s c code,6,ifsc_code,3,True
+476,31,i f s c code,6,ifsc_code,3,True
+477,31,madam ifsc code,6,ifsc_code,3,True
+478,31,hi i f s c code thank you,6,ifsc_code,3,True
+479,31,i f s c code for fund transfer,6,ifsc_code,3,True
+480,32,Total outstanding balance?,4,outstanding_balance,1,True
+481,32,Total outstanding balance for this month,4,outstanding_balance,1,True
+482,32,Total outstanding balance as of today,4,outstanding_balance,1,True
+483,32,Total outstanding balance till today,4,outstanding_balance,1,True
+484,32,Total outstanding balance for last month,4,outstanding_balance,1,True
+485,32,i want to know my card bill amount,4,outstanding_balance,2,True
+486,32,"Kindly help me, total outstanding balance madam",4,outstanding_balance,2,True
+487,32,"I need help, total outstanding balance please",4,outstanding_balance,2,True
+488,32,"Hello sir, total outstanding balance as soon as possible",4,outstanding_balance,2,True
+489,32,"Hello madam, total outstanding balance kindly",4,outstanding_balance,2,True
+490,32,i am wanting to know my card bill amount,4,outstanding_balance,3,True
+491,32,help me total outstanding balance madam,4,outstanding_balance,3,True
+492,32,hello madam total outstanding balance,4,outstanding_balance,3,True
+493,32,i need help total outstanding balance,4,outstanding_balance,3,True
+494,32,total outstanding balance as of today,4,outstanding_balance,3,True
+495,33,activate debit card,1,activate_card,1,True
+496,33,activate debit card ending 7305,1,activate_card,1,True
+497,33,activate debit card ending with 4821,1,activate_card,1,True
+498,33,activate debit card issued by HDFC Bank,1,activate_card,1,True
+499,33,activate debit card issued by SBI,1,activate_card,1,True
+500,33,my new card has come and i want to activate it,1,activate_card,2,True
+501,33,"Kindly help me, activate debit card madam",1,activate_card,2,True
+502,33,"Kindly help me, activate debit card",1,activate_card,2,True
+503,33,"Excuse me, activate debit card",1,activate_card,2,True
+504,33,"Hello, activate debit card as soon as possible",1,activate_card,2,True
+505,33,help me activate debit card,1,activate_card,3,True
+506,33,my new card has come and i am wanting to activate it,1,activate_card,3,True
+507,33,help me activate debit card madam,1,activate_card,3,True
+508,33,activate debit card issued by sbi,1,activate_card,3,True
+509,33,kindly help me activate debit card madam,1,activate_card,3,True
+510,34,I want to block mobile banking,12,block,1,True
+511,34,I want to block mobile banking as soon as possible,12,block,1,True
+512,34,I want to block mobile banking for security reasons,12,block,1,True
+513,34,I want to block mobile banking immediately,12,block,1,True
+514,34,I want to block mobile banking today,12,block,1,True
+515,34,please block my atm card,12,block,2,True
+516,34,"Sir, I want to block mobile banking please",12,block,2,True
+517,34,"Madam, I want to block mobile banking thank you",12,block,2,True
+518,34,"Hi, I want to block mobile banking right now",12,block,2,True
+519,34,"I need help, I want to block mobile banking thank you",12,block,2,True
+520,34,i am wanting to block mobile banking for security reasons,12,block,3,True
+521,34,i am wanting to block mobile banking today,12,block,3,True
+522,34,hi i am wanting to block mobile banking right now,12,block,3,True
+523,34,block my atm card,12,block,3,True
+524,34,sir i want to block mobile banking,12,block,3,True
+525,35,I am unable to use my credit card,5,card_issue,1,True
+526,35,I am unable to use my credit card ending 7305,5,card_issue,1,True
+527,35,I am unable to use my credit card ending with 4821,5,card_issue,1,True
+528,35,I am unable to use my credit card issued by Axis Bank,5,card_issue,1,True
+529,35,I am unable to use my Visa card,5,card_issue,1,True
+530,35,my card got declined at the shop,5,card_issue,2,True
+531,35,"Excuse me, I am unable to use my credit card please",5,card_issue,2,True
+532,35,I am unable to use my credit card sir,5,card_issue,2,True
+533,35,"Madam, I am unable to use my credit card thank you",5,card_issue,2,True
+534,35,"I need help, I am unable to use my credit card thank you",5,card_issue,2,True
+535,35,i am not able to use my visa card,5,card_issue,3,True
+536,35,i am not able to use my credit card ending 7305,5,card_issue,3,True
+537,35,my card got declined at shop,5,card_issue,3,True
+538,35,madam i am not able to use my credit card thank you,5,card_issue,3,True
+539,35,i am not able to use my credit card sir,5,card_issue,3,True
+540,36,Past transaction details,2,past_transactions,1,True
+541,36,Past transaction details on my account,2,past_transactions,1,True
+542,36,Past transaction details of my current account,2,past_transactions,1,True
+543,36,Past transaction details of my savings account,2,past_transactions,1,True
+544,36,Past transaction details from my account,2,past_transactions,1,True
+545,36,tell me about the money i spent last week,2,past_transactions,2,False
+546,36,"Hi, past transaction details sir",2,past_transactions,2,True
+547,36,"Madam, past transaction details thank you",2,past_transactions,2,True
+548,36,"Kindly help me, past transaction details thank you",2,past_transactions,2,True
+549,36,"Please help me, past transaction details sir",2,past_transactions,2,True
+550,36,tell me about money i spent last week,2,past_transactions,3,False
+551,36,help me past transaction details sir,2,past_transactions,3,True
+552,36,help me past transaction details thank you,2,past_transactions,3,True
+553,36,past transaction details about my current account,2,past_transactions,3,True
+554,36,past transaction details about my savings account,2,past_transactions,3,True
+555,37,I want my IFSC code,6,ifsc_code,1,True
+556,37,I want my IFSC code of my home branch,6,ifsc_code,1,True
+557,37,I want my IFSC code for fund transfer,6,ifsc_code,1,True
+558,37,I want my IFSC code for my savings account,6,ifsc_code,1,True
+559,37,I want my IFSC code for neft transfer,6,ifsc_code,1,True
+560,37,ifsc code of my home branch,6,ifsc_code,2,True
+561,37,I want my IFSC code sir,6,ifsc_code,2,True
+562,37,"Excuse me, I want my IFSC code thank you",6,ifsc_code,2,True
+563,37,"Hi, I want my IFSC code",6,ifsc_code,2,True
+564,37,"Excuse me, I want my IFSC code sir",6,ifsc_code,2,True
+565,37,i want my i f s c code,6,ifsc_code,3,True
+566,37,hi i want my i f s c code,6,ifsc_code,3,True
+567,37,excuse me i want my i f s c code sir,6,ifsc_code,3,True
+568,37,i want my i f s c code of my home branch,6,ifsc_code,3,True
+569,37,i want my i f s c code sir,6,ifsc_code,3,True
+570,38,There is a problem with my credit card,5,card_issue,1,True
+571,38,There is a problem with my credit card issued by Axis Bank,5,card_issue,1,True
+572,38,There is a problem with my debit card,5,card_issue,1,True
+573,38,There is a problem with my credit card ending with 4821,5,card_issue,1,True
+574,38,There is a problem with my credit card ending 7305,5,card_issue,1,True
+575,38,the card is not working at the atm,5,card_issue,2,True
+576,38,"Sir, there is a problem with my credit card please",5,card_issue,2,True
+577,38,"Kindly help me, there is a problem with my credit card",5,card_issue,2,True
+578,38,"Sir, there is a problem with my credit card kindly",5,card_issue,2,True
+579,38,"Hi, there is a problem with my credit card please",5,card_issue,2,True
+580,38,there is problem with my credit card ending 7305,5,card_issue,3,True
+581,38,card is not working properly at atm,5,card_issue,3,True
+582,38,sir there is problem with my credit card,5,card_issue,3,True
+583,38,help me there is problem with my credit card,5,card_issue,3,True
+584,38,there is problem with my credit card,5,card_issue,3,True
+585,39,generate credit card pin,7,generate_pin,1,True
+586,39,generate Mastercard pin,7,generate_pin,1,True
+587,39,generate credit card pin issued by HDFC Bank,7,generate_pin,1,True
+588,39,generate credit card pin issued by Axis Bank,7,generate_pin,1,True
+589,39,generate debit card pin,7,generate_pin,1,True
+590,39,my pin is not set yet,7,generate_pin,2,True
+591,39,"Madam, generate credit card pin please",7,generate_pin,2,True
+592,39,generate credit card pin thank you,7,generate_pin,2,True
+593,39,"Excuse me, generate credit card pin kindly",7,generate_pin,2,True
+594,39,"Hello, generate credit card pin madam",7,generate_pin,2,True
+595,39,generate credit card p i n issued by axis bank,7,generate_pin,3,True
+596,39,madam generate credit card p i n,7,generate_pin,3,True
+597,39,generate credit card p i n,7,generate_pin,3,True
+598,39,generate mastercard p i n,7,generate_pin,3,True
+599,39,generate credit card p i n issued by hdfc bank,7,generate_pin,3,True
+600,40,I want to set my credit card pin,7,generate_pin,1,True
+601,40,I want to set my credit card pin issued by Axis Bank,7,generate_pin,1,True
+602,40,I want to set my credit card pin ending 7305,7,generate_pin,1,True
+603,40,I want to set my ATM card pin,7,generate_pin,1,True
+604,40,I want to set my Mastercard pin,7,generate_pin,1,True
+605,40,reset my card pin,7,generate_pin,2,True
+606,40,"Hi, I want to set my credit card pin as soon as possible",7,generate_pin,2,True
+607,40,"I need help, I want to set my credit card pin madam",7,generate_pin,2,True
+608,40,"Madam, I want to set my credit card pin kindly",7,generate_pin,2,True
+609,40,I want to set my credit card pin please,7,generate_pin,2,True
+610,40,i want to set my mastercard p i n,7,generate_pin,3,True
+611,40,hi i want to set my credit card p i n as soon as possible,7,generate_pin,3,True
+612,40,i want to set my credit card p i n issued by axis bank,7,generate_pin,3,True
+613,40,reset my card p i n,7,generate_pin,3,True
+614,40,i am wanting to set my mastercard pin,7,generate_pin,3,True
+615,41,I want to know my IFSC Code,6,ifsc_code,1,True
+616,41,I want to know my IFSC Code for my savings account,6,ifsc_code,1,True
+617,41,I want to know my IFSC Code of my home branch,6,ifsc_code,1,True
+618,41,I want to know my IFSC Code for fund transfer,6,ifsc_code,1,True
+619,41,I want to know my IFSC Code for neft transfer,6,ifsc_code,1,True
+620,41,where do i see my branch ifsc,6,ifsc_code,2,True
+621,41,"Madam, I want to know my IFSC Code",6,ifsc_code,2,True
+622,41,"Hi, I want to know my IFSC Code as soon as possible",6,ifsc_code,2,True
+623,41,"Hi, I want to know my IFSC Code",6,ifsc_code,2,True
+624,41,"Hello madam, I want to know my IFSC Code as soon as possible",6,ifsc_code,2,True
+625,41,i want to know my i f s c code,6,ifsc_code,3,True
+626,41,madam i am wanting to know my ifsc code,6,ifsc_code,3,True
+627,41,where do i see my branch i f s c,6,ifsc_code,3,True
+628,41,i am wanting to know my ifsc code for fund transfer,6,ifsc_code,3,True
+629,41,hi i want to know my i f s c code,6,ifsc_code,3,True
+630,42,I want to report a wrong transaction,8,unauthorised_transaction,1,True
+631,42,I want to report a wrong transaction today,8,unauthorised_transaction,1,True
+632,42,I want to report a wrong transaction for 5000 rupees,8,unauthorised_transaction,1,True
+633,42,I want to report a wrong transaction last night,8,unauthorised_transaction,1,True
+634,42,I want to report a wrong transaction yesterday,8,unauthorised_transaction,1,True
+635,42,someone has used my card without asking me,8,unauthorised_transaction,2,True
+636,42,"Hello sir, I want to report a wrong transaction right now",8,unauthorised_transaction,2,True
+637,42,"Please help me, I want to report a wrong transaction urgently",8,unauthorised_transaction,2,True
+638,42,"This is an emergency, I want to report a wrong transaction sir",8,unauthorised_transaction,2,True
+639,42,"Hello sir, I want to report a wrong transaction thank you",8,unauthorised_transaction,2,True
+640,42,i am wanting to report wrong transaction yesterday,8,unauthorised_transaction,3,True
+641,42,hello sir i am wanting to report wrong transaction thank you,8,unauthorised_transaction,3,True
+642,42,this is emergency i am wanting to report wrong transaction sir,8,unauthorised_transaction,3,True
+643,42,i want to report wrong transaction today,8,unauthorised_transaction,3,True
+644,42,hello sir i want to report wrong transaction thank you,8,unauthorised_transaction,3,True
+645,43,How to get personal loan,9,loan_query,1,True
+646,43,How to get personal loan for a new house,9,loan_query,1,True
+647,43,How to get gold loan,9,loan_query,1,True
+648,43,How to get personal loan for my shop,9,loan_query,1,True
+649,43,How to get car loan,9,loan_query,1,True
+650,43,can i talk to someone about a loan,9,loan_query,2,True
+651,43,"Excuse me, how to get personal loan sir",9,loan_query,2,True
+652,43,How to get personal loan as soon as possible,9,loan_query,2,True
+653,43,"Madam, how to get personal loan as soon as possible",9,loan_query,2,True
+654,43,"Hello madam, how to get personal loan please",9,loan_query,2,True
+655,43,madam how can i get personal loan as soon as possible,9,loan_query,3,True
+656,43,excuse me how can i get personal loan sir,9,loan_query,3,True
+657,43,how can i get car loan,9,loan_query,3,True
+658,43,how can i get personal loan for my shop,9,loan_query,3,True
+659,43,how can i get personal loan as soon as possible,9,loan_query,3,True
+660,44,How to activate credit card,1,activate_card,1,True
+661,44,How to activate credit card ending 7305,1,activate_card,1,True
+662,44,How to activate Visa card,1,activate_card,1,True
+663,44,How to activate debit card,1,activate_card,1,True
+664,44,How to activate credit card issued by Axis Bank,1,activate_card,1,True
+665,44,i received my card and want to start using it,1,activate_card,2,True
+666,44,"Hello, how to activate credit card madam",1,activate_card,2,True
+667,44,How to activate credit card sir,1,activate_card,2,True
+668,44,How to activate credit card please,1,activate_card,2,True
+669,44,"Sir, how to activate credit card",1,activate_card,2,True
+670,44,how can i activate credit card,1,activate_card,3,True
+671,44,how to activate credit card,1,activate_card,3,True
+672,44,hello how can i activate credit card madam,1,activate_card,3,True
+673,44,how can i activate credit card ending 7305,1,activate_card,3,True
+674,44,how can i activate debit card,1,activate_card,3,True
+675,45,I want to know about home loan,9,loan_query,1,True
+676,45,I want to know about education loan,9,loan_query,1,True
+677,45,I want to know about home loan for my shop,9,loan_query,1,True
+678,45,I want to know about home loan for my business,9,loan_query,1,True
+679,45,I want to know about home loan for 5 lakh rupees,9,loan_query,1,True
+680,45,am i eligible for a home loan,9,loan_query,2,True
+681,45,"I need help, I want to know about home loan please",9,loan_query,2,True
+682,45,"Excuse me, I want to know about home loan sir",9,loan_query,2,True
+683,45,"Hello, I want to know about home loan as soon as possible",9,loan_query,2,True
+684,45,"Hi, I want to know about home loan madam",9,loan_query,2,True
+685,45,i am wanting to know about education loan,9,loan_query,3,True
+686,45,i need help i am wanting to know about home loan,9,loan_query,3,True
+687,45,i am wanting to know about home loan,9,loan_query,3,True
+688,45,excuse me i am wanting to know about home loan sir,9,loan_query,3,True
+689,45,am i eligible for home loan,9,loan_query,3,True
+690,46,I wanted to block my mobile banking,12,block,1,True
+691,46,I wanted to block my mobile banking today,12,block,1,True
+692,46,I wanted to block my mobile banking immediately,12,block,1,True
+693,46,I wanted to block my mobile banking for security reasons,12,block,1,True
+694,46,I wanted to block my mobile banking right now,12,block,1,True
+695,46,disable my credit card,12,block,2,True
+696,46,"I need help, I wanted to block my mobile banking thank you",12,block,2,True
+697,46,"Please hurry, I wanted to block my mobile banking madam",12,block,2,True
+698,46,"Hello madam, I wanted to block my mobile banking right now",12,block,2,True
+699,46,"Hello, I wanted to block my mobile banking thank you",12,block,2,True
+700,46,hurry i wanted to block my mobile banking madam,12,block,3,True
+701,46,i wanted to block my mobile banking,12,block,3,True
+702,46,hello i wanted to block my mobile banking thank you,12,block,3,True
+703,46,i wanted to block my mobile banking for security reasons,12,block,3,True
+704,46,please hurry i wanted to block my mobile banking madam,12,block,3,True
+705,47,What is the nearest branch?,0,branch_address,1,True
+706,47,What is the nearest branch in Mumbai,0,branch_address,1,True
+707,47,What is the nearest branch in Pune,0,branch_address,1,True
+708,47,What is the nearest branch in Hyderabad,0,branch_address,1,True
+709,47,What is the nearest branch near me,0,branch_address,1,True
+710,47,show me branches around here,0,branch_address,2,True
+711,47,"Excuse me, what is the nearest branch",0,branch_address,2,True
+712,47,"Excuse me, what is the nearest branch as soon as possible",0,branch_address,2,True
+713,47,"Hello, what is the nearest branch madam",0,branch_address,2,True
+714,47,"Kindly help me, what is the nearest branch sir",0,branch_address,2,True
+715,47,help me what is nearest branch sir,0,branch_address,3,True
+716,47,kindly help me tell me what is the nearest branch sir,0,branch_address,3,True
+717,47,what is nearest branch in hyderabad,0,branch_address,3,True
+718,47,tell me what is nearest branch in mumbai,0,branch_address,3,True
+719,47,excuse me what is nearest branch as soon as possible,0,branch_address,3,True
+720,48,activate,1,activate_card,1,True
+721,48,activate issued by Axis Bank,1,activate_card,1,True
+722,48,activate issued by HDFC Bank,1,activate_card,1,True
+723,48,activate ending with 4821,1,activate_card,1,True
+724,48,activate ending 7305,1,activate_card,1,True
+725,48,please turn on my new debit card,1,activate_card,2,True
+726,48,"Sir, activate",1,activate_card,2,True
+727,48,"Excuse me, activate please",1,activate_card,2,True
+728,48,"Please help me, activate",1,activate_card,2,True
+729,48,"Please help me, activate thank you",1,activate_card,2,True
+730,48,turn on my new debit card,1,activate_card,3,True
+731,48,excuse me activate,1,activate_card,3,True
+732,48,help me activate,1,activate_card,3,True
+733,48,help me activate thank you,1,activate_card,3,True
+734,48,activate issued by axis bank,1,activate_card,3,True
+735,49,I want to activate my debit card,1,activate_card,1,True
+736,49,I want to activate my debit card ending 7305,1,activate_card,1,True
+737,49,I want to activate my debit card ending with 4821,1,activate_card,1,True
+738,49,I want to activate my Visa card,1,activate_card,1,True
+739,49,I want to activate my ATM card,1,activate_card,1,True
+740,49,how do i make my credit card active,1,activate_card,2,True
+741,49,"Hello, I want to activate my debit card thank you",1,activate_card,2,True
+742,49,"I need help, I want to activate my debit card madam",1,activate_card,2,True
+743,49,"Hello madam, I want to activate my debit card thank you",1,activate_card,2,True
+744,49,"Hi, I want to activate my debit card sir",1,activate_card,2,True
+745,49,hello i am wanting to activate my debit card thank you,1,activate_card,3,True
+746,49,i am wanting to activate my atm card,1,activate_card,3,True
+747,49,i am wanting to activate my debit card ending 7305,1,activate_card,3,True
+748,49,i am wanting to activate my visa card,1,activate_card,3,True
+749,49,i need help i am wanting to activate my debit card madam,1,activate_card,3,True
+750,50,Where is the branch located?,0,branch_address,1,True
+751,50,Where is the branch located in Hyderabad,0,branch_address,1,True
+752,50,Where is the branch located near me,0,branch_address,1,True
+753,50,Where is the branch located in my area,0,branch_address,1,True
+754,50,Where is the branch located in Mumbai,0,branch_address,1,True
+755,50,where can i find your nearest branch,0,branch_address,2,True
+756,50,"Hello sir, where is the branch located as soon as possible",0,branch_address,2,True
+757,50,"Hi, where is the branch located thank you",0,branch_address,2,True
+758,50,"Madam, where is the branch located kindly",0,branch_address,2,True
+759,50,"Sir, where is the branch located",0,branch_address,2,True
+760,50,where is branch located in mumbai,0,branch_address,3,True
+761,50,where is branch located in my area,0,branch_address,3,True
+762,50,madam where is branch located,0,branch_address,3,True
+763,50,where is branch located near me,0,branch_address,3,True
+764,50,where is branch located in hyderabad,0,branch_address,3,True
+765,51,Credit card is missing,13,lost,1,True
+766,51,Credit card is missing issued by Axis Bank,13,lost,1,True
+767,51,Credit card is missing ending 7305,13,lost,1,True
+768,51,Credit card is missing issued by SBI,13,lost,1,True
+769,51,Mastercard is missing,13,lost,1,True
+770,51,i lost my wallet with my cards,13,lost,2,True
+771,51,"Please help me, credit card is missing thank you",13,lost,2,True
+772,51,"Madam, credit card is missing",13,lost,2,True
+773,51,"Excuse me, credit card is missing please",13,lost,2,True
+774,51,"Madam, credit card is missing immediately",13,lost,2,True
+775,51,excuse me credit card is got missing please,13,lost,3,True
+776,51,help me credit card is got missing thank you,13,lost,3,True
+777,51,madam credit card is got missing,13,lost,3,True
+778,51,help me credit card is missing thank you,13,lost,3,True
+779,51,i have lost my wallet with my cards,13,lost,3,True
+780,52,Fraud transaction happened from my account,8,unauthorised_transaction,1,True
+781,52,Fraud transaction happened from my account for 5000 rupees,8,unauthorised_transaction,1,True
+782,52,Fraud transaction happened from my account of 12000 rupees,8,unauthorised_transaction,1,True
+783,52,Fraud transaction happened from my account today,8,unauthorised_transaction,1,True
+784,52,Fraud transaction happened from my account yesterday,8,unauthorised_transaction,1,True
+785,52,i see a payment i never made,8,unauthorised_transaction,2,True
+786,52,"Sir, fraud transaction happened from my account kindly",8,unauthorised_transaction,2,True
+787,52,"Please help me, fraud transaction happened from my account thank you",8,unauthorised_transaction,2,True
+788,52,"Hello madam, fraud transaction happened from my account right now",8,unauthorised_transaction,2,True
+789,52,"Hi, fraud transaction happened from my account right now",8,unauthorised_transaction,2,True
+790,52,sir fraud transaction happened from my account,8,unauthorised_transaction,3,True
+791,52,help me fraud transaction happened from my account thank you,8,unauthorised_transaction,3,True
+792,52,i see payment i never made,8,unauthorised_transaction,3,True
+793,52,fraud transaction happened from my account today,8,unauthorised_transaction,3,True
+794,52,fraud transaction happened from my account of 12000 rupees,8,unauthorised_transaction,3,True
+795,53,I want to generate pin for my credit card,7,generate_pin,1,True
+796,53,I want to generate pin for my credit card ending with 4821,7,generate_pin,1,True
+797,53,I want to generate pin for my credit card issued by Axis Bank,7,generate_pin,1,True
+798,53,I want to generate pin for my credit card issued by HDFC Bank,7,generate_pin,1,True
+799,53,I want to generate pin for my debit card,7,generate_pin,1,True
+800,53,i need to generate a new atm pin,7,generate_pin,2,True
+801,53,"Hello sir, I want to generate pin for my credit card as soon as possible",7,generate_pin,2,True
+802,53,"I need help, I want to generate pin for my credit card kindly",7,generate_pin,2,True
+803,53,"Kindly help me, I want to generate pin for my credit card madam",7,generate_pin,2,True
+804,53,"Kindly help me, I want to generate pin for my credit card thank you",7,generate_pin,2,True
+805,53,i need help i want to generate p i n for my credit card kindly,7,generate_pin,3,True
+806,53,i want to generate p i n for my credit card ending with 4821,7,generate_pin,3,True
+807,53,i am wanting to generate pin for my credit card issued by axis bank,7,generate_pin,3,True
+808,53,hello sir i want to generate p i n for my credit card as soon as possible,7,generate_pin,3,True
+809,53,help me i am wanting to generate pin for my credit card madam,7,generate_pin,3,True
+810,54,Block credit card,12,block,1,True
+811,54,Block credit card for security reasons,12,block,1,True
+812,54,Block debit card,12,block,1,True
+813,54,Block ATM card,12,block,1,True
+814,54,Block credit card immediately,12,block,1,True
+815,54,i want to block my net banking,12,block,2,True
+816,54,"Kindly help me, block credit card as soon as possible",12,block,2,True
+817,54,"Excuse me, block credit card immediately",12,block,2,True
+818,54,"Hello madam, block credit card thank you",12,block,2,True
+819,54,"Hello sir, block credit card urgently",12,block,2,True
+820,54,help me block credit card as soon as possible,12,block,3,True
+821,54,i am wanting to block my net banking,12,block,3,True
+822,54,excuse me block credit card immediately,12,block,3,True
+823,54,block credit card for security reasons,12,block,3,True
+824,54,block debit card,12,block,3,True
+825,55,Unauthorised transaction,8,unauthorised_transaction,1,True
+826,55,Unauthorised transaction yesterday,8,unauthorised_transaction,1,True
+827,55,Unauthorised transaction today,8,unauthorised_transaction,1,True
+828,55,Unauthorised transaction of 12000 rupees,8,unauthorised_transaction,1,True
+829,55,Unauthorised transaction last night,8,unauthorised_transaction,1,True
+830,55,i want to complain about a fraud on my account,8,unauthorised_transaction,2,True
+831,55,"Sir, unauthorised transaction thank you",8,unauthorised_transaction,2,True
+832,55,"Hi, unauthorised transaction urgently",8,unauthorised_transaction,2,True
+833,55,"Excuse me, unauthorised transaction",8,unauthorised_transaction,2,True
+834,55,"I need help, unauthorised transaction please",8,unauthorised_transaction,2,True
+835,55,i am wanting to complain about fraud on my account,8,unauthorised_transaction,3,True
+836,55,i need help unauthorised transaction,8,unauthorised_transaction,3,True
+837,55,i want to complain about fraud on my account,8,unauthorised_transaction,3,True
+838,55,i am wanting to complain about a fraud on my account,8,unauthorised_transaction,3,True
+839,55,i need help unauthorised transaction please,8,unauthorised_transaction,3,True
+840,56,I want to know about my last 2 transactions,2,past_transactions,1,True
+841,56,I want to know about my last 2 transactions from my account,2,past_transactions,1,True
+842,56,I want to know about my last 3 transactions of my savings account,2,past_transactions,1,True
+843,56,I want to know about my last 10 transactions,2,past_transactions,1,True
+844,56,I want to know about my last five transactions,2,past_transactions,1,True
+845,56,can i get my transaction history,2,past_transactions,2,True
+846,56,"Sir, I want to know about my last 2 transactions",2,past_transactions,2,True
+847,56,"Sir, I want to know about my last 2 transactions kindly",2,past_transactions,2,True
+848,56,I want to know about my last 2 transactions please,2,past_transactions,2,True
+849,56,"I need help, I want to know about my last 2 transactions sir",2,past_transactions,2,True
+850,56,i am wanting to know about my last 2 transactions,2,past_transactions,3,True
+851,56,sir i am wanting to know about my last 2 transactions,2,past_transactions,3,True
+852,56,i am wanting to know about my last 2 transactions from my account,2,past_transactions,3,True
+853,56,i am wanting to know about my last 10 transactions,2,past_transactions,3,True
+854,56,i need help i am wanting to know about my last 2 transactions sir,2,past_transactions,3,True
+855,57,Details of last transaction,2,past_transactions,1,True
+856,57,Details of last transaction of my salary account,2,past_transactions,1,True
+857,57,Details of last transaction of my current account,2,past_transactions,1,True
+858,57,Details of last transaction from my account,2,past_transactions,1,True
+859,57,Details of last transaction on my account,2,past_transactions,1,True
+860,57,i want to see what was debited from my account recently,2,past_transactions,2,False
+861,57,"Excuse me, details of last transaction as soon as possible",2,past_transactions,2,True
+862,57,"Hello sir, details of last transaction as soon as possible",2,past_transactions,2,True
+863,57,"Excuse me, details of last transaction madam",2,past_transactions,2,True
+864,57,"Hi, details of last transaction madam",2,past_transactions,2,True
+865,57,details about last transaction,2,past_transactions,3,True
+866,57,hi details about last transaction madam,2,past_transactions,3,True
+867,57,hello sir details about last transaction as soon as possible,2,past_transactions,3,True
+868,57,details about last transaction from my account,2,past_transactions,3,True
+869,57,details about last transaction of my current account,2,past_transactions,3,True
+870,58,details of last few transactions,2,past_transactions,1,True
+871,58,details of last few transactions of my current account,2,past_transactions,1,True
+872,58,details of last few transactions from my account,2,past_transactions,1,True
+873,58,details of last few transactions of my savings account,2,past_transactions,1,True
+874,58,details of last few transactions of my salary account,2,past_transactions,1,True
+875,58,give me the mini statement,2,past_transactions,2,True
+876,58,"I need help, details of last few transactions kindly",2,past_transactions,2,True
+877,58,"Excuse me, details of last few transactions please",2,past_transactions,2,True
+878,58,details of last few transactions as soon as possible,2,past_transactions,2,True
+879,58,"Sir, details of last few transactions",2,past_transactions,2,True
+880,58,details about last few transactions of my savings account,2,past_transactions,3,True
+881,58,sir details about last few transactions,2,past_transactions,3,True
+882,58,give me mini statement,2,past_transactions,3,True
+883,58,details about last few transactions from my account,2,past_transactions,3,True
+884,58,excuse me details of last few transactions,2,past_transactions,3,True
+885,59,when will my card be delivered?,3,dispatch_status,1,True
+886,59,when will my card be delivered from HDFC Bank,3,dispatch_status,1,True
+887,59,when will my card be delivered from SBI,3,dispatch_status,1,True
+888,59,when will my card be delivered that i requested on monday,3,dispatch_status,1,True
+889,59,when will my card be delivered that i ordered recently,3,dispatch_status,1,True
+890,59,when will my card reach my home,3,dispatch_status,2,True
+891,59,"Madam, when will my card be delivered as soon as possible",3,dispatch_status,2,True
+892,59,"Sir, when will my card be delivered",3,dispatch_status,2,True
+893,59,"Hello sir, when will my card be delivered as soon as possible",3,dispatch_status,2,True
+894,59,"Excuse me, when will my card be delivered as soon as possible",3,dispatch_status,2,True
+895,59,madam when will my card be delivered as soon as possible,3,dispatch_status,3,True
+896,59,sir when will my card be delivered,3,dispatch_status,3,True
+897,59,hello sir when will my card be delivered as soon as possible,3,dispatch_status,3,True
+898,59,when will my card be delivered from sbi,3,dispatch_status,3,True
+899,59,excuse me when will my card be delivered as soon as possible,3,dispatch_status,3,True
+900,60,I want to start my credit card,1,activate_card,1,True
+901,60,I want to start my credit card ending with 4821,1,activate_card,1,True
+902,60,I want to start my ATM card,1,activate_card,1,True
+903,60,I want to start my credit card issued by HDFC Bank,1,activate_card,1,True
+904,60,I want to start my Mastercard,1,activate_card,1,True
+905,60,i want to activate the card i got in the post,1,activate_card,2,True
+906,60,"Sir, I want to start my credit card",1,activate_card,2,True
+907,60,"Please help me, I want to start my credit card as soon as possible",1,activate_card,2,True
+908,60,"Hello madam, I want to start my credit card kindly",1,activate_card,2,True
+909,60,"Sir, I want to start my credit card kindly",1,activate_card,2,True
+910,60,hello madam i want to start my credit card,1,activate_card,3,True
+911,60,i am wanting to activate the card i got in the post,1,activate_card,3,True
+912,60,i am wanting to start my mastercard,1,activate_card,3,True
+913,60,i am wanting to start my atm card,1,activate_card,3,True
+914,60,sir i am wanting to start my credit card,1,activate_card,3,True
+915,61,balance enquiry,10,balance_enquiry,1,True
+916,61,balance enquiry of my savings account,10,balance_enquiry,1,True
+917,61,balance enquiry right now,10,balance_enquiry,1,True
+918,61,balance enquiry of my current account,10,balance_enquiry,1,True
+919,61,balance enquiry of my salary account,10,balance_enquiry,1,True
+920,61,tell me my available balance,10,balance_enquiry,2,True
+921,61,"Hi, balance enquiry kindly",10,balance_enquiry,2,True
+922,61,"Please help me, balance enquiry",10,balance_enquiry,2,True
+923,61,"Please help me, balance enquiry thank you",10,balance_enquiry,2,True
+924,61,"I need help, balance enquiry thank you",10,balance_enquiry,2,True
+925,61,help me balance enquiry thank you,10,balance_enquiry,3,True
+926,61,help me balance enquiry,10,balance_enquiry,3,True
+927,61,hi balance enquiry,10,balance_enquiry,3,True
+928,61,please help me balance enquiry,10,balance_enquiry,3,True
+929,61,i need help balance enquiry thank you,10,balance_enquiry,3,True
+930,62,I want to change the limit of my credit card,11,change_limit,1,True
+931,62,I want to change the limit of my Visa credit card,11,change_limit,1,True
+932,62,I want to change the limit of my Visa card,11,change_limit,1,True
+933,62,I want to change the limit of my debit card issued by HDFC Bank,11,change_limit,1,True
+934,62,I want to change the limit of my Visa debit card,11,change_limit,1,True
+935,62,can you increase my credit limit,11,change_limit,2,True
+936,62,"Hi, I want to change the limit of my credit card kindly",11,change_limit,2,True
+937,62,"Kindly help me, I want to change the limit of my credit card",11,change_limit,2,True
+938,62,I want to change the limit of my credit card please,11,change_limit,2,True
+939,62,"I need help, I want to change the limit of my credit card thank you",11,change_limit,2,True
+940,62,i need help i am wanting to change limit of my credit card thank you,11,change_limit,3,True
+941,62,i am wanting to change limit of my credit card,11,change_limit,3,True
+942,62,i want to change limit of my visa debit card,11,change_limit,3,True
+943,62,hi i am wanting to change limit of my credit card,11,change_limit,3,True
+944,62,i need help i want to change limit of my credit card thank you,11,change_limit,3,True
+945,63,I want to know about personal loan,9,loan_query,1,True
+946,63,I want to know about personal loan for a new house,9,loan_query,1,True
+947,63,I want to know about gold loan,9,loan_query,1,True
+948,63,I want to know about personal loan for 5 lakh rupees,9,loan_query,1,True
+949,63,I want to know about personal loan for my shop,9,loan_query,1,True
+950,63,i want to apply for an education loan,9,loan_query,2,True
+951,63,"Excuse me, I want to know about personal loan thank you",9,loan_query,2,True
+952,63,"Hello sir, I want to know about personal loan kindly",9,loan_query,2,True
+953,63,"Hi, I want to know about personal loan",9,loan_query,2,True
+954,63,I want to know about personal loan sir,9,loan_query,2,True
+955,63,i am wanting to know about personal loan,9,loan_query,3,True
+956,63,hello sir i want to know about personal loan,9,loan_query,3,True
+957,63,i am wanting to apply for an education loan,9,loan_query,3,True
+958,63,i want to know about personal loan for new house,9,loan_query,3,True
+959,63,i am wanting to know about personal loan sir,9,loan_query,3,True
+960,64,Debit card issue,5,card_issue,1,True
+961,64,ATM card issue,5,card_issue,1,True
+962,64,Mastercard issue,5,card_issue,1,True
+963,64,Debit card issue ending 7305,5,card_issue,1,True
+964,64,debit card issue,5,card_issue,1,True
+965,64,payment is failing with my card,5,card_issue,2,True
+966,64,"Kindly help me, debit card issue madam",5,card_issue,2,True
+967,64,"Excuse me, debit card issue please",5,card_issue,2,True
+968,64,"Hello madam, debit card issue kindly",5,card_issue,2,True
+969,64,"Excuse me, debit card issue",5,card_issue,2,True
+970,64,hello madam debit card issue,5,card_issue,3,True
+971,64,help me debit card issue madam,5,card_issue,3,True
+972,64,excuse me debit card issue,5,card_issue,3,True
+973,64,hello madam debit card issue kindly,5,card_issue,3,True
+974,64,atm card issue,5,card_issue,3,True
+975,65,I am unable to pay with my credit card,5,card_issue,1,True
+976,65,I am unable to pay with my credit card ending 7305,5,card_issue,1,True
+977,65,I am unable to pay with my credit card issued by Axis Bank,5,card_issue,1,True
+978,65,I am unable to pay with my credit card ending with 4821,5,card_issue,1,True
+979,65,I am unable to pay with my credit card issued by SBI,5,card_issue,1,True
+980,65,my debit card does not work online,5,card_issue,2,False
+981,65,"Sir, I am unable to pay with my credit card please",5,card_issue,2,True
+982,65,"Hi, I am unable to pay with my credit card madam",5,card_issue,2,True
+983,65,"Please help me, I am unable to pay with my credit card sir",5,card_issue,2,True
+984,65,"I need help, I am unable to pay with my credit card please",5,card_issue,2,True
+985,65,sir i am unable to pay with my credit card,5,card_issue,3,True
+986,65,i am not able to pay with my credit card issued by sbi,5,card_issue,3,True
+987,65,help me i am unable to pay with my credit card sir,5,card_issue,3,True
+988,65,i am not able to pay with my credit card issued by axis bank,5,card_issue,3,True
+989,65,i am not able to pay with my credit card ending 7305,5,card_issue,3,True
+990,66,bank account balance enquiry,10,balance_enquiry,1,True
+991,66,bank account balance enquiry of my current account,10,balance_enquiry,1,True
+992,66,bank account balance enquiry of my savings account,10,balance_enquiry,1,True
+993,66,bank account balance enquiry right now,10,balance_enquiry,1,True
+994,66,bank account balance enquiry of my salary account,10,balance_enquiry,1,True
+995,66,what is the balance in my salary account,10,balance_enquiry,2,True
+996,66,"Please help me, bank account balance enquiry thank you",10,balance_enquiry,2,True
+997,66,"Madam, bank account balance enquiry please",10,balance_enquiry,2,True
+998,66,"Hello sir, bank account balance enquiry kindly",10,balance_enquiry,2,True
+999,66,"Hello madam, bank account balance enquiry thank you",10,balance_enquiry,2,True
+1000,66,what is balance in my salary account,10,balance_enquiry,3,True
+1001,66,hello sir bank account balance enquiry,10,balance_enquiry,3,True
+1002,66,madam bank account balance enquiry,10,balance_enquiry,3,True
+1003,66,help me bank account balance enquiry thank you,10,balance_enquiry,3,True
+1004,66,tell me what is the balance in my salary account,10,balance_enquiry,3,True
+1005,67,I have a uery regarding loan,9,loan_query,1,True
+1006,67,I have a uery regarding loan for my shop,9,loan_query,1,True
+1007,67,I have a uery regarding loan for a new house,9,loan_query,1,True
+1008,67,I have a uery regarding loan for my family,9,loan_query,1,True
+1009,67,I have a uery regarding education loan,9,loan_query,1,True
+1010,67,tell me about your loan schemes,9,loan_query,2,True
+1011,67,"Excuse me, I have a uery regarding loan",9,loan_query,2,True
+1012,67,"Hi, I have a uery regarding loan",9,loan_query,2,True
+1013,67,"Hello sir, I have a uery regarding loan please",9,loan_query,2,True
+1014,67,"Hello, I have a uery regarding loan please",9,loan_query,2,True
+1015,67,i have uery regarding loan for new house,9,loan_query,3,True
+1016,67,hello i have uery regarding loan,9,loan_query,3,True
+1017,67,i have uery regarding education loan,9,loan_query,3,True
+1018,67,i have uery regarding loan for my family,9,loan_query,3,True
+1019,67,i have uery regarding loan,9,loan_query,3,True
+1020,68,How to know my credit card outstanding balance,4,outstanding_balance,1,True
+1021,68,How to know my credit card outstanding balance till today,4,outstanding_balance,1,True
+1022,68,How to know my credit card outstanding balance for last month,4,outstanding_balance,1,True
+1023,68,How to know my HDFC credit card outstanding balance,4,outstanding_balance,1,True
+1024,68,How to know my Mastercard credit card outstanding balance,4,outstanding_balance,1,True
+1025,68,how much is pending on my credit card,4,outstanding_balance,2,True
+1026,68,"Hello sir, how to know my credit card outstanding balance",4,outstanding_balance,2,True
+1027,68,"Hello, how to know my credit card outstanding balance please",4,outstanding_balance,2,True
+1028,68,"Excuse me, how to know my credit card outstanding balance kindly",4,outstanding_balance,2,True
+1029,68,"Hello, how to know my credit card outstanding balance kindly",4,outstanding_balance,2,True
+1030,68,how can i know my credit card outstanding balance till today,4,outstanding_balance,3,True
+1031,68,how can i know my hdfc credit card outstanding balance,4,outstanding_balance,3,True
+1032,68,excuse me how to know my credit card outstanding balance,4,outstanding_balance,3,True
+1033,68,hello how can i know my credit card outstanding balance kindly,4,outstanding_balance,3,True
+1034,68,hello how can i know my credit card outstanding balance,4,outstanding_balance,3,True
+1035,69,What is my IFSC Code,6,ifsc_code,1,True
+1036,69,What is my IFSC Code for my savings account,6,ifsc_code,1,True
+1037,69,What is my IFSC Code of my home branch,6,ifsc_code,1,True
+1038,69,What is my IFSC Code for neft transfer,6,ifsc_code,1,True
+1039,69,What is my IFSC Code for fund transfer,6,ifsc_code,1,True
+1040,69,i am trying to send money and need the ifsc code,6,ifsc_code,2,True
+1041,69,"Hello sir, what is my IFSC Code thank you",6,ifsc_code,2,True
+1042,69,"Hi, what is my IFSC Code as soon as possible",6,ifsc_code,2,True
+1043,69,"Kindly help me, what is my IFSC Code as soon as possible",6,ifsc_code,2,True
+1044,69,"Please help me, what is my IFSC Code thank you",6,ifsc_code,2,True
+1045,69,please help me what is my i f s c code thank you,6,ifsc_code,3,True
+1046,69,help me tell me what is my ifsc code as soon as possible,6,ifsc_code,3,True
+1047,69,tell me what is my ifsc code of my home branch,6,ifsc_code,3,True
+1048,69,help me what is my ifsc code thank you,6,ifsc_code,3,True
+1049,69,help me what is my i f s c code thank you,6,ifsc_code,3,True
+1050,70,Can I block my credit card,12,block,1,True
+1051,70,Can I block my debit card,12,block,1,True
+1052,70,Can I block my credit card immediately,12,block,1,True
+1053,70,Can I block my Mastercard,12,block,1,True
+1054,70,Can I block my credit card today,12,block,1,True
+1055,70,freeze my debit card,12,block,2,True
+1056,70,"Hello sir, can I block my credit card kindly",12,block,2,True
+1057,70,"Hello sir, can I block my credit card thank you",12,block,2,True
+1058,70,"It is urgent, can I block my credit card kindly",12,block,2,True
+1059,70,"Sir, can I block my credit card",12,block,2,True
+1060,70,hello sir can i block my credit card,12,block,3,True
+1061,70,it is urgent can i block my credit card,12,block,3,True
+1062,70,can i block my credit card today,12,block,3,True
+1063,70,can i block my credit card immediately,12,block,3,True
+1064,70,hello sir can i block my credit card kindly,12,block,3,True
+1065,71,My debit card is not working,5,card_issue,1,True
+1066,71,My Mastercard is not working,5,card_issue,1,True
+1067,71,My debit card is not working ending with 4821,5,card_issue,1,True
+1068,71,My Visa card is not working,5,card_issue,1,True
+1069,71,My debit card is not working issued by SBI,5,card_issue,1,True
+1070,71,i am facing a problem while swiping my card,5,card_issue,2,True
+1071,71,"Excuse me, my debit card is not working thank you",5,card_issue,2,True
+1072,71,"Hello madam, my debit card is not working please",5,card_issue,2,True
+1073,71,"Please help me, my debit card is not working madam",5,card_issue,2,True
+1074,71,"Excuse me, my debit card is not working sir",5,card_issue,2,True
+1075,71,my visa card is not working properly,5,card_issue,3,True
+1076,71,please help me my debit card is not working properly madam,5,card_issue,3,True
+1077,71,i am facing problem while swiping my card,5,card_issue,3,True
+1078,71,hello madam my debit card is not working,5,card_issue,3,True
+1079,71,hello madam my debit card is not working properly please,5,card_issue,3,True
+1080,72,what is my credit card dispatch status,3,dispatch_status,1,True
+1081,72,what is my Mastercard dispatch status,3,dispatch_status,1,True
+1082,72,what is my ATM card dispatch status,3,dispatch_status,1,True
+1083,72,what is my credit card dispatch status that i applied for last week,3,dispatch_status,1,True
+1084,72,what is my Visa card dispatch status,3,dispatch_status,1,True
+1085,72,track my card delivery,3,dispatch_status,2,True
+1086,72,"Hello madam, what is my credit card dispatch status please",3,dispatch_status,2,True
+1087,72,"Hello madam, what is my credit card dispatch status as soon as possible",3,dispatch_status,2,True
+1088,72,what is my credit card dispatch status madam,3,dispatch_status,2,True
+1089,72,"Hello sir, what is my credit card dispatch status",3,dispatch_status,2,True
+1090,72,tell me what is my visa card dispatch status,3,dispatch_status,3,True
+1091,72,tell me what is my atm card dispatch status,3,dispatch_status,3,True
+1092,72,hello madam what is my credit card dispatch status,3,dispatch_status,3,True
+1093,72,hello madam tell me what is my credit card dispatch status as soon as possible,3,dispatch_status,3,True
+1094,72,hello sir tell me what is my credit card dispatch status,3,dispatch_status,3,True
+1095,73,How can I activate my credit card,1,activate_card,1,True
+1096,73,How can I activate my debit card,1,activate_card,1,True
+1097,73,How can I activate my credit card issued by HDFC Bank,1,activate_card,1,True
+1098,73,How can I activate my Mastercard,1,activate_card,1,True
+1099,73,How can I activate my Visa card,1,activate_card,1,True
+1100,73,my card is not activated yet so please activate it,1,activate_card,2,True
+1101,73,"Hi, how can I activate my credit card thank you",1,activate_card,2,True
+1102,73,"Sir, how can I activate my credit card thank you",1,activate_card,2,True
+1103,73,"Hello madam, how can I activate my credit card thank you",1,activate_card,2,True
+1104,73,"Kindly help me, how can I activate my credit card as soon as possible",1,activate_card,2,True
+1105,73,my card is not activated yet so activate it,1,activate_card,3,True
+1106,73,help me how can i activate my credit card as soon as possible,1,activate_card,3,True
+1107,73,how can i activate my credit card issued by hdfc bank,1,activate_card,3,True
+1108,73,how can i activate my visa card,1,activate_card,3,True
+1109,73,how can i activate my debit card,1,activate_card,3,True
+1110,74,What is the branch location?,0,branch_address,1,True
+1111,74,What is the branch location in Pune,0,branch_address,1,True
+1112,74,What is the branch location near me,0,branch_address,1,True
+1113,74,What is the branch location in my area,0,branch_address,1,True
+1114,74,What is the branch location in Hyderabad,0,branch_address,1,True
+1115,74,i want to visit the branch so where is it,0,branch_address,2,True
+1116,74,"Hi, what is the branch location as soon as possible",0,branch_address,2,True
+1117,74,What is the branch location thank you,0,branch_address,2,True
+1118,74,"Excuse me, what is the branch location",0,branch_address,2,True
+1119,74,"Kindly help me, what is the branch location thank you",0,branch_address,2,True
+1120,74,what is branch location in pune,0,branch_address,3,True
+1121,74,what is branch location thank you,0,branch_address,3,True
+1122,74,tell me what is branch location in pune,0,branch_address,3,True
+1123,74,hi tell me what is the branch location as soon as possible,0,branch_address,3,True
+1124,74,hi what is branch location as soon as possible,0,branch_address,3,True
+1125,75,I want to speak to customer care about loan,9,loan_query,1,True
+1126,75,I want to speak to customer care about loan for my business,9,loan_query,1,True
+1127,75,I want to speak to customer care about loan for a new house,9,loan_query,1,True
+1128,75,I want to speak to customer care about loan for my family,9,loan_query,1,True
+1129,75,I want to speak to customer care about gold loan,9,loan_query,1,True
+1130,75,i want to take a loan for my business,9,loan_query,2,True
+1131,75,"Sir, I want to speak to customer care about loan please",9,loan_query,2,True
+1132,75,I want to speak to customer care about loan madam,9,loan_query,2,True
+1133,75,"I need help, I want to speak to customer care about loan",9,loan_query,2,True
+1134,75,"Please help me, I want to speak to customer care about loan sir",9,loan_query,2,True
+1135,75,i am wanting to take a loan for my business,9,loan_query,3,True
+1136,75,i want to take loan for my business,9,loan_query,3,True
+1137,75,i am wanting to speak to customer care about loan for my business,9,loan_query,3,True
+1138,75,i am wanting to speak to customer care about loan madam,9,loan_query,3,True
+1139,75,help me i want to speak to customer care about loan sir,9,loan_query,3,True
+1140,76,Can you tell me the details of my last transaction?,2,past_transactions,1,True
+1141,76,Can you tell me the details of my last transaction on my account,2,past_transactions,1,True
+1142,76,Can you tell me the details of my last transaction from my account,2,past_transactions,1,True
+1143,76,Can you tell me the details of my last transaction of my savings account,2,past_transactions,1,True
+1144,76,Can you tell me the details of my last transaction of my salary account,2,past_transactions,1,True
+1145,76,details of my payments this month,2,past_transactions,2,True
+1146,76,"I need help, can you tell me the details of my last transaction",2,past_transactions,2,True
+1147,76,Can you tell me the details of my last transaction please,2,past_transactions,2,True
+1148,76,"Madam, can you tell me the details of my last transaction please",2,past_transactions,2,True
+1149,76,"Hi, can you tell me the details of my last transaction thank you",2,past_transactions,2,True
+1150,76,hi can you tell me the details about my last transaction thank you,2,past_transactions,3,True
+1151,76,can you tell me the details about my last transaction,2,past_transactions,3,True
+1152,76,can you tell me the details about my last transaction of my salary account,2,past_transactions,3,True
+1153,76,can you tell me details about my last transaction,2,past_transactions,3,True
+1154,76,i need help can you tell me details about my last transaction,2,past_transactions,3,True
+1155,77,I want to start my debit card,1,activate_card,1,True
+1156,77,I want to start my Visa card,1,activate_card,1,True
+1157,77,I want to start my debit card issued by HDFC Bank,1,activate_card,1,True
+1158,77,I want to start my debit card issued by Axis Bank,1,activate_card,1,True
+1159,77,I want to start my debit card ending with 4821,1,activate_card,1,True
+1160,77,need to activate my atm card,1,activate_card,2,True
+1161,77,"Hello, I want to start my debit card",1,activate_card,2,True
+1162,77,"Madam, I want to start my debit card kindly",1,activate_card,2,True
+1163,77,"Please help me, I want to start my debit card",1,activate_card,2,True
+1164,77,I want to start my debit card thank you,1,activate_card,2,True
+1165,77,i am wanting to start my debit card thank you,1,activate_card,3,True
+1166,77,madam i am wanting to start my debit card,1,activate_card,3,True
+1167,77,help me i want to start my debit card,1,activate_card,3,True
+1168,77,i am wanting to start my debit card ending with 4821,1,activate_card,3,True
+1169,77,madam i am wanting to start my debit card kindly,1,activate_card,3,True
+1170,78,Personal loan eligibility,9,loan_query,1,True
+1171,78,education loan eligibility,9,loan_query,1,True
+1172,78,personal loan eligibility,9,loan_query,1,True
+1173,78,gold loan eligibility,9,loan_query,1,True
+1174,78,car loan eligibility,9,loan_query,1,True
+1175,78,"I need help, personal loan eligibility",9,loan_query,2,True
+1176,78,"Madam, personal loan eligibility kindly",9,loan_query,2,True
+1177,78,"Hi, personal loan eligibility sir",9,loan_query,2,True
+1178,78,"Excuse me, personal loan eligibility kindly",9,loan_query,2,True
+1179,78,"I need help, personal loan eligibility madam",9,loan_query,2,True
+1180,78,excuse me personal loan eligibility,9,loan_query,3,True
+1181,78,madam personal loan eligibility,9,loan_query,3,True
+1182,78,hi personal loan eligibility sir,9,loan_query,3,True
+1183,78,excuse me personal loan eligibility kindly,9,loan_query,3,True
+1184,78,madam personal loan eligibility kindly,9,loan_query,3,True
+1185,79,I want to generate credit card pin,7,generate_pin,1,True
+1186,79,I want to generate credit card pin ending with 4821,7,generate_pin,1,True
+1187,79,I want to generate credit card pin issued by SBI,7,generate_pin,1,True
+1188,79,I want to generate credit card pin issued by Axis Bank,7,generate_pin,1,True
+1189,79,I want to generate Visa card pin,7,generate_pin,1,True
+1190,79,how can i change the pin of my credit card,7,generate_pin,2,True
+1191,79,"I need help, I want to generate credit card pin madam",7,generate_pin,2,True
+1192,79,"I need help, I want to generate credit card pin",7,generate_pin,2,True
+1193,79,"Hello, I want to generate credit card pin madam",7,generate_pin,2,True
+1194,79,"Hello sir, I want to generate credit card pin thank you",7,generate_pin,2,True
+1195,79,i am wanting to generate credit card pin issued by sbi,7,generate_pin,3,True
+1196,79,hello sir i want to generate credit card p i n thank you,7,generate_pin,3,True
+1197,79,i am wanting to generate credit card pin issued by axis bank,7,generate_pin,3,True
+1198,79,how can i change the p i n of my credit card,7,generate_pin,3,True
+1199,79,i am wanting to generate credit card pin ending with 4821,7,generate_pin,3,True
+1200,80,account balance,10,balance_enquiry,1,True
+1201,80,account balance of my salary account,10,balance_enquiry,1,True
+1202,80,account balance right now,10,balance_enquiry,1,True
+1203,80,account balance of my savings account,10,balance_enquiry,1,True
+1204,80,account balance of my current account,10,balance_enquiry,1,True
+1205,80,i want to see my account balance,10,balance_enquiry,2,True
+1206,80,"I need help, account balance",10,balance_enquiry,2,True
+1207,80,"Hello sir, account balance thank you",10,balance_enquiry,2,True
+1208,80,"Hello sir, account balance",10,balance_enquiry,2,True
+1209,80,"Hi, account balance as soon as possible",10,balance_enquiry,2,True
+1210,80,i am wanting to see my account balance,10,balance_enquiry,3,True
+1211,80,hello sir account balance thank you,10,balance_enquiry,3,True
+1212,80,i need help account balance,10,balance_enquiry,3,True
+1213,80,hello sir account balance,10,balance_enquiry,3,True
+1214,80,hi account balance as soon as possible,10,balance_enquiry,3,True
+1215,81,ATM card pin generation,7,generate_pin,1,True
+1216,81,ATM card pin generation issued by HDFC Bank,7,generate_pin,1,True
+1217,81,ATM card pin generation issued by Axis Bank,7,generate_pin,1,True
+1218,81,ATM card pin generation issued by SBI,7,generate_pin,1,True
+1219,81,ATM card pin generation ending with 4821,7,generate_pin,1,True
+1220,81,"Excuse me, ATM card pin generation madam",7,generate_pin,2,True
+1221,81,"Please help me, ATM card pin generation sir",7,generate_pin,2,True
+1222,81,"Please help me, ATM card pin generation as soon as possible",7,generate_pin,2,True
+1223,81,"Hello madam, ATM card pin generation as soon as possible",7,generate_pin,2,True
+1224,81,"Kindly help me, ATM card pin generation as soon as possible",7,generate_pin,2,True
+1225,81,atm card p i n generation issued by sbi,7,generate_pin,3,True
+1226,81,excuse me atm card p i n generation madam,7,generate_pin,3,True
+1227,81,atm card p i n generation,7,generate_pin,3,True
+1228,81,help me atm card p i n generation as soon as possible,7,generate_pin,3,True
+1229,81,help me atm card pin generation as soon as possible,7,generate_pin,3,True
+1230,82,I want to block my credit card,12,block,1,True
+1231,82,I want to block my credit card for security reasons,12,block,1,True
+1232,82,I want to block my ATM card,12,block,1,True
+1233,82,I want to block my credit card as soon as possible,12,block,1,True
+1234,82,I want to block my Mastercard,12,block,1,True
+1235,82,block my card so nobody can use it,12,block,2,True
+1236,82,"Please help me, I want to block my credit card right now",12,block,2,True
+1237,82,"Madam, I want to block my credit card right now",12,block,2,True
+1238,82,"Hello sir, I want to block my credit card",12,block,2,True
+1239,82,"Hello, I want to block my credit card",12,block,2,True
+1240,82,i am wanting to block my credit card,12,block,3,True
+1241,82,hello sir i am wanting to block my credit card,12,block,3,True
+1242,82,please help me i am wanting to block my credit card right now,12,block,3,True
+1243,82,i am wanting to block my credit card as soon as possible,12,block,3,True
+1244,82,i am wanting to block my mastercard,12,block,3,True
+1245,83,How can I block my credit card?,12,block,1,True
+1246,83,How can I block my debit card?,12,block,1,True
+1247,83,How can I block my credit card as soon as possible,12,block,1,True
+1248,83,How can I block my credit card immediately,12,block,1,True
+1249,83,How can I block my credit card right now,12,block,1,True
+1250,83,i would like to deactivate my card,12,block,2,True
+1251,83,"Hello sir, how can I block my credit card thank you",12,block,2,True
+1252,83,"It is urgent, how can I block my credit card kindly",12,block,2,True
+1253,83,"This is an emergency, how can I block my credit card",12,block,2,True
+1254,83,"Hi, how can I block my credit card as soon as possible",12,block,2,True
+1255,83,it is urgent how can i block my credit card,12,block,3,True
+1256,83,this is emergency how can i block my credit card,12,block,3,True
+1257,83,this is an emergency how can i block my credit card,12,block,3,True
+1258,83,how can i block my credit card,12,block,3,True
+1259,83,how can i block my credit card immediately,12,block,3,True
+1260,84,Last transaction details,2,past_transactions,1,True
+1261,84,Last transaction details from my account,2,past_transactions,1,True
+1262,84,Last transaction details of my salary account,2,past_transactions,1,True
+1263,84,Last transaction details on my account,2,past_transactions,1,True
+1264,84,Last transaction details of my savings account,2,past_transactions,1,True
+1265,84,"Hello madam, last transaction details as soon as possible",2,past_transactions,2,True
+1266,84,"Kindly help me, last transaction details sir",2,past_transactions,2,True
+1267,84,"Madam, last transaction details please",2,past_transactions,2,True
+1268,84,"Sir, last transaction details",2,past_transactions,2,True
+1269,84,"I need help, last transaction details kindly",2,past_transactions,2,True
+1270,84,madam last transaction details,2,past_transactions,3,True
+1271,84,i need help last transaction details,2,past_transactions,3,True
+1272,84,help me last transaction details sir,2,past_transactions,3,True
+1273,84,last transaction details about my savings account,2,past_transactions,3,True
+1274,84,last transaction details about my salary account,2,past_transactions,3,True
+1275,85,debit card dispatch status,3,dispatch_status,1,True
+1276,85,debit card dispatch status from SBI,3,dispatch_status,1,True
+1277,85,debit card dispatch status that i requested on monday,3,dispatch_status,1,True
+1278,85,debit card dispatch status that i applied for last week,3,dispatch_status,1,True
+1279,85,ATM card dispatch status,3,dispatch_status,1,True
+1280,85,i applied for a card so has it been dispatched,3,dispatch_status,2,True
+1281,85,"Hi, debit card dispatch status please",3,dispatch_status,2,True
+1282,85,"Excuse me, debit card dispatch status kindly",3,dispatch_status,2,True
+1283,85,"Please help me, debit card dispatch status sir",3,dispatch_status,2,True
+1284,85,debit card dispatch status thank you,3,dispatch_status,2,True
+1285,85,hi debit card dispatch status,3,dispatch_status,3,True
+1286,85,i applied for card so has it been dispatched,3,dispatch_status,3,True
+1287,85,excuse me debit card dispatch status,3,dispatch_status,3,True
+1288,85,help me debit card dispatch status sir,3,dispatch_status,3,True
+1289,85,debit card dispatch status from sbi,3,dispatch_status,3,True
+1290,86,I want to activate my credit card,1,activate_card,1,True
+1291,86,I want to activate my Mastercard,1,activate_card,1,True
+1292,86,I want to activate my credit card issued by Axis Bank,1,activate_card,1,True
+1293,86,I want to activate my credit card ending 7305,1,activate_card,1,True
+1294,86,I want to activate my credit card ending with 4821,1,activate_card,1,True
+1295,86,help me activate my new card,1,activate_card,2,True
+1296,86,"Please help me, I want to activate my credit card",1,activate_card,2,True
+1297,86,"I need help, I want to activate my credit card kindly",1,activate_card,2,True
+1298,86,"Hello madam, I want to activate my credit card kindly",1,activate_card,2,True
+1299,86,"I need help, I want to activate my credit card",1,activate_card,2,True
+1300,86,hello madam i want to activate my credit card,1,activate_card,3,True
+1301,86,help me i want to activate my credit card,1,activate_card,3,True
+1302,86,hello madam i am wanting to activate my credit card,1,activate_card,3,True
+1303,86,i need help i am wanting to activate my credit card kindly,1,activate_card,3,True
+1304,86,i need help i am wanting to activate my credit card,1,activate_card,3,True
+1305,87,Perosnal Loan,9,loan_query,1,True
+1306,87,Perosnal personal loan,9,loan_query,1,True
+1307,87,Perosnal education loan,9,loan_query,1,True
+1308,87,Perosnal Loan for my business,9,loan_query,1,True
+1309,87,Perosnal Loan for my shop,9,loan_query,1,True
+1310,87,"Excuse me, perosnal Loan",9,loan_query,2,True
+1311,87,"Hi, perosnal Loan please",9,loan_query,2,True
+1312,87,"I need help, perosnal Loan as soon as possible",9,loan_query,2,True
+1313,87,"Please help me, perosnal Loan madam",9,loan_query,2,True
+1314,87,"Kindly help me, perosnal Loan as soon as possible",9,loan_query,2,True
+1315,87,hi perosnal loan,9,loan_query,3,True
+1316,87,help me perosnal loan as soon as possible,9,loan_query,3,True
+1317,87,help me perosnal loan madam,9,loan_query,3,True
+1318,87,i need help perosnal loan as soon as possible,9,loan_query,3,True
+1319,87,perosnal loan,9,loan_query,3,True
+1320,88,limit change,11,change_limit,1,True
+1321,88,limit change ending 7305,11,change_limit,1,True
+1322,88,limit change issued by Axis Bank,11,change_limit,1,True
+1323,88,limit change ending with 4821,11,change_limit,1,True
+1324,88,limit change issued by SBI,11,change_limit,1,True
+1325,88,i want to lower my atm withdrawal limit,11,change_limit,2,True
+1326,88,"Please help me, limit change madam",11,change_limit,2,True
+1327,88,"Excuse me, limit change thank you",11,change_limit,2,True
+1328,88,"Please help me, limit change thank you",11,change_limit,2,True
+1329,88,"I need help, limit change kindly",11,change_limit,2,True
+1330,88,i am wanting to lower my atm withdrawal limit,11,change_limit,3,True
+1331,88,i need help limit change,11,change_limit,3,True
+1332,88,help me limit change thank you,11,change_limit,3,True
+1333,88,help me limit change madam,11,change_limit,3,True
+1334,88,limit change issued by sbi,11,change_limit,3,True
+1335,89,Where is my credit card?,3,dispatch_status,1,True
+1336,89,Where is my ATM card?,3,dispatch_status,1,True
+1337,89,Where is my credit card from SBI,3,dispatch_status,1,True
+1338,89,Where is my credit card that i requested on monday,3,dispatch_status,1,True
+1339,89,Where is my Visa card?,3,dispatch_status,1,True
+1340,89,how many more days for my card to arrive,3,dispatch_status,2,True
+1341,89,"Hi, where is my credit card as soon as possible",3,dispatch_status,2,True
+1342,89,Where is my credit card kindly,3,dispatch_status,2,True
+1343,89,"Please help me, where is my credit card as soon as possible",3,dispatch_status,2,True
+1344,89,"Hello sir, where is my credit card as soon as possible",3,dispatch_status,2,True
+1345,89,help me where is my credit card as soon as possible,3,dispatch_status,3,True
+1346,89,where is my credit card,3,dispatch_status,3,True
+1347,89,where is my credit card kindly,3,dispatch_status,3,True
+1348,89,hello sir where is my credit card as soon as possible,3,dispatch_status,3,True
+1349,89,where is my atm card,3,dispatch_status,3,True
+1350,90,I want to decrease the limit of my credit card,11,change_limit,1,True
+1351,90,I want to decrease the limit of my Visa card,11,change_limit,1,True
+1352,90,I want to decrease the limit of my credit card issued by HDFC Bank,11,change_limit,1,True
+1353,90,I want to decrease the limit of my credit card issued by SBI,11,change_limit,1,True
+1354,90,I want to decrease the limit of my debit card,11,change_limit,1,True
+1355,90,change my card spending limit,11,change_limit,2,True
+1356,90,"Hi, I want to decrease the limit of my credit card kindly",11,change_limit,2,True
+1357,90,"Please help me, I want to decrease the limit of my credit card madam",11,change_limit,2,True
+1358,90,"Kindly help me, I want to decrease the limit of my credit card thank you",11,change_limit,2,True
+1359,90,I want to decrease the limit of my credit card please,11,change_limit,2,True
+1360,90,i want to decrease limit of my credit card,11,change_limit,3,True
+1361,90,i am wanting to decrease limit of my credit card,11,change_limit,3,True
+1362,90,i want to decrease limit of my credit card issued by sbi,11,change_limit,3,True
+1363,90,i want to decrease limit of my debit card,11,change_limit,3,True
+1364,90,help me i am wanting to decrease limit of my credit card thank you,11,change_limit,3,True
+1365,91,I want to block my debit card,12,block,1,True
+1366,91,I want to block my debit card immediately,12,block,1,True
+1367,91,I want to block my debit card right now,12,block,1,True
+1368,91,I want to block my debit card for security reasons,12,block,1,True
+1369,91,I want to block my debit card today,12,block,1,True
+1370,91,stop my mobile banking,12,block,2,True
+1371,91,"Excuse me, I want to block my debit card madam",12,block,2,True
+1372,91,"Please help me, I want to block my debit card immediately",12,block,2,True
+1373,91,"It is urgent, I want to block my debit card as soon as possible",12,block,2,True
+1374,91,"I need help, I want to block my debit card as soon as possible",12,block,2,True
+1375,91,it is urgent i am wanting to block my debit card as soon as possible,12,block,3,True
+1376,91,i am wanting to block my debit card for security reasons,12,block,3,True
+1377,91,i need help i am wanting to block my debit card as soon as possible,12,block,3,True
+1378,91,excuse me i am wanting to block my debit card madam,12,block,3,True
+1379,91,help me i want to block my debit card immediately,12,block,3,True
+1380,92,I cannot find my credit card,13,lost,1,True
+1381,92,I cannot find my credit card ending with 4821,13,lost,1,True
+1382,92,I cannot find my Visa card,13,lost,1,True
+1383,92,I cannot find my credit card ending 7305,13,lost,1,True
+1384,92,I cannot find my ATM card,13,lost,1,True
+1385,92,my atm card is missing,13,lost,2,True
+1386,92,"Sir, I cannot find my credit card kindly",13,lost,2,True
+1387,92,"Madam, I cannot find my credit card kindly",13,lost,2,True
+1388,92,"Hello madam, I cannot find my credit card right now",13,lost,2,True
+1389,92,"Hi, I cannot find my credit card kindly",13,lost,2,True
+1390,92,i am not able to find my credit card,13,lost,3,True
+1391,92,madam i am not able to find my credit card,13,lost,3,True
+1392,92,hi i cannot find my credit card,13,lost,3,True
+1393,92,madam i cannot find my credit card,13,lost,3,True
+1394,92,hi i am not able to find my credit card,13,lost,3,True
+1395,93,Tell me my last 2 transactions,2,past_transactions,1,True
+1396,93,Tell me my last 2 transactions of my salary account,2,past_transactions,1,True
+1397,93,Tell me my last five transactions,2,past_transactions,1,True
+1398,93,Tell me my last 3 transactions of my current account,2,past_transactions,1,True
+1399,93,Tell me my last 10 transactions,2,past_transactions,1,True
+1400,93,"Kindly help me, tell me my last 2 transactions sir",2,past_transactions,2,True
+1401,93,"I need help, tell me my last 2 transactions sir",2,past_transactions,2,True
+1402,93,"Madam, tell me my last 2 transactions please",2,past_transactions,2,True
+1403,93,Tell me my last 2 transactions madam,2,past_transactions,2,True
+1404,93,"I need help, tell me my last 2 transactions",2,past_transactions,2,True
+1405,93,help me tell me my last 2 transactions sir,2,past_transactions,3,True
+1406,93,madam tell me my last 2 transactions,2,past_transactions,3,True
+1407,93,i need help tell me my last 2 transactions,2,past_transactions,3,True
+1408,93,tell me my last 2 transactions of my salary account,2,past_transactions,3,True
+1409,93,madam tell me my last 2 transactions please,2,past_transactions,3,True
+1410,94,Debit card is missing,13,lost,1,True
+1411,94,Debit card is missing ending 7305,13,lost,1,True
+1412,94,debit card is missing,13,lost,1,True
+1413,94,Visa card is missing,13,lost,1,True
+1414,94,Debit card is missing issued by HDFC Bank,13,lost,1,True
+1415,94,i cannot trace my card,13,lost,2,True
+1416,94,"Please help me, debit card is missing madam",13,lost,2,True
+1417,94,"Madam, debit card is missing immediately",13,lost,2,True
+1418,94,"Hi, debit card is missing immediately",13,lost,2,True
+1419,94,"Hello madam, debit card is missing",13,lost,2,True
+1420,94,debit card is got missing,13,lost,3,True
+1421,94,help me debit card is missing madam,13,lost,3,True
+1422,94,i am not able to trace my card,13,lost,3,True
+1423,94,hi debit card is got missing immediately,13,lost,3,True
+1424,94,debit card is got missing ending 7305,13,lost,3,True
+1425,95,I lost my debit card,13,lost,1,True
+1426,95,I lost my debit card issued by SBI,13,lost,1,True
+1427,95,I lost my debit card ending with 4821,13,lost,1,True
+1428,95,I lost my debit card ending 7305,13,lost,1,True
+1429,95,I lost my Mastercard,13,lost,1,True
+1430,95,my card is not with me and i lost it,13,lost,2,True
+1431,95,I lost my debit card please,13,lost,2,True
+1432,95,"Kindly help me, I lost my debit card madam",13,lost,2,True
+1433,95,"It is urgent, I lost my debit card madam",13,lost,2,True
+1434,95,"Please hurry, I lost my debit card as soon as possible",13,lost,2,True
+1435,95,i have lost my debit card ending with 4821,13,lost,3,True
+1436,95,help me i lost my debit card madam,13,lost,3,True
+1437,95,kindly help me i have lost my debit card madam,13,lost,3,True
+1438,95,i have lost my debit card issued by sbi,13,lost,3,True
+1439,95,help me i have lost my debit card madam,13,lost,3,True
+1440,96,Credit card issue,5,card_issue,1,True
+1441,96,Visa card issue,5,card_issue,1,True
+1442,96,Credit card issue issued by Axis Bank,5,card_issue,1,True
+1443,96,Credit card issue ending with 4821,5,card_issue,1,True
+1444,96,Credit card issue issued by HDFC Bank,5,card_issue,1,True
+1445,96,my card is not accepted anywhere,5,card_issue,2,True
+1446,96,"Hello sir, credit card issue kindly",5,card_issue,2,True
+1447,96,"Hello, credit card issue sir",5,card_issue,2,True
+1448,96,"Hello, credit card issue kindly",5,card_issue,2,True
+1449,96,"I need help, credit card issue kindly",5,card_issue,2,True
+1450,96,hello sir credit card issue,5,card_issue,3,True
+1451,96,i need help credit card issue,5,card_issue,3,True
+1452,96,hello credit card issue,5,card_issue,3,True
+1453,96,hello sir credit card issue kindly,5,card_issue,3,True
+1454,96,i need help credit card issue kindly,5,card_issue,3,True
+1455,97,Can you please tell me the IFSC Code?,6,ifsc_code,1,True
+1456,97,Can you please tell me the IFSC Code of my branch,6,ifsc_code,1,True
+1457,97,Can you please tell me the IFSC Code for fund transfer,6,ifsc_code,1,True
+1458,97,Can you please tell me the IFSC Code of my home branch,6,ifsc_code,1,True
+1459,97,Can you please tell me the IFSC Code for my savings account,6,ifsc_code,1,True
+1460,97,give me the bank ifsc code,6,ifsc_code,2,True
+1461,97,"Hello madam, can you please tell me the IFSC Code",6,ifsc_code,2,True
+1462,97,"Sir, can you please tell me the IFSC Code",6,ifsc_code,2,True
+1463,97,"Hello, can you please tell me the IFSC Code thank you",6,ifsc_code,2,True
+1464,97,"Excuse me, can you please tell me the IFSC Code sir",6,ifsc_code,2,True
+1465,97,sir can you tell me ifsc code,6,ifsc_code,3,True
+1466,97,can you tell me i f s c code,6,ifsc_code,3,True
+1467,97,can you tell me i f s c code of my home branch,6,ifsc_code,3,True
+1468,97,sir can you tell me i f s c code,6,ifsc_code,3,True
+1469,97,can you tell me i f s c code for fund transfer,6,ifsc_code,3,True
+1470,98,when will my credit card be dispatched?,3,dispatch_status,1,True
+1471,98,when will my Mastercard be dispatched?,3,dispatch_status,1,True
+1472,98,when will my credit card be dispatched from SBI,3,dispatch_status,1,True
+1473,98,when will my credit card be dispatched that i applied for last week,3,dispatch_status,1,True
+1474,98,when will my Visa card be dispatched?,3,dispatch_status,1,True
+1475,98,status of my card courier,3,dispatch_status,2,True
+1476,98,"I need help, when will my credit card be dispatched sir",3,dispatch_status,2,True
+1477,98,"Hello sir, when will my credit card be dispatched",3,dispatch_status,2,True
+1478,98,"Hi, when will my credit card be dispatched madam",3,dispatch_status,2,True
+1479,98,when will my credit card be dispatched as soon as possible,3,dispatch_status,2,True
+1480,98,hello sir when will my credit card be dispatched,3,dispatch_status,3,True
+1481,98,when will my visa card be dispatched,3,dispatch_status,3,True
+1482,98,hi when will my credit card be dispatched madam,3,dispatch_status,3,True
+1483,98,when will my credit card be dispatched,3,dispatch_status,3,True
+1484,98,i need help when will my credit card be dispatched sir,3,dispatch_status,3,True
+1485,99,Personal Loan related query,9,loan_query,1,True
+1486,99,Personal Loan related query for my family,9,loan_query,1,True
+1487,99,Personal Loan related query for my business,9,loan_query,1,True
+1488,99,gold loan related query,9,loan_query,1,True
+1489,99,personal loan related query,9,loan_query,1,True
+1490,99,"Excuse me, personal Loan related query madam",9,loan_query,2,True
+1491,99,"Excuse me, personal Loan related query sir",9,loan_query,2,True
+1492,99,"Hello, personal Loan related query kindly",9,loan_query,2,True
+1493,99,"Hi, personal Loan related query madam",9,loan_query,2,True
+1494,99,"Sir, personal Loan related query please",9,loan_query,2,True
+1495,99,sir personal loan related query,9,loan_query,3,True
+1496,99,hello personal loan related query,9,loan_query,3,True
+1497,99,personal loan related query for my business,9,loan_query,3,True
+1498,99,excuse me personal loan related query sir,9,loan_query,3,True
+1499,99,excuse me personal loan related query madam,9,loan_query,3,True
+1500,100,I want to know my bank balance,10,balance_enquiry,1,True
+1501,100,I want to know my bank balance of my salary account,10,balance_enquiry,1,True
+1502,100,I want to know my bank balance of my current account,10,balance_enquiry,1,True
+1503,100,I want to know my bank balance right now,10,balance_enquiry,1,True
+1504,100,I want to know my bank balance today,10,balance_enquiry,1,True
+1505,100,how much balance do i have,10,balance_enquiry,2,True
+1506,100,"Sir, I want to know my bank balance thank you",10,balance_enquiry,2,True
+1507,100,"Excuse me, I want to know my bank balance sir",10,balance_enquiry,2,True
+1508,100,"Hello madam, I want to know my bank balance thank you",10,balance_enquiry,2,True
+1509,100,"Please help me, I want to know my bank balance thank you",10,balance_enquiry,2,True
+1510,100,help me i want to know my bank balance thank you,10,balance_enquiry,3,True
+1511,100,i am wanting to know my bank balance of my salary account,10,balance_enquiry,3,True
+1512,100,excuse me i am wanting to know my bank balance sir,10,balance_enquiry,3,True
+1513,100,hello madam i am wanting to know my bank balance thank you,10,balance_enquiry,3,True
+1514,100,i am wanting to know my bank balance today,10,balance_enquiry,3,True
+1515,101,I cannot pay using my credit card,5,card_issue,1,True
+1516,101,I cannot pay using my credit card issued by HDFC Bank,5,card_issue,1,True
+1517,101,I cannot pay using my credit card ending 7305,5,card_issue,1,True
+1518,101,I cannot pay using my debit card,5,card_issue,1,True
+1519,101,I cannot pay using my Mastercard,5,card_issue,1,True
+1520,101,card transaction keeps failing,5,card_issue,2,True
+1521,101,"Hi, I cannot pay using my credit card",5,card_issue,2,True
+1522,101,"Please help me, I cannot pay using my credit card as soon as possible",5,card_issue,2,True
+1523,101,"Hello madam, I cannot pay using my credit card please",5,card_issue,2,True
+1524,101,"Sir, I cannot pay using my credit card please",5,card_issue,2,True
+1525,101,i am not able to pay using my credit card,5,card_issue,3,True
+1526,101,hi i am not able to pay using my credit card,5,card_issue,3,True
+1527,101,i am not able to pay using my credit card issued by hdfc bank,5,card_issue,3,True
+1528,101,hello madam i cannot pay using my credit card,5,card_issue,3,True
+1529,101,hello madam i am not able to pay using my credit card please,5,card_issue,3,True
+1530,102,Bank address,0,branch_address,1,True
+1531,102,Bank address in Mumbai,0,branch_address,1,True
+1532,102,Kotak Bank address,0,branch_address,1,True
+1533,102,SBI address,0,branch_address,1,True
+1534,102,Axis Bank address,0,branch_address,1,True
+1535,102,give me the address of the branch,0,branch_address,2,True
+1536,102,"Kindly help me, bank address sir",0,branch_address,2,True
+1537,102,"Please help me, bank address thank you",0,branch_address,2,True
+1538,102,"Hello sir, bank address kindly",0,branch_address,2,True
+1539,102,"Excuse me, bank address sir",0,branch_address,2,True
+1540,102,help me bank address thank you,0,branch_address,3,True
+1541,102,help me bank address sir,0,branch_address,3,True
+1542,102,hello sir bank address,0,branch_address,3,True
+1543,102,give me address of branch,0,branch_address,3,True
+1544,102,bank address,0,branch_address,3,True
+1545,103,What is my account balance,10,balance_enquiry,1,True
+1546,103,What is my account balance of my savings account,10,balance_enquiry,1,True
+1547,103,What is my account balance right now,10,balance_enquiry,1,True
+1548,103,What is my account balance of my current account,10,balance_enquiry,1,True
+1549,103,What is my account balance of my salary account,10,balance_enquiry,1,True
+1550,103,can you tell me my current balance,10,balance_enquiry,2,True
+1551,103,"Hello, what is my account balance thank you",10,balance_enquiry,2,True
+1552,103,"Madam, what is my account balance as soon as possible",10,balance_enquiry,2,True
+1553,103,"Hi, what is my account balance",10,balance_enquiry,2,True
+1554,103,"Sir, what is my account balance as soon as possible",10,balance_enquiry,2,True
+1555,103,tell me what is my account balance of my current account,10,balance_enquiry,3,True
+1556,103,hello tell me what is my account balance thank you,10,balance_enquiry,3,True
+1557,103,tell me what is my account balance of my savings account,10,balance_enquiry,3,True
+1558,103,tell me what is my account balance right now,10,balance_enquiry,3,True
+1559,103,hi tell me what is my account balance,10,balance_enquiry,3,True
+1560,104,Bank Branch location,0,branch_address,1,True
+1561,104,ICICI Bank Branch location,0,branch_address,1,True
+1562,104,SBI Branch location,0,branch_address,1,True
+1563,104,Bank Branch location in Pune,0,branch_address,1,True
+1564,104,Bank Branch location in my area,0,branch_address,1,True
+1565,104,is there any branch close to my office,0,branch_address,2,True
+1566,104,"I need help, bank Branch location please",0,branch_address,2,True
+1567,104,Bank Branch location please,0,branch_address,2,True
+1568,104,"Hello, bank Branch location as soon as possible",0,branch_address,2,True
+1569,104,"I need help, bank Branch location as soon as possible",0,branch_address,2,True
+1570,104,i need help bank branch location,0,branch_address,3,True
+1571,104,bank branch location,0,branch_address,3,True
+1572,104,bank branch location please,0,branch_address,3,True
+1573,104,hello bank branch location as soon as possible,0,branch_address,3,True
+1574,104,icici bank branch location,0,branch_address,3,True
+1575,105,Amount wrongly deducted from my account,8,unauthorised_transaction,1,True
+1576,105,Amount wrongly deducted from my account for 5000 rupees,8,unauthorised_transaction,1,True
+1577,105,Amount wrongly deducted from my account of 12000 rupees,8,unauthorised_transaction,1,True
+1578,105,Amount wrongly deducted from my account last night,8,unauthorised_transaction,1,True
+1579,105,Amount wrongly deducted from my account today,8,unauthorised_transaction,1,True
+1580,105,an unknown transaction happened on my account,8,unauthorised_transaction,2,True
+1581,105,"I need help, amount wrongly deducted from my account immediately",8,unauthorised_transaction,2,True
+1582,105,"Hello, amount wrongly deducted from my account as soon as possible",8,unauthorised_transaction,2,True
+1583,105,"Hello sir, amount wrongly deducted from my account thank you",8,unauthorised_transaction,2,True
+1584,105,"Hello sir, amount wrongly deducted from my account urgently",8,unauthorised_transaction,2,True
+1585,105,unknown transaction happened on my account,8,unauthorised_transaction,3,True
+1586,105,hello amount wrongly deducted from my account as soon as possible,8,unauthorised_transaction,3,True
+1587,105,hello sir amount wrongly deducted from my account urgently,8,unauthorised_transaction,3,True
+1588,105,amount wrongly deducted from my account,8,unauthorised_transaction,3,True
+1589,105,amount wrongly deducted from my account last night,8,unauthorised_transaction,3,True
+1590,106,How to apply for loan,9,loan_query,1,True
+1591,106,How to apply for loan for 5 lakh rupees,9,loan_query,1,True
+1592,106,How to apply for personal loan,9,loan_query,1,True
+1593,106,How to apply for loan for my business,9,loan_query,1,True
+1594,106,How to apply for loan for a new house,9,loan_query,1,True
+1595,106,"Excuse me, how to apply for loan madam",9,loan_query,2,True
+1596,106,"I need help, how to apply for loan thank you",9,loan_query,2,True
+1597,106,"Kindly help me, how to apply for loan thank you",9,loan_query,2,True
+1598,106,"Excuse me, how to apply for loan thank you",9,loan_query,2,True
+1599,106,"Hello, how to apply for loan madam",9,loan_query,2,True
+1600,106,how can i apply for personal loan,9,loan_query,3,True
+1601,106,how can i apply for loan for new house,9,loan_query,3,True
+1602,106,i need help how can i apply for loan thank you,9,loan_query,3,True
+1603,106,excuse me how can i apply for loan thank you,9,loan_query,3,True
+1604,106,how can i apply for loan,9,loan_query,3,True
+1605,107,My credit card is not working,5,card_issue,1,True
+1606,107,My ATM card is not working,5,card_issue,1,True
+1607,107,My credit card is not working ending 7305,5,card_issue,1,True
+1608,107,My credit card is not working ending with 4821,5,card_issue,1,True
+1609,107,My credit card is not working issued by Axis Bank,5,card_issue,1,True
+1610,107,i have trouble using my credit card,5,card_issue,2,True
+1611,107,"Hello sir, my credit card is not working please",5,card_issue,2,True
+1612,107,"Sir, my credit card is not working kindly",5,card_issue,2,True
+1613,107,"I need help, my credit card is not working thank you",5,card_issue,2,True
+1614,107,"I need help, my credit card is not working sir",5,card_issue,2,True
+1615,107,my credit card is not working properly ending with 4821,5,card_issue,3,True
+1616,107,my credit card is not working properly,5,card_issue,3,True
+1617,107,my credit card is not working properly issued by axis bank,5,card_issue,3,True
+1618,107,i need help my credit card is not working properly thank you,5,card_issue,3,True
+1619,107,sir my credit card is not working,5,card_issue,3,True
+1620,108,I want to block my card,12,block,1,True
+1621,108,I want to block my card for security reasons,12,block,1,True
+1622,108,I want to block my card as soon as possible,12,block,1,True
+1623,108,I want to block my card right now,12,block,1,True
+1624,108,I want to block my card today,12,block,1,True
+1625,108,"Please help me, I want to block my card right now",12,block,2,True
+1626,108,"This is an emergency, I want to block my card",12,block,2,True
+1627,108,"Hello sir, I want to block my card please",12,block,2,True
+1628,108,"Excuse me, I want to block my card as soon as possible",12,block,2,True
+1629,108,"Madam, I want to block my card right now",12,block,2,True
+1630,108,hello sir i want to block my card,12,block,3,True
+1631,108,excuse me i am wanting to block my card as soon as possible,12,block,3,True
+1632,108,i am wanting to block my card today,12,block,3,True
+1633,108,i am wanting to block my card as soon as possible,12,block,3,True
+1634,108,madam i am wanting to block my card right now,12,block,3,True
+1635,109,Nearest Branch,0,branch_address,1,True
+1636,109,Nearest Branch in my area,0,branch_address,1,True
+1637,109,Nearest Branch in Mumbai,0,branch_address,1,True
+1638,109,Nearest Branch near me,0,branch_address,1,True
+1639,109,Nearest Branch in Hyderabad,0,branch_address,1,True
+1640,109,tell me the location of your bank branch,0,branch_address,2,True
+1641,109,"Excuse me, nearest Branch",0,branch_address,2,True
+1642,109,"Sir, nearest Branch",0,branch_address,2,True
+1643,109,"Excuse me, nearest Branch kindly",0,branch_address,2,True
+1644,109,"Hi, nearest Branch thank you",0,branch_address,2,True
+1645,109,excuse me nearest branch,0,branch_address,3,True
+1646,109,tell me location of your bank branch,0,branch_address,3,True
+1647,109,nearest branch in my area,0,branch_address,3,True
+1648,109,nearest branch in hyderabad,0,branch_address,3,True
+1649,109,excuse me nearest branch kindly,0,branch_address,3,True
+1650,110,Where can I find my IFSC Code,6,ifsc_code,1,True
+1651,110,Where can I find my IFSC Code for neft transfer,6,ifsc_code,1,True
+1652,110,Where can I find my IFSC Code for my savings account,6,ifsc_code,1,True
+1653,110,Where can I find my IFSC Code for fund transfer,6,ifsc_code,1,True
+1654,110,Where can I find my IFSC Code of my home branch,6,ifsc_code,1,True
+1655,110,can you share the ifsc code,6,ifsc_code,2,True
+1656,110,"Hello, where can I find my IFSC Code as soon as possible",6,ifsc_code,2,True
+1657,110,"Kindly help me, where can I find my IFSC Code",6,ifsc_code,2,True
+1658,110,"Sir, where can I find my IFSC Code thank you",6,ifsc_code,2,True
+1659,110,"Sir, where can I find my IFSC Code please",6,ifsc_code,2,True
+1660,110,can you share the i f s c code,6,ifsc_code,3,True
+1661,110,where can i find my i f s c code of my home branch,6,ifsc_code,3,True
+1662,110,sir where can i find my i f s c code thank you,6,ifsc_code,3,True
+1663,110,where can i find my i f s c code,6,ifsc_code,3,True
+1664,110,can you share ifsc code,6,ifsc_code,3,True
+1665,111,block mobile banking,12,block,1,True
+1666,111,block mobile banking for security reasons,12,block,1,True
+1667,111,block mobile banking immediately,12,block,1,True
+1668,111,block mobile banking today,12,block,1,True
+1669,111,block mobile banking right now,12,block,1,True
+1670,111,"Excuse me, block mobile banking madam",12,block,2,True
+1671,111,"Hello madam, block mobile banking urgently",12,block,2,True
+1672,111,"It is urgent, block mobile banking thank you",12,block,2,True
+1673,111,"Sir, block mobile banking immediately",12,block,2,True
+1674,111,"Hi, block mobile banking immediately",12,block,2,True
+1675,111,it is urgent block mobile banking thank you,12,block,3,True
+1676,111,excuse me block mobile banking madam,12,block,3,True
+1677,111,sir block mobile banking immediately,12,block,3,True
+1678,111,hi block mobile banking immediately,12,block,3,True
+1679,111,hello madam block mobile banking urgently,12,block,3,True
+1680,112,Axis Bank branch location,0,branch_address,1,True
+1681,112,Axis Axis Bank branch location,0,branch_address,1,True
+1682,112,Axis Bank branch location near me,0,branch_address,1,True
+1683,112,HDFC ICICI Bank branch location,0,branch_address,1,True
+1684,112,Axis Bank branch location in my area,0,branch_address,1,True
+1685,112,"I need help, Axis Bank branch location kindly",0,branch_address,2,True
+1686,112,"Hi, Axis Bank branch location kindly",0,branch_address,2,True
+1687,112,Axis Bank branch location thank you,0,branch_address,2,True
+1688,112,"Hello sir, Axis Bank branch location kindly",0,branch_address,2,True
+1689,112,"Sir, Axis Bank branch location kindly",0,branch_address,2,True
+1690,112,hello sir axis bank branch location,0,branch_address,3,True
+1691,112,sir axis bank branch location,0,branch_address,3,True
+1692,112,hi axis bank branch location,0,branch_address,3,True
+1693,112,i need help axis bank branch location,0,branch_address,3,True
+1694,112,sir axis bank branch location kindly,0,branch_address,3,True
+1695,113,I cannot use my credit card,5,card_issue,1,True
+1696,113,I cannot use my credit card issued by HDFC Bank,5,card_issue,1,True
+1697,113,I cannot use my credit card ending 7305,5,card_issue,1,True
+1698,113,I cannot use my Visa card,5,card_issue,1,True
+1699,113,I cannot use my Mastercard,5,card_issue,1,True
+1700,113,"Hi, I cannot use my credit card madam",5,card_issue,2,True
+1701,113,"Hello, I cannot use my credit card thank you",5,card_issue,2,True
+1702,113,"Please help me, I cannot use my credit card madam",5,card_issue,2,True
+1703,113,"Excuse me, I cannot use my credit card",5,card_issue,2,True
+1704,113,"I need help, I cannot use my credit card please",5,card_issue,2,True
+1705,113,i need help i cannot use my credit card,5,card_issue,3,True
+1706,113,i need help i am not able to use my credit card,5,card_issue,3,True
+1707,113,help me i cannot use my credit card madam,5,card_issue,3,True
+1708,113,i am not able to use my credit card,5,card_issue,3,True
+1709,113,hello i am not able to use my credit card thank you,5,card_issue,3,True
+1710,114,I want to generate pin,7,generate_pin,1,True
+1711,114,I want to generate pin ending with 4821,7,generate_pin,1,True
+1712,114,I want to generate pin issued by HDFC Bank,7,generate_pin,1,True
+1713,114,I want to generate pin issued by SBI,7,generate_pin,1,True
+1714,114,I want to generate pin ending 7305,7,generate_pin,1,True
+1715,114,"Excuse me, I want to generate pin madam",7,generate_pin,2,True
+1716,114,"Excuse me, I want to generate pin thank you",7,generate_pin,2,True
+1717,114,"Madam, I want to generate pin thank you",7,generate_pin,2,True
+1718,114,"I need help, I want to generate pin kindly",7,generate_pin,2,True
+1719,114,"Sir, I want to generate pin as soon as possible",7,generate_pin,2,True
+1720,114,i want to generate p i n issued by sbi,7,generate_pin,3,True
+1721,114,i need help i want to generate pin,7,generate_pin,3,True
+1722,114,excuse me i am wanting to generate pin madam,7,generate_pin,3,True
+1723,114,i am wanting to generate pin ending with 4821,7,generate_pin,3,True
+1724,114,i need help i am wanting to generate pin,7,generate_pin,3,True
+1725,115,Pending amount on credit card,4,outstanding_balance,1,True
+1726,115,Pending amount on credit card right now,4,outstanding_balance,1,True
+1727,115,Pending amount on HDFC credit card,4,outstanding_balance,1,True
+1728,115,Pending amount on credit card as of today,4,outstanding_balance,1,True
+1729,115,Pending amount on SBI credit card,4,outstanding_balance,1,True
+1730,115,what do i owe on my credit card,4,outstanding_balance,2,True
+1731,115,"Hi, pending amount on credit card please",4,outstanding_balance,2,True
+1732,115,Pending amount on credit card as soon as possible,4,outstanding_balance,2,True
+1733,115,"Kindly help me, pending amount on credit card thank you",4,outstanding_balance,2,True
+1734,115,"I need help, pending amount on credit card kindly",4,outstanding_balance,2,True
+1735,115,help me pending amount on credit card thank you,4,outstanding_balance,3,True
+1736,115,i need help pending amount on credit card,4,outstanding_balance,3,True
+1737,115,hi pending amount on credit card,4,outstanding_balance,3,True
+1738,115,pending amount on hdfc credit card,4,outstanding_balance,3,True
+1739,115,pending amount on credit card as of today,4,outstanding_balance,3,True
+1740,116,What is the remaining outstanding balance on my credit card?,4,outstanding_balance,1,True
+1741,116,What is the remaining outstanding balance on my HDFC credit card?,4,outstanding_balance,1,True
+1742,116,What is the remaining outstanding balance on my Mastercard credit card?,4,outstanding_balance,1,True
+1743,116,What is the remaining outstanding balance on my credit card right now,4,outstanding_balance,1,True
+1744,116,What is the remaining outstanding balance on my SBI credit card?,4,outstanding_balance,1,True
+1745,116,what is my credit card payment due,4,outstanding_balance,2,True
+1746,116,"I need help, what is the remaining outstanding balance on my credit card thank you",4,outstanding_balance,2,True
+1747,116,"Hello madam, what is the remaining outstanding balance on my credit card kindly",4,outstanding_balance,2,True
+1748,116,"Sir, what is the remaining outstanding balance on my credit card thank you",4,outstanding_balance,2,True
+1749,116,"Hi, what is the remaining outstanding balance on my credit card madam",4,outstanding_balance,2,True
+1750,116,hello madam tell me what is the remaining outstanding balance on my credit card kindly,4,outstanding_balance,3,True
+1751,116,what is remaining outstanding balance on my sbi credit card,4,outstanding_balance,3,True
+1752,116,i need help tell me what is the remaining outstanding balance on my credit card thank you,4,outstanding_balance,3,True
+1753,116,tell me what is the remaining outstanding balance on my sbi credit card,4,outstanding_balance,3,True
+1754,116,what is remaining outstanding balance on my credit card,4,outstanding_balance,3,True
+1755,117,Bank account balance,10,balance_enquiry,1,True
+1756,117,Bank account balance right now,10,balance_enquiry,1,True
+1757,117,Bank account balance of my savings account,10,balance_enquiry,1,True
+1758,117,Bank account balance today,10,balance_enquiry,1,True
+1759,117,Bank account balance of my salary account,10,balance_enquiry,1,True
+1760,117,available balance in my bank account,10,balance_enquiry,2,True
+1761,117,"Excuse me, bank account balance sir",10,balance_enquiry,2,True
+1762,117,"Hi, bank account balance please",10,balance_enquiry,2,True
+1763,117,Bank account balance sir,10,balance_enquiry,2,True
+1764,117,"Hello sir, bank account balance as soon as possible",10,balance_enquiry,2,True
+1765,117,hi bank account balance,10,balance_enquiry,3,True
+1766,117,bank account balance of my savings account,10,balance_enquiry,3,True
+1767,117,hi bank account balance please,10,balance_enquiry,3,True
+1768,117,bank account balance of my salary account,10,balance_enquiry,3,True
+1769,117,bank account balance sir,10,balance_enquiry,3,True
+1770,118,I have a query regarding personal loan,9,loan_query,1,True
+1771,118,I have a query regarding personal loan for my family,9,loan_query,1,True
+1772,118,I have a query regarding personal loan for my business,9,loan_query,1,True
+1773,118,I have a query regarding gold loan,9,loan_query,1,True
+1774,118,I have a query regarding car loan,9,loan_query,1,True
+1775,118,"Madam, I have a query regarding personal loan",9,loan_query,2,True
+1776,118,"Hello, I have a query regarding personal loan kindly",9,loan_query,2,True
+1777,118,"Madam, I have a query regarding personal loan please",9,loan_query,2,True
+1778,118,"Kindly help me, I have a query regarding personal loan madam",9,loan_query,2,True
+1779,118,"Hello madam, I have a query regarding personal loan kindly",9,loan_query,2,True
+1780,118,i have query regarding personal loan,9,loan_query,3,True
+1781,118,i have query regarding car loan,9,loan_query,3,True
+1782,118,madam i have query regarding personal loan,9,loan_query,3,True
+1783,118,i have query regarding personal loan for my family,9,loan_query,3,True
+1784,118,i have query regarding personal loan for my business,9,loan_query,3,True
+1785,119,I want to check my outstanding balance,4,outstanding_balance,1,True
+1786,119,I want to check my outstanding balance for this month,4,outstanding_balance,1,True
+1787,119,I want to check my outstanding balance till today,4,outstanding_balance,1,True
+1788,119,I want to check my outstanding balance as of today,4,outstanding_balance,1,True
+1789,119,I want to check my outstanding balance right now,4,outstanding_balance,1,True
+1790,119,check my unpaid credit card balance,4,outstanding_balance,2,True
+1791,119,"Madam, I want to check my outstanding balance kindly",4,outstanding_balance,2,True
+1792,119,"I need help, I want to check my outstanding balance",4,outstanding_balance,2,True
+1793,119,I want to check my outstanding balance kindly,4,outstanding_balance,2,True
+1794,119,"Hello sir, I want to check my outstanding balance as soon as possible",4,outstanding_balance,2,True
+1795,119,i am wanting to check my outstanding balance kindly,4,outstanding_balance,3,True
+1796,119,madam i am wanting to check my outstanding balance kindly,4,outstanding_balance,3,True
+1797,119,i am wanting to check my outstanding balance till today,4,outstanding_balance,3,True
+1798,119,i am wanting to check my outstanding balance right now,4,outstanding_balance,3,True
+1799,119,i am wanting to check my outstanding balance for this month,4,outstanding_balance,3,True
+1800,120,credit card delivery date,3,dispatch_status,1,True
+1801,120,Mastercard delivery date,3,dispatch_status,1,True
+1802,120,credit card delivery date that i ordered recently,3,dispatch_status,1,True
+1803,120,credit card delivery date that i requested on monday,3,dispatch_status,1,True
+1804,120,credit card delivery date from HDFC Bank,3,dispatch_status,1,True
+1805,120,credit card delivery date as soon as possible,3,dispatch_status,2,True
+1806,120,"I need help, credit card delivery date thank you",3,dispatch_status,2,True
+1807,120,"Madam, credit card delivery date kindly",3,dispatch_status,2,True
+1808,120,"Madam, credit card delivery date thank you",3,dispatch_status,2,True
+1809,120,"Hi, credit card delivery date sir",3,dispatch_status,2,True
+1810,120,madam credit card delivery date,3,dispatch_status,3,True
+1811,120,madam credit card delivery date kindly,3,dispatch_status,3,True
+1812,120,credit card delivery date from hdfc bank,3,dispatch_status,3,True
+1813,120,mastercard delivery date,3,dispatch_status,3,True
+1814,120,hi credit card delivery date sir,3,dispatch_status,3,True
+1815,121,Details of last month's transactions,2,past_transactions,1,True
+1816,121,Details of last month's transactions of my salary account,2,past_transactions,1,True
+1817,121,Details of last month's transactions from my account,2,past_transactions,1,True
+1818,121,Details of last month's transactions of my current account,2,past_transactions,1,True
+1819,121,Details of last month's transactions on my account,2,past_transactions,1,True
+1820,121,Details of last month's transactions please,2,past_transactions,2,True
+1821,121,"I need help, details of last month's transactions kindly",2,past_transactions,2,True
+1822,121,"Please help me, details of last month's transactions as soon as possible",2,past_transactions,2,True
+1823,121,"Sir, details of last month's transactions",2,past_transactions,2,True
+1824,121,"Hello, details of last month's transactions sir",2,past_transactions,2,True
+1825,121,i need help details of last month s transactions,2,past_transactions,3,True
+1826,121,details about last month s transactions on my account,2,past_transactions,3,True
+1827,121,help me details of last month s transactions as soon as possible,2,past_transactions,3,True
+1828,121,i need help details about last month s transactions,2,past_transactions,3,True
+1829,121,help me details about last month s transactions as soon as possible,2,past_transactions,3,True
+1830,122,I want to activate my card,1,activate_card,1,True
+1831,122,I want to activate my card issued by HDFC Bank,1,activate_card,1,True
+1832,122,I want to activate my card issued by Axis Bank,1,activate_card,1,True
+1833,122,I want to activate my card issued by SBI,1,activate_card,1,True
+1834,122,I want to activate my card ending 7305,1,activate_card,1,True
+1835,122,"I need help, I want to activate my card thank you",1,activate_card,2,True
+1836,122,"Please help me, I want to activate my card as soon as possible",1,activate_card,2,True
+1837,122,"Excuse me, I want to activate my card as soon as possible",1,activate_card,2,True
+1838,122,"Hi, I want to activate my card madam",1,activate_card,2,True
+1839,122,"Madam, I want to activate my card please",1,activate_card,2,True
+1840,122,i need help i am wanting to activate my card thank you,1,activate_card,3,True
+1841,122,help me i am wanting to activate my card as soon as possible,1,activate_card,3,True
+1842,122,please help me i am wanting to activate my card as soon as possible,1,activate_card,3,True
+1843,122,help me i want to activate my card as soon as possible,1,activate_card,3,True
+1844,122,i am wanting to activate my card ending 7305,1,activate_card,3,True
+1845,123,Branch Address,0,branch_address,1,True
+1846,123,Branch Address in Mumbai,0,branch_address,1,True
+1847,123,Branch Address near me,0,branch_address,1,True
+1848,123,Branch Address in Hyderabad,0,branch_address,1,True
+1849,123,Branch Address in my area,0,branch_address,1,True
+1850,123,"Hello sir, branch Address thank you",0,branch_address,2,True
+1851,123,"Kindly help me, branch Address thank you",0,branch_address,2,True
+1852,123,Branch Address thank you,0,branch_address,2,True
+1853,123,"Kindly help me, branch Address",0,branch_address,2,True
+1854,123,"I need help, branch Address",0,branch_address,2,True
+1855,123,help me branch address thank you,0,branch_address,3,True
+1856,123,help me branch address,0,branch_address,3,True
+1857,123,branch address near me,0,branch_address,3,True
+1858,123,kindly help me branch address thank you,0,branch_address,3,True
+1859,123,branch address thank you,0,branch_address,3,True
+1860,124,debit card activate,1,activate_card,1,True
+1861,124,Visa card activate,1,activate_card,1,True
+1862,124,debit card activate ending 7305,1,activate_card,1,True
+1863,124,debit card activate issued by Axis Bank,1,activate_card,1,True
+1864,124,debit card activate issued by HDFC Bank,1,activate_card,1,True
+1865,124,"Please help me, debit card activate thank you",1,activate_card,2,True
+1866,124,"Excuse me, debit card activate madam",1,activate_card,2,True
+1867,124,"Hello sir, debit card activate as soon as possible",1,activate_card,2,True
+1868,124,"Hello madam, debit card activate kindly",1,activate_card,2,True
+1869,124,debit card activate thank you,1,activate_card,2,True
+1870,124,help me debit card activate thank you,1,activate_card,3,True
+1871,124,hello madam debit card activate,1,activate_card,3,True
+1872,124,please help me debit card activate thank you,1,activate_card,3,True
+1873,124,hello sir debit card activate as soon as possible,1,activate_card,3,True
+1874,124,debit card activate issued by hdfc bank,1,activate_card,3,True
+1875,125,Outstanding balance amount?,4,outstanding_balance,1,True
+1876,125,Outstanding balance amount as of today,4,outstanding_balance,1,True
+1877,125,Outstanding balance amount for last month,4,outstanding_balance,1,True
+1878,125,Outstanding balance amount right now,4,outstanding_balance,1,True
+1879,125,Outstanding balance amount till today,4,outstanding_balance,1,True
+1880,125,"I need help, outstanding balance amount please",4,outstanding_balance,2,True
+1881,125,"Hello madam, outstanding balance amount",4,outstanding_balance,2,True
+1882,125,"Kindly help me, outstanding balance amount thank you",4,outstanding_balance,2,True
+1883,125,"Hello sir, outstanding balance amount",4,outstanding_balance,2,True
+1884,125,"Sir, outstanding balance amount please",4,outstanding_balance,2,True
+1885,125,sir outstanding balance amount,4,outstanding_balance,3,True
+1886,125,help me outstanding balance amount thank you,4,outstanding_balance,3,True
+1887,125,i need help outstanding balance amount,4,outstanding_balance,3,True
+1888,125,sir outstanding balance amount please,4,outstanding_balance,3,True
+1889,125,i need help outstanding balance amount please,4,outstanding_balance,3,True
+1890,126,List of transactions in January,2,past_transactions,1,True
+1891,126,List of transactions in June,2,past_transactions,1,True
+1892,126,List of transactions in January of my salary account,2,past_transactions,1,True
+1893,126,List of transactions in August,2,past_transactions,1,True
+1894,126,List of transactions in March of my current account,2,past_transactions,1,True
+1895,126,"Kindly help me, list of transactions in January thank you",2,past_transactions,2,True
+1896,126,"Hello madam, list of transactions in January as soon as possible",2,past_transactions,2,True
+1897,126,List of transactions in January sir,2,past_transactions,2,True
+1898,126,"Kindly help me, list of transactions in January madam",2,past_transactions,2,True
+1899,126,"Hello madam, list of transactions in January kindly",2,past_transactions,2,True
+1900,126,help me list of transactions in january madam,2,past_transactions,3,True
+1901,126,hello madam list of transactions in january,2,past_transactions,3,True
+1902,126,help me list of transactions in january thank you,2,past_transactions,3,True
+1903,126,list of transactions in january sir,2,past_transactions,3,True
+1904,126,list of transactions in august,2,past_transactions,3,True
+1905,127,I cannot do transactions with my credit card,5,card_issue,1,True
+1906,127,I cannot do transactions with my ATM card,5,card_issue,1,True
+1907,127,I cannot do transactions with my credit card ending with 4821,5,card_issue,1,True
+1908,127,I cannot do transactions with my credit card issued by SBI,5,card_issue,1,True
+1909,127,I cannot do transactions with my debit card,5,card_issue,1,True
+1910,127,"Sir, I cannot do transactions with my credit card as soon as possible",5,card_issue,2,True
+1911,127,"Hello, I cannot do transactions with my credit card please",5,card_issue,2,True
+1912,127,"Sir, I cannot do transactions with my credit card thank you",5,card_issue,2,True
+1913,127,"Please help me, I cannot do transactions with my credit card",5,card_issue,2,True
+1914,127,"Madam, I cannot do transactions with my credit card thank you",5,card_issue,2,True
+1915,127,please help me i am not able to do transactions with my credit card,5,card_issue,3,True
+1916,127,i am not able to do transactions with my atm card,5,card_issue,3,True
+1917,127,help me i cannot do transactions with my credit card,5,card_issue,3,True
+1918,127,i am not able to do transactions with my credit card ending with 4821,5,card_issue,3,True
+1919,127,hello i am not able to do transactions with my credit card,5,card_issue,3,True
+1920,128,I want to change the limit of my POS transaction on my credit card,11,change_limit,1,True
+1921,128,I want to change the limit of my POS transaction on my RuPay debit card,11,change_limit,1,True
+1922,128,I want to change the limit of my POS transaction on my credit card issued by HDFC Bank,11,change_limit,1,True
+1923,128,I want to change the limit of my POS transaction on my ATM card,11,change_limit,1,True
+1924,128,I want to change the limit of my POS transaction on my debit card issued by HDFC Bank,11,change_limit,1,True
+1925,128,i need a higher limit on my credit card,11,change_limit,2,True
+1926,128,I want to change the limit of my POS transaction on my credit card kindly,11,change_limit,2,True
+1927,128,"Hello, I want to change the limit of my POS transaction on my credit card thank you",11,change_limit,2,True
+1928,128,"Hi, I want to change the limit of my POS transaction on my credit card as soon as possible",11,change_limit,2,True
+1929,128,I want to change the limit of my POS transaction on my credit card madam,11,change_limit,2,True
+1930,128,i want to change limit of my pos transaction on my credit card,11,change_limit,3,True
+1931,128,i need higher limit on my credit card,11,change_limit,3,True
+1932,128,i am wanting to change the limit of my pos transaction on my debit card issued by hdfc bank,11,change_limit,3,True
+1933,128,hello i want to change limit of my pos transaction on my credit card thank you,11,change_limit,3,True
+1934,128,i am wanting to change limit of my pos transaction on my debit card issued by hdfc bank,11,change_limit,3,True
+1935,129,I want to change the limit of my international transaction on my credit card,11,change_limit,1,True
+1936,129,I want to change the limit of my international transaction on my Visa debit card,11,change_limit,1,True
+1937,129,I want to change the limit of my international transaction on my credit card issued by Axis Bank,11,change_limit,1,True
+1938,129,I want to change the limit of my international transaction on my credit card ending with 4821,11,change_limit,1,True
+1939,129,I want to change the limit of my international transaction on my RuPay debit card,11,change_limit,1,True
+1940,129,set a limit for online payments on my card,11,change_limit,2,True
+1941,129,"Please help me, I want to change the limit of my international transaction on my credit card as soon as possible",11,change_limit,2,True
+1942,129,"I need help, I want to change the limit of my international transaction on my credit card madam",11,change_limit,2,True
+1943,129,"Sir, I want to change the limit of my international transaction on my credit card as soon as possible",11,change_limit,2,True
+1944,129,"I need help, I want to change the limit of my international transaction on my credit card as soon as possible",11,change_limit,2,True
+1945,129,i am wanting to change limit of my international transaction on my visa debit card,11,change_limit,3,True
+1946,129,sir i am wanting to change the limit of my international transaction on my credit card as soon as possible,11,change_limit,3,True
+1947,129,i need help i want to change limit of my international transaction on my credit card as soon as possible,11,change_limit,3,True
+1948,129,i want to change limit of my international transaction on my rupay debit card,11,change_limit,3,True
+1949,129,i need help i want to change limit of my international transaction on my credit card madam,11,change_limit,3,True
+1950,130,Card not working,5,card_issue,1,True
+1951,130,Card not working issued by SBI,5,card_issue,1,True
+1952,130,Card not working issued by HDFC Bank,5,card_issue,1,True
+1953,130,Card not working issued by Axis Bank,5,card_issue,1,True
+1954,130,Card not working ending 7305,5,card_issue,1,True
+1955,130,"Hello madam, card not working kindly",5,card_issue,2,True
+1956,130,Card not working thank you,5,card_issue,2,True
+1957,130,"Sir, card not working please",5,card_issue,2,True
+1958,130,"Madam, card not working please",5,card_issue,2,True
+1959,130,"Excuse me, card not working kindly",5,card_issue,2,True
+1960,130,sir card not working,5,card_issue,3,True
+1961,130,hello madam card not working,5,card_issue,3,True
+1962,130,madam card not working,5,card_issue,3,True
+1963,130,excuse me card not working,5,card_issue,3,True
+1964,130,card not working issued by hdfc bank,5,card_issue,3,True
+1965,131,Change limit of credit card,11,change_limit,1,True
+1966,131,Change limit of Visa card,11,change_limit,1,True
+1967,131,Change limit of ATM card,11,change_limit,1,True
+1968,131,Change limit of credit card ending 7305,11,change_limit,1,True
+1969,131,Change limit of debit card,11,change_limit,1,True
+1970,131,"Hello sir, change limit of credit card as soon as possible",11,change_limit,2,True
+1971,131,"Hi, change limit of credit card as soon as possible",11,change_limit,2,True
+1972,131,"Please help me, change limit of credit card",11,change_limit,2,True
+1973,131,"Hello madam, change limit of credit card as soon as possible",11,change_limit,2,True
+1974,131,"Please help me, change limit of credit card madam",11,change_limit,2,True
+1975,131,help me change limit of credit card madam,11,change_limit,3,True
+1976,131,help me change limit of credit card,11,change_limit,3,True
+1977,131,hi change limit of credit card as soon as possible,11,change_limit,3,True
+1978,131,hello madam change limit of credit card as soon as possible,11,change_limit,3,True
+1979,131,please help me change limit of credit card,11,change_limit,3,True
+1980,132,What is my outstanding balance?,4,outstanding_balance,1,True
+1981,132,What is my outstanding balance for this month,4,outstanding_balance,1,True
+1982,132,What is my outstanding balance as of today,4,outstanding_balance,1,True
+1983,132,What is my outstanding balance till today,4,outstanding_balance,1,True
+1984,132,What is my outstanding balance right now,4,outstanding_balance,1,True
+1985,132,"Kindly help me, what is my outstanding balance as soon as possible",4,outstanding_balance,2,True
+1986,132,"Kindly help me, what is my outstanding balance madam",4,outstanding_balance,2,True
+1987,132,"Hello madam, what is my outstanding balance kindly",4,outstanding_balance,2,True
+1988,132,What is my outstanding balance as soon as possible,4,outstanding_balance,2,True
+1989,132,"Hello madam, what is my outstanding balance thank you",4,outstanding_balance,2,True
+1990,132,hello madam what is my outstanding balance,4,outstanding_balance,3,True
+1991,132,help me tell me what is my outstanding balance madam,4,outstanding_balance,3,True
+1992,132,help me what is my outstanding balance as soon as possible,4,outstanding_balance,3,True
+1993,132,hello madam tell me what is my outstanding balance kindly,4,outstanding_balance,3,True
+1994,132,tell me what is my outstanding balance for this month,4,outstanding_balance,3,True
+1995,133,I want to change the limit of my auto-debit on my credit card,11,change_limit,1,True
+1996,133,I want to change the limit of my auto-debit on my credit card ending 7305,11,change_limit,1,True
+1997,133,I want to change the limit of my auto-debit on my debit card,11,change_limit,1,True
+1998,133,I want to change the limit of my auto-debit on my debit card issued by HDFC Bank,11,change_limit,1,True
+1999,133,I want to change the limit of my auto-debit on my credit card issued by Axis Bank,11,change_limit,1,True
+2000,133,"Excuse me, I want to change the limit of my auto-debit on my credit card",11,change_limit,2,True
+2001,133,"Hello madam, I want to change the limit of my auto-debit on my credit card kindly",11,change_limit,2,True
+2002,133,"Excuse me, I want to change the limit of my auto-debit on my credit card sir",11,change_limit,2,True
+2003,133,"Madam, I want to change the limit of my auto-debit on my credit card as soon as possible",11,change_limit,2,True
+2004,133,"Madam, I want to change the limit of my auto-debit on my credit card thank you",11,change_limit,2,True
+2005,133,madam i am wanting to change limit of my auto debit on my credit card as soon as possible,11,change_limit,3,True
+2006,133,i want to change limit of my auto debit on my credit card,11,change_limit,3,True
+2007,133,i am wanting to change limit of my auto debit on my credit card,11,change_limit,3,True
+2008,133,i want to change limit of my auto debit on my credit card ending 7305,11,change_limit,3,True
+2009,133,madam i want to change limit of my auto debit on my credit card as soon as possible,11,change_limit,3,True
+2010,134,I misplaced my credit card,13,lost,1,True
+2011,134,I misplaced my debit card,13,lost,1,True
+2012,134,I misplaced my ATM card,13,lost,1,True
+2013,134,I misplaced my credit card ending 7305,13,lost,1,True
+2014,134,I misplaced my Mastercard,13,lost,1,True
+2015,134,i want to report that i lost my card,13,lost,2,True
+2016,134,"Sir, I misplaced my credit card",13,lost,2,True
+2017,134,"Excuse me, I misplaced my credit card thank you",13,lost,2,True
+2018,134,"Please help me, I misplaced my credit card immediately",13,lost,2,True
+2019,134,"Hello madam, I misplaced my credit card right now",13,lost,2,True
+2020,134,help me i misplaced my credit card immediately,13,lost,3,True
+2021,134,i am wanting to report that i have lost my card,13,lost,3,True
+2022,134,i misplaced my debit card,13,lost,3,True
+2023,134,i misplaced my mastercard,13,lost,3,True
+2024,134,i misplaced my atm card,13,lost,3,True
+2025,135,I want to change the limit of my contactless transaction on my credit card,11,change_limit,1,True
+2026,135,I want to change the limit of my contactless transaction on my debit card issued by SBI,11,change_limit,1,True
+2027,135,I want to change the limit of my contactless transaction on my debit card ending 7305,11,change_limit,1,True
+2028,135,I want to change the limit of my contactless transaction on my Visa card,11,change_limit,1,True
+2029,135,I want to change the limit of my contactless transaction on my debit card,11,change_limit,1,True
+2030,135,I want to change the limit of my contactless transaction on my credit card as soon as possible,11,change_limit,2,True
+2031,135,"Sir, I want to change the limit of my contactless transaction on my credit card thank you",11,change_limit,2,True
+2032,135,"Hi, I want to change the limit of my contactless transaction on my credit card sir",11,change_limit,2,True
+2033,135,"Hello, I want to change the limit of my contactless transaction on my credit card please",11,change_limit,2,True
+2034,135,"Kindly help me, I want to change the limit of my contactless transaction on my credit card",11,change_limit,2,True
+2035,135,hi i am wanting to change the limit of my contactless transaction on my credit card sir,11,change_limit,3,True
+2036,135,i want to change limit of my contactless transaction on my credit card,11,change_limit,3,True
+2037,135,i want to change limit of my contactless transaction on my debit card ending 7305,11,change_limit,3,True
+2038,135,i want to change limit of my contactless transaction on my visa card,11,change_limit,3,True
+2039,135,i want to change limit of my contactless transaction on my debit card issued by sbi,11,change_limit,3,True
+2040,136,I want to know about my last transaction,2,past_transactions,1,True
+2041,136,I want to know about my last transaction of my savings account,2,past_transactions,1,True
+2042,136,I want to know about my last transaction on my account,2,past_transactions,1,True
+2043,136,I want to know about my last transaction of my current account,2,past_transactions,1,True
+2044,136,I want to know about my last transaction from my account,2,past_transactions,1,True
+2045,136,"Madam, I want to know about my last transaction please",2,past_transactions,2,True
+2046,136,"I need help, I want to know about my last transaction sir",2,past_transactions,2,True
+2047,136,"I need help, I want to know about my last transaction thank you",2,past_transactions,2,True
+2048,136,"Madam, I want to know about my last transaction thank you",2,past_transactions,2,True
+2049,136,"Kindly help me, I want to know about my last transaction madam",2,past_transactions,2,True
+2050,136,madam i am wanting to know about my last transaction please,2,past_transactions,3,True
+2051,136,madam i want to know about my last transaction,2,past_transactions,3,True
+2052,136,i am wanting to know about my last transaction from my account,2,past_transactions,3,True
+2053,136,help me i want to know about my last transaction madam,2,past_transactions,3,True
+2054,136,i am wanting to know about my last transaction of my current account,2,past_transactions,3,True
+2055,137,what is the bank location?,0,branch_address,1,True
+2056,137,what is the ICICI Bank location?,0,branch_address,1,True
+2057,137,what is the Axis Bank location?,0,branch_address,1,True
+2058,137,what is the bank location in Pune,0,branch_address,1,True
+2059,137,what is the bank location in my area,0,branch_address,1,True
+2060,137,"Hello sir, what is the bank location thank you",0,branch_address,2,True
+2061,137,"Hi, what is the bank location sir",0,branch_address,2,True
+2062,137,"I need help, what is the bank location kindly",0,branch_address,2,True
+2063,137,"Madam, what is the bank location kindly",0,branch_address,2,True
+2064,137,what is the bank location kindly,0,branch_address,2,True
+2065,137,tell me what is bank location,0,branch_address,3,True
+2066,137,i need help tell me what is bank location,0,branch_address,3,True
+2067,137,hello sir tell me what is the bank location thank you,0,branch_address,3,True
+2068,137,tell me what is bank location in pune,0,branch_address,3,True
+2069,137,i need help tell me what is the bank location kindly,0,branch_address,3,True
+2070,138,credit card dispatch status,3,dispatch_status,1,True
+2071,138,credit card dispatch status that i ordered recently,3,dispatch_status,1,True
+2072,138,Visa card dispatch status,3,dispatch_status,1,True
+2073,138,credit card dispatch status from SBI,3,dispatch_status,1,True
+2074,138,credit card dispatch status that i applied for last week,3,dispatch_status,1,True
+2075,138,"Hello, credit card dispatch status sir",3,dispatch_status,2,True
+2076,138,"I need help, credit card dispatch status",3,dispatch_status,2,True
+2077,138,"Hello madam, credit card dispatch status thank you",3,dispatch_status,2,True
+2078,138,"Please help me, credit card dispatch status madam",3,dispatch_status,2,True
+2079,138,"Hello madam, credit card dispatch status",3,dispatch_status,2,True
+2080,138,help me credit card dispatch status madam,3,dispatch_status,3,True
+2081,138,hello credit card dispatch status sir,3,dispatch_status,3,True
+2082,138,i need help credit card dispatch status,3,dispatch_status,3,True
+2083,138,credit card dispatch status from sbi,3,dispatch_status,3,True
+2084,138,please help me credit card dispatch status madam,3,dispatch_status,3,True
+2085,139,I want to know my account balance,10,balance_enquiry,1,True
+2086,139,I want to know my account balance of my current account,10,balance_enquiry,1,True
+2087,139,I want to know my account balance right now,10,balance_enquiry,1,True
+2088,139,I want to know my account balance today,10,balance_enquiry,1,True
+2089,139,I want to know my account balance of my salary account,10,balance_enquiry,1,True
+2090,139,"Excuse me, I want to know my account balance kindly",10,balance_enquiry,2,True
+2091,139,"Hello madam, I want to know my account balance thank you",10,balance_enquiry,2,True
+2092,139,"Excuse me, I want to know my account balance madam",10,balance_enquiry,2,True
+2093,139,I want to know my account balance as soon as possible,10,balance_enquiry,2,True
+2094,139,"Hello sir, I want to know my account balance thank you",10,balance_enquiry,2,True
+2095,139,hello sir i am wanting to know my account balance thank you,10,balance_enquiry,3,True
+2096,139,i am wanting to know my account balance,10,balance_enquiry,3,True
+2097,139,excuse me i am wanting to know my account balance,10,balance_enquiry,3,True
+2098,139,excuse me i want to know my account balance,10,balance_enquiry,3,True
+2099,139,i am wanting to know my account balance right now,10,balance_enquiry,3,True
+2100,140,How to apply for home loan,9,loan_query,1,True
+2101,140,How to apply for home loan for a new house,9,loan_query,1,True
+2102,140,How to apply for education loan,9,loan_query,1,True
+2103,140,How to apply for home loan for my family,9,loan_query,1,True
+2104,140,How to apply for car loan,9,loan_query,1,True
+2105,140,"Hi, how to apply for home loan",9,loan_query,2,True
+2106,140,"Hello, how to apply for home loan madam",9,loan_query,2,True
+2107,140,"Madam, how to apply for home loan as soon as possible",9,loan_query,2,True
+2108,140,"Hello sir, how to apply for home loan",9,loan_query,2,True
+2109,140,"Hello sir, how to apply for home loan please",9,loan_query,2,True
+2110,140,how can i apply for home loan,9,loan_query,3,True
+2111,140,how to apply for home loan for new house,9,loan_query,3,True
+2112,140,hello sir how can i apply for home loan,9,loan_query,3,True
+2113,140,how can i apply for home loan for new house,9,loan_query,3,True
+2114,140,hi how can i apply for home loan,9,loan_query,3,True
+2115,141,Home loan related query,9,loan_query,1,True
+2116,141,Home loan related query for my business,9,loan_query,1,True
+2117,141,car loan related query,9,loan_query,1,True
+2118,141,Home loan related query for my family,9,loan_query,1,True
+2119,141,Home loan related query for my shop,9,loan_query,1,True
+2120,141,"Excuse me, home loan related query",9,loan_query,2,True
+2121,141,"Please help me, home loan related query madam",9,loan_query,2,True
+2122,141,"Kindly help me, home loan related query sir",9,loan_query,2,True
+2123,141,"Madam, home loan related query as soon as possible",9,loan_query,2,True
+2124,141,"Excuse me, home loan related query thank you",9,loan_query,2,True
+2125,141,help me home loan related query madam,9,loan_query,3,True
+2126,141,help me home loan related query sir,9,loan_query,3,True
+2127,141,madam home loan related query as soon as possible,9,loan_query,3,True
+2128,141,home loan related query for my family,9,loan_query,3,True
+2129,141,excuse me home loan related query thank you,9,loan_query,3,True
+2130,142,Loan department,9,loan_query,1,True
+2131,142,home loan department,9,loan_query,1,True
+2132,142,Loan department for 5 lakh rupees,9,loan_query,1,True
+2133,142,personal loan department,9,loan_query,1,True
+2134,142,Loan department for my business,9,loan_query,1,True
+2135,142,"Hello, loan department please",9,loan_query,2,True
+2136,142,Loan department sir,9,loan_query,2,True
+2137,142,"Madam, loan department please",9,loan_query,2,True
+2138,142,"Hello madam, loan department",9,loan_query,2,True
+2139,142,"Hello sir, loan department",9,loan_query,2,True
+2140,142,hello loan department,9,loan_query,3,True
+2141,142,madam loan department,9,loan_query,3,True
+2142,142,hello madam loan department,9,loan_query,3,True
+2143,142,loan department sir,9,loan_query,3,True
+2144,142,hello loan department please,9,loan_query,3,True
+2145,143,Credit card outstanding balance?,4,outstanding_balance,1,True
+2146,143,HDFC credit card outstanding balance?,4,outstanding_balance,1,True
+2147,143,Credit card outstanding balance for last month,4,outstanding_balance,1,True
+2148,143,Credit card outstanding balance till today,4,outstanding_balance,1,True
+2149,143,Mastercard credit card outstanding balance?,4,outstanding_balance,1,True
+2150,143,"Excuse me, credit card outstanding balance",4,outstanding_balance,2,True
+2151,143,"Hello, credit card outstanding balance please",4,outstanding_balance,2,True
+2152,143,"Hello sir, credit card outstanding balance thank you",4,outstanding_balance,2,True
+2153,143,"Kindly help me, credit card outstanding balance sir",4,outstanding_balance,2,True
+2154,143,"Hello madam, credit card outstanding balance please",4,outstanding_balance,2,True
+2155,143,hello credit card outstanding balance,4,outstanding_balance,3,True
+2156,143,help me credit card outstanding balance sir,4,outstanding_balance,3,True
+2157,143,hello madam credit card outstanding balance,4,outstanding_balance,3,True
+2158,143,credit card outstanding balance for last month,4,outstanding_balance,3,True
+2159,143,mastercard credit card outstanding balance,4,outstanding_balance,3,True
+2160,144,How to get loan,9,loan_query,1,True
+2161,144,How to get loan for my family,9,loan_query,1,True
+2162,144,How to get loan for 5 lakh rupees,9,loan_query,1,True
+2163,144,How to get loan for my shop,9,loan_query,1,True
+2164,144,How to get home loan,9,loan_query,1,True
+2165,144,"Excuse me, how to get loan madam",9,loan_query,2,True
+2166,144,"Hello madam, how to get loan please",9,loan_query,2,True
+2167,144,"Hello, how to get loan please",9,loan_query,2,True
+2168,144,"Excuse me, how to get loan",9,loan_query,2,True
+2169,144,"Kindly help me, how to get loan madam",9,loan_query,2,True
+2170,144,how can i get loan for my family,9,loan_query,3,True
+2171,144,help me how to get loan madam,9,loan_query,3,True
+2172,144,hello madam how to get loan,9,loan_query,3,True
+2173,144,hello how can i get loan,9,loan_query,3,True
+2174,144,help me how can i get loan madam,9,loan_query,3,True
+2175,145,I want to know my transactions of last month,2,past_transactions,1,True
+2176,145,I want to know my transactions of last month from my account,2,past_transactions,1,True
+2177,145,I want to know my transactions of last month of my current account,2,past_transactions,1,True
+2178,145,I want to know my transactions of last month of my salary account,2,past_transactions,1,True
+2179,145,I want to know my transactions of last month on my account,2,past_transactions,1,True
+2180,145,"Madam, I want to know my transactions of last month as soon as possible",2,past_transactions,2,True
+2181,145,"Hello madam, I want to know my transactions of last month as soon as possible",2,past_transactions,2,True
+2182,145,"Hi, I want to know my transactions of last month sir",2,past_transactions,2,True
+2183,145,"Hi, I want to know my transactions of last month madam",2,past_transactions,2,True
+2184,145,"Hello, I want to know my transactions of last month",2,past_transactions,2,True
+2185,145,i am wanting to know my transactions of last month from my account,2,past_transactions,3,True
+2186,145,i am wanting to know my transactions of last month on my account,2,past_transactions,3,True
+2187,145,madam i am wanting to know my transactions of last month as soon as possible,2,past_transactions,3,True
+2188,145,hi i am wanting to know my transactions of last month madam,2,past_transactions,3,True
+2189,145,hello i am wanting to know my transactions of last month,2,past_transactions,3,True
+2190,146,Credit card limit change,11,change_limit,1,True
+2191,146,Credit card limit change issued by SBI,11,change_limit,1,True
+2192,146,Mastercard limit change,11,change_limit,1,True
+2193,146,credit card limit change,11,change_limit,1,True
+2194,146,Credit card limit change ending with 4821,11,change_limit,1,True
+2195,146,"Kindly help me, credit card limit change thank you",11,change_limit,2,True
+2196,146,"I need help, credit card limit change kindly",11,change_limit,2,True
+2197,146,"Hello, credit card limit change please",11,change_limit,2,True
+2198,146,"Kindly help me, credit card limit change as soon as possible",11,change_limit,2,True
+2199,146,"Excuse me, credit card limit change please",11,change_limit,2,True
+2200,146,help me credit card limit change thank you,11,change_limit,3,True
+2201,146,help me credit card limit change as soon as possible,11,change_limit,3,True
+2202,146,i need help credit card limit change,11,change_limit,3,True
+2203,146,hello credit card limit change,11,change_limit,3,True
+2204,146,excuse me credit card limit change,11,change_limit,3,True
+2205,147,I want to increase the limit of my credit card,11,change_limit,1,True
+2206,147,I want to increase the limit of my credit card ending 7305,11,change_limit,1,True
+2207,147,I want to increase the limit of my Visa card,11,change_limit,1,True
+2208,147,I want to increase the limit of my credit card issued by HDFC Bank,11,change_limit,1,True
+2209,147,I want to increase the limit of my ATM card,11,change_limit,1,True
+2210,147,"Hello, I want to increase the limit of my credit card madam",11,change_limit,2,True
+2211,147,"Hi, I want to increase the limit of my credit card thank you",11,change_limit,2,True
+2212,147,"Please help me, I want to increase the limit of my credit card thank you",11,change_limit,2,True
+2213,147,"Madam, I want to increase the limit of my credit card thank you",11,change_limit,2,True
+2214,147,"Hello sir, I want to increase the limit of my credit card as soon as possible",11,change_limit,2,True
+2215,147,i am wanting to increase limit of my credit card ending 7305,11,change_limit,3,True
+2216,147,hi i am wanting to increase limit of my credit card thank you,11,change_limit,3,True
+2217,147,i am wanting to increase limit of my atm card,11,change_limit,3,True
+2218,147,i want to increase limit of my atm card,11,change_limit,3,True
+2219,147,i am wanting to increase limit of my visa card,11,change_limit,3,True
+2220,148,I want to change the limit of my atm withdrawal on my credit card,11,change_limit,1,True
+2221,148,I want to change the limit of my atm withdrawal on my ATM card,11,change_limit,1,True
+2222,148,I want to change the limit of my atm withdrawal on my debit card ending 7305,11,change_limit,1,True
+2223,148,I want to change the limit of my atm withdrawal on my Mastercard,11,change_limit,1,True
+2224,148,I want to change the limit of my atm withdrawal on my credit card ending with 4821,11,change_limit,1,True
+2225,148,"Sir, I want to change the limit of my atm withdrawal on my credit card",11,change_limit,2,True
+2226,148,"Madam, I want to change the limit of my atm withdrawal on my credit card as soon as possible",11,change_limit,2,True
+2227,148,"Hi, I want to change the limit of my atm withdrawal on my credit card kindly",11,change_limit,2,True
+2228,148,I want to change the limit of my atm withdrawal on my credit card as soon as possible,11,change_limit,2,True
+2229,148,"Hi, I want to change the limit of my atm withdrawal on my credit card",11,change_limit,2,True
+2230,148,hi i am wanting to change the limit of my atm withdrawal on my credit card,11,change_limit,3,True
+2231,148,i want to change limit of my atm withdrawal on my debit card ending 7305,11,change_limit,3,True
+2232,148,i am wanting to change the limit of my atm withdrawal on my mastercard,11,change_limit,3,True
+2233,148,i am wanting to change limit of my atm withdrawal on my credit card ending with 4821,11,change_limit,3,True
+2234,148,hi i want to change limit of my atm withdrawal on my credit card,11,change_limit,3,True
+2235,149,what is my bank account balance,10,balance_enquiry,1,True
+2236,149,what is my bank account balance of my savings account,10,balance_enquiry,1,True
+2237,149,what is my bank account balance today,10,balance_enquiry,1,True
+2238,149,what is my bank account balance right now,10,balance_enquiry,1,True
+2239,149,what is my bank account balance of my current account,10,balance_enquiry,1,True
+2240,149,"Kindly help me, what is my bank account balance sir",10,balance_enquiry,2,True
+2241,149,"Madam, what is my bank account balance",10,balance_enquiry,2,True
+2242,149,"Please help me, what is my bank account balance thank you",10,balance_enquiry,2,True
+2243,149,"Hello, what is my bank account balance",10,balance_enquiry,2,True
+2244,149,"Sir, what is my bank account balance kindly",10,balance_enquiry,2,True
+2245,149,tell me what is my bank account balance,10,balance_enquiry,3,True
+2246,149,please help me tell me what is my bank account balance thank you,10,balance_enquiry,3,True
+2247,149,sir what is my bank account balance,10,balance_enquiry,3,True
+2248,149,hello tell me what is my bank account balance,10,balance_enquiry,3,True
+2249,149,kindly help me tell me what is my bank account balance sir,10,balance_enquiry,3,True

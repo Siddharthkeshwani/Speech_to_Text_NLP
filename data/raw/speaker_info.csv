@@ -1,0 +1,12 @@
+speaker_id,native_language,languages_spoken,places_lived,gender
+1,Hindi,"[""Hindi"", ""English""]","[""Patna/Bihar""]",Male
+2,Bengali,"[""English"", ""Hindi"", ""Bengali"", ""Odia""]","[""Puri/Odisha""]",Female
+3,Kannada,"[""English"", ""Kannada""]","[""Davanagere/Karnataka""]",Female
+4,Hindi,"[""English"", ""Odia""]","[""Cuttack/Odisha"", ""Kolkata/West Bengal""]",Female
+5,Punjabi,"[""English"", ""Hindi"", ""Punjabi""]","[""Jalandhar/Punjab""]",Female
+6,Bengali,"[""Bengali"", ""English"", ""Hindi""]","[""Kolkata/West Bengal""]",Female
+7,Malayalam,"[""English"", ""Malayalam""]","[""Kollam/Kerala""]",Female
+8,Kannada,"[""Kannada"", ""English""]","[""Mysore/Karnataka""]",Male
+9,Hindi,"[""Hindi"", ""English"", ""Bengali"", ""Bihari""]","[""Kolkata/West Bengal""]",Female
+10,Hindi,"[""Hindi"", ""English""]","[""Ranchi/Jharkhand""]",Male
+11,Bengali,"[""English"", ""Hindi"", ""Marathi""]","[""Mumbai/Maharashtra""]",Female

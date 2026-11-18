@@ -4,3 +4,5 @@ __pycache__/
 logs/
 .DS_Store
 Thumbs.db
+data/raw/train-*.csv
+data/raw/test-*.csv

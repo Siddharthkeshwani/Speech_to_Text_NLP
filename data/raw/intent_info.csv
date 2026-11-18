@@ -1,0 +1,15 @@
+intent_class,intent_name,description
+0,branch_address,enquiry about bank branch location
+1,activate_card,enquiry about activating card products
+2,past_transactions,enquiry about past transactions in a specific time period
+3,dispatch_status,enquiry about the dispatch status of card products
+4,outstanding_balance,enquiry about outstanding balance on card products
+5,card_issue,report about an issue with using card products
+6,ifsc_code,enquiry about IFSC code of bank branch
+7,generate_pin,enquiry about changing or generating a new pin for their card product
+8,unauthorised_transaction,report about an unauthorised or fraudulent transaction
+9,loan_query,enquiry about different kinds of loans
+10,balance_enquiry,enquiry about bank account balance
+11,change_limit,enquiry about changing the limit for card products
+12,block,enquiry about blocking card or banking product
+13,lost,report about losing a card product

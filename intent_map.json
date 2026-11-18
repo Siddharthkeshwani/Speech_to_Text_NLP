@@ -1,0 +1,58 @@
+{
+  "0": {
+    "name": "branch_address",
+    "description": "enquiry about bank branch location"
+  },
+  "1": {
+    "name": "activate_card",
+    "description": "enquiry about activating card products"
+  },
+  "2": {
+    "name": "past_transactions",
+    "description": "enquiry about past transactions in a specific time period"
+  },
+  "3": {
+    "name": "dispatch_status",
+    "description": "enquiry about the dispatch status of card products"
+  },
+  "4": {
+    "name": "outstanding_balance",
+    "description": "enquiry about outstanding balance on card products"
+  },
+  "5": {
+    "name": "card_issue",
+    "description": "report about an issue with using card products"
+  },
+  "6": {
+    "name": "ifsc_code",
+    "description": "enquiry about IFSC code of bank branch"
+  },
+  "7": {
+    "name": "generate_pin",
+    "description": "enquiry about changing or generating a new pin for their card product"
+  },
+  "8": {
+    "name": "unauthorised_transaction",
+    "description": "report about an unauthorised or fraudulent transaction"
+  },
+  "9": {
+    "name": "loan_query",
+    "description": "enquiry about different kinds of loans"
+  },
+  "10": {
+    "name": "balance_enquiry",
+    "description": "enquiry about bank account balance"
+  },
+  "11": {
+    "name": "change_limit",
+    "description": "enquiry about changing the limit for card products"
+  },
+  "12": {
+    "name": "block",
+    "description": "enquiry about blocking card or banking product"
+  },
+  "13": {
+    "name": "lost",
+    "description": "report about losing a card product"
+  }
+}

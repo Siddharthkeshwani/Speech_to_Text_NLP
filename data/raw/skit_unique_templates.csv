@@ -1,0 +1,151 @@
+template,intent_class,template_id,intent_name
+Please tell me the IFSC Code,6,0,ifsc_code
+Credit card pin generation,7,1,generate_pin
+Is my card dispatched?,3,2,dispatch_status
+I want to change the limit of my online transactions on my (credit/debit) card,11,3,change_limit
+Amount deducted from account without my knowledge,8,4,unauthorised_transaction
+Where is the bank branch ?,0,5,branch_address
+I want to report my lost debit card,13,6,lost
+Give me the outstanding balance on my credit card,4,7,outstanding_balance
+Debit card pin generation,7,8,generate_pin
+I want to know my balance,10,9,balance_enquiry
+I want to know my credit card dispatch status,3,10,dispatch_status
+My card is lost,13,11,lost
+I want to block my UPI,12,12,block
+I want to get loan,9,13,loan_query
+Last <numeric> transaction details,2,14,past_transactions
+Home loan,9,15,loan_query
+How to generate pin for credit card,7,16,generate_pin
+How to know my IFSC Code,6,17,ifsc_code
+When will you deliver my credit card,3,18,dispatch_status
+Please give me the details of my last transaction,2,19,past_transactions
+I want to speak to loan department,9,20,loan_query
+What was the amount of my last transaction,2,21,past_transactions
+how to generate credit card pin,7,22,generate_pin
+I want to report a fraud,8,23,unauthorised_transaction
+what is the outstanding balance on my credit card?,4,24,outstanding_balance
+How to change the limit of credit card,11,25,change_limit
+What is my pending amount on my credit card bill,4,26,outstanding_balance
+I want to change the limit of my e-statement on my (credit/debit) card,11,27,change_limit
+Please tell me the nearest branch of the bank,0,28,branch_address
+I want my account balance,10,29,balance_enquiry
+I lost my credit card,13,30,lost
+IFSC Code,6,31,ifsc_code
+Total outstanding balance?,4,32,outstanding_balance
+activate debit card,1,33,activate_card
+I want to block mobile banking,12,34,block
+I am unable to use my credit card,5,35,card_issue
+Past transaction details,2,36,past_transactions
+I want my IFSC code,6,37,ifsc_code
+There is a problem with my credit card,5,38,card_issue
+generate credit card pin,7,39,generate_pin
+I want to set my credit card pin,7,40,generate_pin
+I want to know my IFSC Code,6,41,ifsc_code
+I want to report a wrong transaction,8,42,unauthorised_transaction
+How to get personal loan,9,43,loan_query
+How to activate credit card,1,44,activate_card
+I want to know about home loan,9,45,loan_query
+I wanted to block my mobile banking,12,46,block
+What is the nearest branch?,0,47,branch_address
+activate,1,48,activate_card
+I want to activate my debit card,1,49,activate_card
+Where is the branch located?,0,50,branch_address
+Credit card is missing,13,51,lost
+Fraud transaction happened from my account,8,52,unauthorised_transaction
+I want to generate pin for  my credit card,7,53,generate_pin
+Block credit card,12,54,block
+Unauthorised transaction,8,55,unauthorised_transaction
+I want to know about my last <numeric> transactions,2,56,past_transactions
+Details of last transaction,2,57,past_transactions
+details of last few transactions,2,58,past_transactions
+when will my card be delivered?,3,59,dispatch_status
+I want to start my credit card,1,60,activate_card
+balance enquiry,10,61,balance_enquiry
+I want to change the limit of my (credit/debit) card,11,62,change_limit
+I want to know about personal loan,9,63,loan_query
+Debit card issue,5,64,card_issue
+I am unable to pay with my credit card,5,65,card_issue
+bank account balance enquiry,10,66,balance_enquiry
+I have a uery regarding loan,9,67,loan_query
+How to know my credit card outstanding balance,4,68,outstanding_balance
+What is my IFSC Code,6,69,ifsc_code
+Can I block my credit card,12,70,block
+My debit card is not working,5,71,card_issue
+what is my credit card dispatch status,3,72,dispatch_status
+How can I activate my credit card,1,73,activate_card
+What is the branch location?,0,74,branch_address
+I want to speak to customer care about loan,9,75,loan_query
+Can you tell me the details of my last transaction?,2,76,past_transactions
+I want to start my debit card,1,77,activate_card
+Personal loan eligibility,9,78,loan_query
+I want to generate credit card pin,7,79,generate_pin
+account balance,10,80,balance_enquiry
+ATM card pin generation,7,81,generate_pin
+I want to block my credit card,12,82,block
+How can I block my credit card?,12,83,block
+Last transaction details,2,84,past_transactions
+debit card dispatch status,3,85,dispatch_status
+I want to activate my credit card,1,86,activate_card
+Perosnal Loan,9,87,loan_query
+limit change,11,88,change_limit
+Where is my credit card?,3,89,dispatch_status
+I want to decrease the limit of my credit card,11,90,change_limit
+I want to block my debit card,12,91,block
+I cannot find my credit card,13,92,lost
+Tell me my last <numeric> transactions,2,93,past_transactions
+Debit card is missing,13,94,lost
+I lost my debit card,13,95,lost
+Credit card issue,5,96,card_issue
+Can you please tell me the IFSC Code?,6,97,ifsc_code
+when will my credit card be dispatched?,3,98,dispatch_status
+Personal Loan related query,9,99,loan_query
+I want to know my bank balance,10,100,balance_enquiry
+I cannot pay using my credit card,5,101,card_issue
+Bank address,0,102,branch_address
+What is my account balance,10,103,balance_enquiry
+Bank Branch location,0,104,branch_address
+Amount wrongly deducted from my account,8,105,unauthorised_transaction
+How to apply for loan,9,106,loan_query
+My credit card is not working,5,107,card_issue
+I want to block my card,12,108,block
+Nearest Branch,0,109,branch_address
+Where can I find my IFSC Code,6,110,ifsc_code
+block mobile banking,12,111,block
+{{Axis Bank}} branch location,0,112,branch_address
+I cannot use my credit card,5,113,card_issue
+I want to generate pin,7,114,generate_pin
+Pending amount on credit card,4,115,outstanding_balance
+What is the remaining outstanding balance on my credit card?,4,116,outstanding_balance
+Bank account balance,10,117,balance_enquiry
+I have a query regarding personal loan,9,118,loan_query
+I want to check my outstanding balance,4,119,outstanding_balance
+credit card delivery date,3,120,dispatch_status
+Details of last month's transactions,2,121,past_transactions
+I want to activate my card,1,122,activate_card
+Branch Address,0,123,branch_address
+debit card activate,1,124,activate_card
+Outstanding balance amount?,4,125,outstanding_balance
+List of transactions in <Month>,2,126,past_transactions
+I cannot do transactions with my credit card,5,127,card_issue
+I want to change the limit of my POS transaction on my (credit/debit) card,11,128,change_limit
+I want to change the limit of my international transaction on my (credit/debit) card,11,129,change_limit
+Card not working,5,130,card_issue
+Change limit of credit card,11,131,change_limit
+What is my outstanding balance?,4,132,outstanding_balance
+I want to change the limit of my auto-debit on my (credit/debit) card,11,133,change_limit
+I misplaced my credit card,13,134,lost
+I want to change the limit of my contactless transaction on my (credit/debit) card,11,135,change_limit
+I want to know about my last transaction,2,136,past_transactions
+what is the bank location?,0,137,branch_address
+credit card dispatch status,3,138,dispatch_status
+I want to know my account balance,10,139,balance_enquiry
+How to apply for home loan,9,140,loan_query
+Home loan related query,9,141,loan_query
+Loan department,9,142,loan_query
+Credit card outstanding balance?,4,143,outstanding_balance
+How to get loan,9,144,loan_query
+I want to know my transactions of last month,2,145,past_transactions
+Credit card limit change,11,146,change_limit
+I want to increase the limit of my credit card,11,147,change_limit
+I want to change the limit of my atm withdrawal on my (credit/debit) card,11,148,change_limit
+what is my bank account balance,10,149,balance_enquiry

@@ -1,0 +1,113 @@
+intent_class,text
+0,which branch is closest to my house
+0,i am looking for a bank branch near me
+0,show me branches around here
+0,where can i find your nearest branch
+0,i want to visit the branch so where is it
+0,give me the address of the branch
+0,is there any branch close to my office
+0,tell me the location of your bank branch
+1,my new card has come and i want to activate it
+1,i received my card and want to start using it
+1,please turn on my new debit card
+1,how do i make my credit card active
+1,i want to activate the card i got in the post
+1,my card is not activated yet so please activate it
+1,need to activate my atm card
+1,help me activate my new card
+2,show me my recent transactions
+2,i want the statement of my last few payments
+2,what were my last five transactions
+2,tell me about the money i spent last week
+2,can i get my transaction history
+2,i want to see what was debited from my account recently
+2,give me the mini statement
+2,details of my payments this month
+3,my card has not reached me yet so where is it
+3,has my new credit card been sent
+3,i am waiting for my debit card so what is the delivery status
+3,when will my card reach my home
+3,track my card delivery
+3,i applied for a card so has it been dispatched
+3,how many more days for my card to arrive
+3,status of my card courier
+4,how much do i need to pay on my credit card
+4,tell me my credit card dues
+4,what is the total amount due on my card
+4,i want to know my card bill amount
+4,how much is pending on my credit card
+4,what do i owe on my credit card
+4,what is my credit card payment due
+4,check my unpaid credit card balance
+5,my card got declined at the shop
+5,the card is not working at the atm
+5,payment is failing with my card
+5,my debit card does not work online
+5,i am facing a problem while swiping my card
+5,my card is not accepted anywhere
+5,card transaction keeps failing
+5,i have trouble using my credit card
+6,what is the ifsc code of my branch
+6,i need the ifsc to add a beneficiary
+6,tell me the branch ifsc code for transfer
+6,ifsc code of my home branch
+6,where do i see my branch ifsc
+6,i am trying to send money and need the ifsc code
+6,give me the bank ifsc code
+6,can you share the ifsc code
+7,i forgot my card pin and i want a new one
+7,how do i set a new pin for my debit card
+7,i want to change my atm pin
+7,help me create a pin for my card
+7,my pin is not set yet
+7,reset my card pin
+7,i need to generate a new atm pin
+7,how can i change the pin of my credit card
+8,money was debited from my account and i did not do it
+8,there is a transaction on my card that is not mine
+8,someone has used my card without asking me
+8,i see a payment i never made
+8,i want to complain about a fraud on my account
+8,an unknown transaction happened on my account
+8,amount got cut from my account but i did not make this payment
+8,i think my account has been hacked and money is missing
+9,i am interested in taking a loan
+9,what is the interest rate on personal loan
+9,i need information about car loan
+9,can i talk to someone about a loan
+9,am i eligible for a home loan
+9,i want to apply for an education loan
+9,tell me about your loan schemes
+9,i want to take a loan for my business
+10,how much money is there in my account
+10,check my savings account balance
+10,tell me my available balance
+10,what is the balance in my salary account
+10,i want to see my account balance
+10,how much balance do i have
+10,can you tell me my current balance
+10,available balance in my bank account
+11,i want to raise my card limit
+11,please reduce the limit on my debit card
+11,how do i set a daily limit on my card
+11,can you increase my credit limit
+11,i want to lower my atm withdrawal limit
+11,change my card spending limit
+11,i need a higher limit on my credit card
+11,set a limit for online payments on my card
+12,i want to stop my card from working
+12,please block my atm card
+12,disable my credit card
+12,i want to block my net banking
+12,freeze my debit card
+12,block my card so nobody can use it
+12,i would like to deactivate my card
+12,stop my mobile banking
+13,i have lost my debit card
+13,my credit card is gone and i cannot find it anywhere
+13,i think i left my card somewhere
+13,i lost my wallet with my cards
+13,my atm card is missing
+13,i cannot trace my card
+13,my card is not with me and i lost it
+13,i want to report that i lost my card

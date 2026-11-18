@@ -49,22 +49,39 @@ def test_translation():
     hindi_text = "मेरा कार्ड खो गया है"
 
     try:
-        from deep_translator import GoogleTranslator
+        from deep_translator import GoogleTranslator, MyMemoryTranslator
 
-        start = time.time()
-        english_text = GoogleTranslator(source="auto", target="en").translate(hindi_text)
-        total_time = time.time() - start
+        # we try Google first, and MyMemory if Google blocks us
+        translators = [
+            ["Google", GoogleTranslator(source="auto", target="en")],
+            ["MyMemory", MyMemoryTranslator(source="hindi", target="english")],
+        ]
+        done = False
 
-        print("Original:", hindi_text)
-        print("English:", english_text)
-        print("Translated in", round(total_time, 2), "seconds")
+        for name, translator in translators:
+            try:
+                start = time.time()
+                english_text = translator.translate(hindi_text)
+                total_time = time.time() - start
 
-        # our target from the plan is under 2 seconds
-        if total_time < 2:
-            print("Under 2 seconds: good")
-        else:
-            print("Slower than 2 seconds: note it down")
-        results.append(["Translation", "PASS", str(round(total_time, 2)) + " s"])
+                print("Engine used:", name)
+                print("Original:", hindi_text)
+                print("English:", english_text)
+                print("Translated in", round(total_time, 2), "seconds")
+
+                # our target from the plan is under 2 seconds
+                if total_time < 2:
+                    print("Under 2 seconds: good")
+                else:
+                    print("Slower than 2 seconds: note it down")
+                results.append(["Translation", "PASS", str(round(total_time, 2)) + " s (" + name + ")"])
+                done = True
+                break
+            except Exception as error:
+                print(name, "failed:", error)
+
+        if not done:
+            results.append(["Translation", "FAIL", "-"])
     except Exception as error:
         print("Translation failed:", error)
         results.append(["Translation", "FAIL", "-"])
