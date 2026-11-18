@@ -1,0 +1,49 @@
+engine,language,clip,expected,heard,similarity,script_ok,seconds,avg_logprob,passed
+whisper-base,English,en_lost_card_01.wav,I cannot find my ATM card anywhere,I cannot find my ATM card anywhere.,1.0,True,0.41,-0.38896955143321643,True
+whisper-base,English,en_block_upi_01.wav,Please block my UPI ID,Please block my UPI ID.,1.0,True,0.28,-0.5804787158966065,True
+whisper-base,English,en_balance_01.wav,How much money do I have in my savings account,How much money do I have in my saving account?,0.99,True,0.31,-0.5514653750828334,True
+whisper-base,English,en_ifsc_01.wav,Tell me the IFSC code of my branch,Till mid-DIFSC code of my branch.,0.85,True,0.31,-0.8790955543518066,True
+whisper-base,English,en_branch_01.wav,Where is the nearest branch,Where is the nearest branch?,1.0,True,0.29,-0.5017690128750272,True
+whisper-base,English,en_pin_01.wav,I want to change my card PIN,"I want to change my card, ping.",0.98,True,0.3,-0.6598016818364462,True
+whisper-base,English,en_fraud_01.wav,Money was taken from my account and I did not make this payment,Money was taken from my account and I did not make this payment.,1.0,True,0.32,-0.2585476426517262,True
+whisper-base,English,en_loan_01.wav,I am interested in a home loan,I am interested in Home Lun.,0.91,True,0.28,-0.6710989475250244,True
+whisper-base,English,en_notworking_01.wav,My card is not working at the shop,My card is not working at the shop.,1.0,True,0.3,-0.4799240032831828,True
+whisper-base,English,en_activate_01.wav,I want to activate my new card,I want to add to it my new code.,0.79,True,0.29,-0.5877742767333984,True
+whisper-base,Hindi,hi_lost_card_01.wav,मेरा कार्ड खो गया है,میراکڑ کوگے آہے,0.11,False,0.31,-0.8690893309456962,False
+whisper-base,Hindi,hi_block_card_01.wav,मुझे अपना कार्ड ब्लॉक करना है,ра...Ru...Ru..Ru...Ru...Ru...Ru.... écrit...,0.18,False,4.65,-2.360494384765625,False
+whisper-base,Hindi,hi_balance_01.wav,मेरे खाते में कितना बैलेंस है,میرے قادمے گتنہ بلنجے,0.12,False,0.4,-0.747694266469855,False
+whisper-base,Marathi,mr_lost_card_01.wav,माझे कार्ड हरवले आहे,Ma Sa Ka Dur Hrav La Hai,0.14,False,2.0,-2.7723764939741655,False
+whisper-base,Marathi,mr_block_card_01.wav,मला माझे कार्ड ब्लॉक करायचे आहे,g,0.0,False,1.91,-4.868360996246338,False
+whisper-base,Marathi,mr_balance_01.wav,माझ्या खात्यात किती शिल्लक आहे,bha la krita lilha muva mo ov,0.14,False,4.13,-5.195104871477399,False
+whisper-small,English,en_lost_card_01.wav,I cannot find my ATM card anywhere,I cannot find my ATM card anywhere.,1.0,True,0.96,-0.3731077801097523,True
+whisper-small,English,en_block_upi_01.wav,Please block my UPI ID,Please block my UPID.,0.95,True,0.9,-0.6115865177578397,True
+whisper-small,English,en_balance_01.wav,How much money do I have in my savings account,How much money do I have in my saving account?,0.99,True,1.04,-0.3788172858101981,True
+whisper-small,English,en_ifsc_01.wav,Tell me the IFSC code of my branch,Tell me the IFSC code of my branch.,1.0,True,1.01,-0.4659733405480018,True
+whisper-small,English,en_branch_01.wav,Where is the nearest branch,Where is the nearest branch?,1.0,True,0.86,-0.7536383204989963,True
+whisper-small,English,en_pin_01.wav,I want to change my card PIN,I want to change my card pin.,1.0,True,1.04,-0.4287086400118741,True
+whisper-small,English,en_fraud_01.wav,Money was taken from my account and I did not make this payment,money was taken from my account and I did not make this payment.,1.0,True,1.11,-0.2323612044839298,True
+whisper-small,English,en_loan_01.wav,I am interested in a home loan,I am interested in home loan.,0.97,True,0.99,-0.5282434463500977,True
+whisper-small,English,en_notworking_01.wav,My card is not working at the shop,My guide is not working at the shop.,0.9,True,0.99,-0.370815912882487,True
+whisper-small,English,en_activate_01.wav,I want to activate my new card,I want to activate my new card.,1.0,True,0.98,-0.3799467086791992,True
+whisper-small,Hindi,hi_lost_card_01.wav,मेरा कार्ड खो गया है,मिरा कार्ट को बया है,0.8,True,1.25,-0.5130962644304548,True
+whisper-small,Hindi,hi_block_card_01.wav,मुझे अपना कार्ड ब्लॉक करना है,"जे, मुझे अपना कार्ट भ्लोक करना है",0.85,True,1.61,-0.3121376037597656,True
+whisper-small,Hindi,hi_balance_01.wav,मेरे खाते में कितना बैलेंस है,मेरे काटे में कितना बलन्च है,0.81,True,1.46,-0.5030912201980065,True
+whisper-small,Marathi,mr_lost_card_01.wav,माझे कार्ड हरवले आहे,माजा काड हरवला है आहे,0.73,True,1.39,-0.5799636443456014,True
+whisper-small,Marathi,mr_block_card_01.wav,मला माझे कार्ड ब्लॉक करायचे आहे,वला माजा कार्ट ब्लोग कराट आहीं,0.69,True,1.67,-0.6459940229143415,True
+whisper-small,Marathi,mr_balance_01.wav,माझ्या खात्यात किती शिल्लक आहे,वाजा क्यात्यात कितिषिल्ला का हे,0.69,True,23.33,-0.8709344574899385,True
+whisper-medium,English,en_lost_card_01.wav,I cannot find my ATM card anywhere,I cannot find my ATM card anywhere.,1.0,True,3.78,-0.4076195630160245,True
+whisper-medium,English,en_block_upi_01.wav,Please block my UPI ID,Please block my UPI ID.,1.0,True,3.43,-0.6272828102111816,True
+whisper-medium,English,en_balance_01.wav,How much money do I have in my savings account,How much money do I have in my saving accounts?,0.98,True,3.39,-0.3268582139696394,True
+whisper-medium,English,en_ifsc_01.wav,Tell me the IFSC code of my branch,Tell me the IFC code of my branch.,0.99,True,3.53,-0.5387985156132624,True
+whisper-medium,English,en_branch_01.wav,Where is the nearest branch,Where is the nearest branch?,1.0,True,3.08,-0.40817470020718044,True
+whisper-medium,English,en_pin_01.wav,I want to change my card PIN,I want to change my card pin.,1.0,True,3.16,-0.3943515690890225,True
+whisper-medium,English,en_fraud_01.wav,Money was taken from my account and I did not make this payment,Money was taken from my account and I did not make this payment.,1.0,True,3.66,-0.24920385024126837,True
+whisper-medium,English,en_loan_01.wav,I am interested in a home loan,I'm interested in Home Loan.,0.95,True,3.2,-0.491677154194225,True
+whisper-medium,English,en_notworking_01.wav,My card is not working at the shop,My card is not working at the shop.,1.0,True,3.25,-0.31870174407958984,True
+whisper-medium,English,en_activate_01.wav,I want to activate my new card,I want to activate my new card.,1.0,True,3.17,-0.3935532569885254,True
+whisper-medium,Hindi,hi_lost_card_01.wav,मेरा कार्ड खो गया है,मेरा कार्ट खो गया है।,0.95,True,4.09,-0.3254181543986003,True
+whisper-medium,Hindi,hi_block_card_01.wav,मुझे अपना कार्ड ब्लॉक करना है,"जेग, मुझे अपना काट ब्लॉक करना हैं।",0.85,True,5.35,-0.2985262754486828,True
+whisper-medium,Hindi,hi_balance_01.wav,मेरे खाते में कितना बैलेंस है,मेरे खाते में कितना बैलेंस हैं।,0.98,True,5.12,-0.3200698792934418,True
+whisper-medium,Marathi,mr_lost_card_01.wav,माझे कार्ड हरवले आहे,माजा काड हरवला है आहे,0.73,True,4.57,-0.4279721180597941,True
+whisper-medium,Marathi,mr_block_card_01.wav,मला माझे कार्ड ब्लॉक करायचे आहे,बला माजा कार्ड ब्लॉक कराईचा है आहे,0.8,True,45.32,-0.4591185251871745,True
+whisper-medium,Marathi,mr_balance_01.wav,माझ्या खात्यात किती शिल्लक आहे,माजेक्षात्यात कितीशिल्लकाहे,0.77,True,46.85,-0.5759760737419128,True

@@ -1,0 +1,14 @@
+{
+  "en": {"name": "English", "script": "Latin", "rtl": false, "tier": "core", "status": "passed", "engine": "whisper", "size": "small", "whisper_code": "en", "indic_code": null, "note": "small makes fewer banking-word mistakes than base (checked 18 Nov 2026)"},
+  "hi": {"name": "Hindi", "script": "Devanagari", "rtl": false, "tier": "core", "status": "passed", "engine": "whisper", "size": "medium", "whisper_code": "hi", "indic_code": "hi", "note": "medium was clearly better than small on the 3 clips; about 5 s per clip"},
+  "mr": {"name": "Marathi", "script": "Devanagari", "rtl": false, "tier": "core", "status": "passed", "engine": "whisper", "size": "small", "whisper_code": "mr", "indic_code": "mr", "note": "weak: similarity 0.69 to 0.73, and one clip took 23 s"},
+  "es": {"name": "Spanish", "script": "Latin", "rtl": false, "tier": "demo", "status": "untested", "engine": "whisper", "size": "base", "whisper_code": "es", "indic_code": null, "note": "no clips yet"},
+  "ta": {"name": "Tamil", "script": "Tamil", "rtl": false, "tier": "experimental", "status": "untested", "engine": "whisper", "size": "base", "whisper_code": "ta", "indic_code": "ta", "note": "no clips yet"},
+  "te": {"name": "Telugu", "script": "Telugu", "rtl": false, "tier": "experimental", "status": "untested", "engine": "whisper", "size": "base", "whisper_code": "te", "indic_code": "te", "note": "no clips yet"},
+  "kn": {"name": "Kannada", "script": "Kannada", "rtl": false, "tier": "experimental", "status": "untested", "engine": "whisper", "size": "base", "whisper_code": "kn", "indic_code": "kn", "note": "no clips yet"},
+  "bn": {"name": "Bengali", "script": "Bengali", "rtl": false, "tier": "experimental", "status": "untested", "engine": "whisper", "size": "base", "whisper_code": "bn", "indic_code": "bn", "note": "no clips yet"},
+  "ur": {"name": "Urdu", "script": "Perso-Arabic", "rtl": true, "tier": "experimental", "status": "untested", "engine": "whisper", "size": "base", "whisper_code": "ur", "indic_code": "ur", "note": "no clips yet"},
+  "ru": {"name": "Russian", "script": "Cyrillic", "rtl": false, "tier": "experimental", "status": "untested", "engine": "whisper", "size": "base", "whisper_code": "ru", "indic_code": null, "note": "no clips yet"},
+  "mni": {"name": "Manipuri (Meitei)", "script": "Meitei Mayek", "rtl": false, "tier": "experimental", "status": "untested", "engine": "indic", "size": null, "whisper_code": null, "indic_code": "mni", "note": "no clips yet, and the code mni is not confirmed"},
+  "raj": {"name": "Rajasthani", "script": "Devanagari", "rtl": false, "tier": "experimental", "status": "untested", "engine": "whisper", "size": "medium", "whisper_code": "hi", "indic_code": "hi", "note": "uses the Hindi setting, so it follows Hindi's size; no clips yet"}
+}
