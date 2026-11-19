@@ -102,9 +102,9 @@ What "correct in the self-serve lane" means: of the calls the system sends autom
 | Step | Target | Basis |
 | --- | --- | --- |
 | Speech to text, clip of about 5 s | Up to 5 s | **Measured:** Whisper base took 1.1 s on a short English clip (HP OMEN 16, Phase 0). Larger models for Indian languages (Phase 4 gate) are slower and not measured yet. |
-| Translation | Up to 2 s | **Measured once:** 1.84 s with MyMemory (Google was blocked). That is close to the limit, so treat it as typical and not guaranteed. Re-measure over 10 calls in Phase 5. |
+| Translation | Up to 2 s (target). Measured: 3.76 s average over 10 calls with MyMemory, because Google was blocked. | **Measured 18 Nov (HP OMEN 16):** 10 of 10 calls were over 2 s. A rerun with the skip rule is in phase5_results.md. English clips skip translation, so they take 0 s. |
 | Preprocessing, vectorizer, model and router | Up to 0.5 s | Assumption. The toy model in the smoke test took 0.014 s, but the real model is bigger, so I left room. |
-| Total, for a clip of up to 10 s | Up to 8 s | My design choice. Rule of thumb that people lose patience near 10 seconds (Nielsen, from my own knowledge, not looked up). The measured parts so far add up to about 3 s (1.1 + 1.84 + 0.014). |
+| Total, for a clip of up to 10 s | Up to 8 s for English. Hindi is about 9 s and Marathi is longer. | English: about 1 s speech plus 0 s translation plus 0.5 s. Hindi: 4.85 s plus 3.76 s plus 0.5 s. Marathi: 8.8 s plus 3.6 s plus 0.5 s. The screen shows a progress message for any step over 2 s. |
 
 ### 4.3 Project-level
 
@@ -197,7 +197,7 @@ These are the words the caller screen shows after "I think you want:". They are 
 | A2 | Simple lookups are a large share of calls | Weak, old and mostly US evidence (H2) |
 | A3 | Whisper base is good enough for English | Test in Phase 0 passed on one English clip. Test more in Phase 4. |
 | A4 | A larger model is needed for Marathi, Tamil, Telugu and maybe Hindi | The Phase 4 gate |
-| A5 | The translation step stays under 2 seconds | Measured once: 1.84 s with MyMemory. Google is blocked on this network. Re-measure over 10 calls in Phase 5. |
+| A5 | The translation step stays under 2 seconds | **Not true on this network.** Measured 3.76 s average (MyMemory, Google blocked). Re-measured after the skip rule, see phase5_results.md. |
 | A6 | The RBI fraud-reporting window and its start date | Check rbi.org.in before quoting. The app does not quote it. |
 | A7 | The cut-offs for "High, Medium, Low" on the caller screen | Decided in Phase 7 from the threshold sweep |
 | A8 | A caller can read the English line on the screen | Not true for a Marathi-only caller. The line is relabelled "For staff" (see the wireframes update). |
@@ -216,3 +216,4 @@ These are the words the caller screen shows after "I think you want:". They are 
 | 17 Nov 2026 | Translation measured at 1.84 s (MyMemory). Added a 5 s translator timeout. Added the reference machine. | Phase 0 results |
 | 17 Nov 2026 | F15 expanded. F17 (simulated next step) added. Section 2.3 (the four checks) added. | AI review of the PRD |
 | 17 Nov 2026 | "Correct in the self-serve lane" defined. Read-back rule made single. | AI review of the PRD |
+| 18 Nov 2026 | Translation speed target kept at 2 s, but the measured value (3.76 s) is written next to it. Hindi and Marathi totals are over 8 s. | Phase 5 timing results |

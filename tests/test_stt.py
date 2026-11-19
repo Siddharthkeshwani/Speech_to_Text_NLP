@@ -82,7 +82,7 @@ def test_transcribe_returns_text(tmp_path, monkeypatch):
     assert result["ok"] is True
     assert result["text"] == "my card is lost"
     assert result["text_raw"] == " my card is lost "
-    assert result["engine"] == "whisper-base"
+    assert result["engine"] == "whisper-small"
     assert result["avg_logprob"] == -0.2
 
 

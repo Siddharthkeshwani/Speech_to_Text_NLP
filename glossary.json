@@ -1,0 +1,34 @@
+{
+  "before_translation": {
+    "आईएफएससी": "IFSC",
+    "आई एफ एस सी": "IFSC",
+    "यूपीआई": "UPI",
+    "यू पी आई": "UPI",
+    "ओटीपी": "OTP",
+    "ओ टी पी": "OTP",
+    "केवाईसी": "KYC",
+    "ईएमआई": "EMI",
+    "पिन": "PIN"
+  },
+  "after_translation": {
+    "ifsc": "IFSC",
+    "difsc": "IFSC",
+    "ifc": "IFSC",
+    "i f s c": "IFSC",
+    "if sc": "IFSC",
+    "upi": "UPI",
+    "upid": "UPI ID",
+    "u p i": "UPI",
+    "pin": "PIN",
+    "p i n": "PIN",
+    "card,? ping": "card PIN",
+    "otp": "OTP",
+    "o t p": "OTP",
+    "kyc": "KYC",
+    "k y c": "KYC",
+    "emi": "EMI",
+    "cart": "card",
+    "guide": "card",
+    "e m i": "EMI"
+  }
+}
