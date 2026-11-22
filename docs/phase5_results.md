@@ -4,7 +4,7 @@ Date: 18 November 2026
 Machine: HP OMEN 16, 24 GB RAM, Intel Core Ultra 7 255H, CPU only, Python 3.11.9
 Translators: Google first, MyMemory as a backup (both through deep-translator)
 Speech models used: English small, Hindi medium, Marathi small
-Tests: 35 passed (first run), 39 passed after the fixes (fill in after you run them)
+Tests: 35 passed on the original run. The new screenshot shows the combined suite passed all 49 tests in 3.02 s. A separate 39-test rerun was not supplied.
 
 ## Translation time over 10 calls (first run)
 
@@ -19,14 +19,27 @@ Tests: 35 passed (first run), 39 passed after the fixes (fill in after you run t
 PRD target: up to 2 s for translation. This missed it.
 Earlier single measurement: 1.84 s with MyMemory (Phase 0). The difference is probably the failed Google try on every call. I changed the code to skip a translator that just failed (see the change log) and I will measure again.
 
-## Translation time after the skip rule (fill in after the rerun)
+## Translation time after the skip rule · 21 November rerun
 
 | Measure | Value |
 | --- | --- |
-| Engine that answered | MyMemory |
-| Call 1 seconds | 8.53 |
-| Calls 2 to 10 average seconds | 2.75 |
-| Calls over 2 seconds | 4 out of 10 |
+| Engine that answered | MyMemory on all 10 calls |
+| Call 1 seconds | 8.53 s (also the slowest) |
+| Calls 2 to 10 average seconds | 2.11 s, calculated from the displayed values |
+| All 10 calls | 2.75 s on average |
+| Calls over 2 seconds | 4 of 10 |
+
+The ten times in seconds were 8.53, 2.53, 2.54, 1.96, 2.90, 1.76, 1.86, 1.66, 2.00 and 1.74. The nine later calls total 18.95 s. The earlier average was 3.76 s. This rerun improved the average and still missed the 2 s target. These measurements include provider and network time.
+
+## Clip results after the fixes · 21 November rerun
+
+| Language | Passed the Phase 5 comparison | Mean translation time |
+| --- | --- | --- |
+| English | 10/10 | 0.00 s |
+| Hindi | 3/3 | 2.16 s |
+| Marathi | 0/3 | 1.59 s |
+
+The total was 13/16. English bypassed the online translator. Hindi lost-card was slow at 3.04 s. Marathi lost-card scored 0.41 for text similarity even though the meaning survived. Marathi block became “My card is full of items.” (0.30). Marathi balance became “Instead of eating, I’m writing a letter.” (0.28, `no_banking_word`). These last two changed the meaning. Their scores here are **reference-text similarities**, not the classifier probabilities in Cell 22. Keep Marathi experimental.
 
 ## Clip results (first run)
 
@@ -84,12 +97,12 @@ After the "cart" fix, "My card is full of books" has a banking word, so that fla
 
 | Clip | What the listener heard | Matches my expected text? |
 | --- | --- | --- |
-| hi_lost_card_01 | My card is missing. | My card is lost |
-| hi_block_card_01 | Jeg, I need to block my card. |  I want to block my card |
-| hi_balance_01 | What is the balance in my account? |  How much balance is in my account |
-| mr_lost_card_01 | I have lost my card  | My card is lost |
-| mr_block_card_01 | My card is full of items. | I want to block my card |
-| mr_balance_01 |  Instead of eating, I'm writing a letter.  | How much balance is in my accoun |
+| hi_lost_card_01 | | |
+| hi_block_card_01 | | |
+| hi_balance_01 | | |
+| mr_lost_card_01 | | |
+| mr_block_card_01 | | |
+| mr_balance_01 | | |
 
 Listener: (name or "friend"), language level: (native or not)
 
@@ -99,7 +112,7 @@ Listener: (name or "friend"), language level: (native or not)
 | --- | --- | --- | --- |
 | English | core | passed | 10 of 10, no translation step |
 | Hindi | core (provisional) | passed | 3 of 3, but 2 clips have a wrong or extra word, and no native listener yet |
-| Marathi | experimental | weak | 0 of 3 right by meaning. Speech is the problem. |
+| Marathi | experimental | weak | 1 of 3 right by meaning. Speech is the problem. |
 | All others | unchanged | untested | No clips |
 
 ## Change log
@@ -109,7 +122,7 @@ Listener: (name or "friend"), language level: (native or not)
 | 18 Nov 2026 | "upid" now gives "UPI ID" | The old rule deleted "ID" |
 | 18 Nov 2026 | Added "cart" and "guide" rules | Real mistakes in 3 clips |
 | 18 Nov 2026 | A translator that failed is skipped for 120 s | All 10 calls spent time on a failed Google try (my guess, to be measured) |
-| 18 Nov 2026 | Marathi moved from core (provisional) to experimental | 0 of 3 clips right by meaning after translation |
+| 18 Nov 2026 | Marathi moved from core (provisional) to experimental | 1 of 3 clips right by meaning after translation |
 
 ## Privacy
 

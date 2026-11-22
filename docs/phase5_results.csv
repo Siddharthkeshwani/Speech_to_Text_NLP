@@ -9,9 +9,9 @@ en_fraud_01.wav,English,money was taken from my account and I did not make this 
 en_loan_01.wav,English,I am interested in home loan.,I am interested in home loan.,I am interested in a home loan,0.97,True,none,0.0,,True
 en_notworking_01.wav,English,My guide is not working at the shop.,My card is not working at the shop.,My card is not working at the shop,1.0,True,none,0.0,,True
 en_activate_01.wav,English,I want to activate my new card.,I want to activate my new card.,I want to activate my new card,1.0,True,none,0.0,,True
-hi_lost_card_01.wav,Hindi,मेरा कार्ट खो गया है।,My card is missing.,My card is lost,0.73,True,MyMemory,3.04,slow,True
-hi_block_card_01.wav,Hindi,"जेग, मुझे अपना काट ब्लॉक करना हैं।","Jeg, I need to block my card.",I want to block my card,0.8,True,MyMemory,1.65,,True
-hi_balance_01.wav,Hindi,मेरे खाते में कितना बैलेंस हैं।,What is the balance in my account?,How much balance is in my account,0.76,True,MyMemory,1.8,,True
-mr_lost_card_01.wav,Marathi,माजा काड हरवला है आहे,I have lost my card.,My card is lost,0.41,True,MyMemory,1.49,,False
-mr_block_card_01.wav,Marathi,वला माजा कार्ट ब्लोग कराट आहीं,My card is full of items.,I want to block my card,0.3,True,MyMemory,1.71,,False
-mr_balance_01.wav,Marathi,बाजεए खातयत चिति श्ण्राए,"Instead of eating, I'm writing a letter.",How much balance is in my account,0.28,True,MyMemory,1.57,no_banking_word,False
+hi_lost_card_01.wav,Hindi,मेरा कार्ट खो गया है।,My card is missing.,My card is lost,0.73,True,MyMemory,2.88,slow,True
+hi_block_card_01.wav,Hindi,"जेग, मुझे अपना काट ब्लॉक करना हैं।","Jeg, I need to block my card.",I want to block my card,0.8,True,MyMemory,1.61,,True
+hi_balance_01.wav,Hindi,मेरे खाते में कितना बैलेंस हैं।,How much balance is there in my account?,How much balance is in my account,0.92,True,MyMemory,1.55,,True
+mr_lost_card_01.wav,Marathi,माजा काड हरवला है आहे,I have lost my card.,My card is lost,0.41,True,MyMemory,1.39,,False
+mr_block_card_01.wav,Marathi,वला माजा कार्ट ब्लोग कराट आहीं,My card is full of books.,I want to block my card,0.3,True,MyMemory,1.42,,False
+mr_balance_01.wav,Marathi,माजिया कहा �ant ऊ्रातित ह्र्हें,My words are not being understood.,How much balance is in my account,0.24,True,MyMemory,1.53,no_banking_word,False
